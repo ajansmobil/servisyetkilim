@@ -1,5 +1,5 @@
 
-  .n2wrw {
+  .rnaz1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .n2wrwtitle {
+  .rnaz1title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .n2wrwtitlebody {
+  .rnaz1titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .n2wrwtitlebodytitle {
+  .rnaz1titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .n2wrwtitlebodylang {
+  .rnaz1titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .n2wrwtitlebodylang ul {
+  .rnaz1titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .n2wrwbody {
+  .rnaz1body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .n2wrwmenu {
+  .rnaz1menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .n2wrwmenulist {
+  .rnaz1menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .n2wrwmenubody {
+  .rnaz1menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .n2wrwmenulist ul {
+  .rnaz1menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .n2wrwmenulist ul a {
+  .rnaz1menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .n2wrwmenulist ul a:hover {
+  .rnaz1menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .n2wrwmenulistactive {
+  .rnaz1menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .n2wrwmenulistbody {
+  .rnaz1menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .n2wrwbodylogo {
+    .rnaz1bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .n2wrwmenu {
+    .rnaz1menu {
       overflow-x: auto;
     }
 
-    .n2wrwmenulist ul {
+    .rnaz1menulist ul {
       flex-direction: row;
     }
 
-    .n2wrwbodylogo {
+    .rnaz1bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,32 +137,32 @@
   }
 
   @media screen and (max-width: 768px) {
-    .n2wrwmenulist ul a {
+    .rnaz1menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .lwghphead {
+  .i304phead {
     width: var(--max);
   }
-  .lwghpbodyitemtitlename {
+  .i304pbodyitemtitlename {
     font-weight: 500;
   }
-  .lwghp {
+  .i304p {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .lwghpbody {
+  .i304pbody {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4, 1fr);
   }
-  .lwghpbodyitem {
+  .i304pbodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -171,17 +171,17 @@
     flex-direction: column;
     gap: 2px;
   }
-  .lwghpbodyitemimg {
+  .i304pbodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
-  .lwghpbodyitemimg img {
+  .i304pbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
-  .lwghpbodyitemtitle {
+  .i304pbodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -189,14 +189,14 @@
     display: flex;
     flex-direction: column;
   }
-  .lwghpbodyitemtitle > div {
+  .i304pbodyitemtitle > div {
     display: flex;
     justify-content: space-between;
     border: solid 1px #000;
     border-width: 0px 0px 1px 0px;
     padding: 5px;
   }
-  .lwghpbodyitemspot {
+  .i304pbodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -206,20 +206,20 @@
     display: flex;
     align-items: center;
   }
-  .lwghpbodyitemspot > div {
+  .i304pbodyitemspot > div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
   @media screen and (max-width: 1024px) {
-    .lwghpbody {
+    .i304pbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
     }
   }
   @media screen and (max-width: 768px) {
-    .lwghpbody {
+    .i304pbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);
@@ -227,7 +227,7 @@
   }
 
 
-  .njs6i {
+  .doc27 {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -235,13 +235,13 @@
     justify-content: center;
     position: relative;
   }
-  .njs6icontainertitle {
+  .doc27containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .njs6icontainerlist {
+  .doc27containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -249,23 +249,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .njs6icontainerlist > div {
+  .doc27containerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .njs6icontainerlist:hover {
+  .doc27containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .njs6icontainer {
+  .doc27container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .njs6icontainerbody {
+  .doc27containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -274,24 +274,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .njs6ibody {
+  .doc27body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .njs6icontainerlist > span {
+  .doc27containerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .njs6ibody {
+    .doc27body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .njs6icontainerbody {
+    .doc27containerbody {
       padding: 15px;
     }
   }
@@ -321,13 +321,13 @@
       transform: scale(1);
     }
   }
-  .hjbbn-body {
+  .ioiwa-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .hjbbn-body-chile {
+  .ioiwa-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -335,10 +335,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .hjbbn-body-chile > div {
+  .ioiwa-body-chile > div {
     width: 100% !important;
   }
-  .hjbbn2 {
+  .ioiwa2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -349,21 +349,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .hjbbn {
+  .ioiwa {
     display: flex;
     flex-direction: column;
   }
-  .hjbbn > svg {
+  .ioiwa > svg {
     width: 100vw;
   }
-  .hjbbnbotton {
+  .ioiwabotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .hjbbn-svg {
+  .ioiwa-svg {
     fill: #fff;
   }
-  .hjbbn-bg {
+  .ioiwa-bg {
     background-image: url("/img/s04brh/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;
