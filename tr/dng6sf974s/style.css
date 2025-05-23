@@ -1,5 +1,5 @@
 
-  .kae5w {
+  .ps5za {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .kae5wtitle {
+  .ps5zatitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .kae5wtitlebody {
+  .ps5zatitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .kae5wtitlebodytitle {
+  .ps5zatitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .kae5wtitlebodylang {
+  .ps5zatitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .kae5wtitlebodylang ul {
+  .ps5zatitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .kae5wbody {
+  .ps5zabody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .kae5wmenu {
+  .ps5zamenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .kae5wmenulist {
+  .ps5zamenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .kae5wmenubody {
+  .ps5zamenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .kae5wmenulist ul {
+  .ps5zamenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .kae5wmenulist ul a {
+  .ps5zamenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .kae5wmenulist ul a:hover {
+  .ps5zamenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .kae5wmenulistactive {
+  .ps5zamenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .kae5wmenulistbody {
+  .ps5zamenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .kae5wbodylogo {
+    .ps5zabodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .kae5wmenu {
+    .ps5zamenu {
       overflow-x: auto;
     }
 
-    .kae5wmenulist ul {
+    .ps5zamenulist ul {
       flex-direction: row;
     }
 
-    .kae5wbodylogo {
+    .ps5zabodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .kae5wmenulist ul a {
+    .ps5zamenulist ul a {
       font-size: 14px;
     }
   }
