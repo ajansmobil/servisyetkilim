@@ -1,5 +1,5 @@
 
-  .i68u2 {
+  .yiivu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .i68u2title {
+  .yiivutitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .i68u2titlebody {
+  .yiivutitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .i68u2titlebodytitle {
+  .yiivutitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .i68u2titlebodylang {
+  .yiivutitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .i68u2titlebodylang ul {
+  .yiivutitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .i68u2body {
+  .yiivubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .i68u2menu {
+  .yiivumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .i68u2menulist {
+  .yiivumenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .i68u2menubody {
+  .yiivumenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .i68u2menulist ul {
+  .yiivumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .i68u2menulist ul a {
+  .yiivumenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .i68u2menulist ul a:hover {
+  .yiivumenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .i68u2menulistactive {
+  .yiivumenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .i68u2menulistbody {
+  .yiivumenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .i68u2bodylogo {
+    .yiivubodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .i68u2menu {
+    .yiivumenu {
       overflow-x: auto;
     }
 
-    .i68u2menulist ul {
+    .yiivumenulist ul {
       flex-direction: row;
     }
 
-    .i68u2bodylogo {
+    .yiivubodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .i68u2menulist ul a {
+    .yiivumenulist ul a {
       font-size: 14px;
     }
   }

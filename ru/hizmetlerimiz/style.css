@@ -1,5 +1,5 @@
 
-  .dd3p2 {
+  .gb0u9 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .dd3p2title {
+  .gb0u9title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .dd3p2titlebody {
+  .gb0u9titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .dd3p2titlebodytitle {
+  .gb0u9titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .dd3p2titlebodylang {
+  .gb0u9titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .dd3p2titlebodylang ul {
+  .gb0u9titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .dd3p2body {
+  .gb0u9body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .dd3p2menu {
+  .gb0u9menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .dd3p2menulist {
+  .gb0u9menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .dd3p2menubody {
+  .gb0u9menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .dd3p2menulist ul {
+  .gb0u9menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .dd3p2menulist ul a {
+  .gb0u9menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .dd3p2menulist ul a:hover {
+  .gb0u9menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .dd3p2menulistactive {
+  .gb0u9menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dd3p2menulistbody {
+  .gb0u9menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .dd3p2bodylogo {
+    .gb0u9bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .dd3p2menu {
+    .gb0u9menu {
       overflow-x: auto;
     }
 
-    .dd3p2menulist ul {
+    .gb0u9menulist ul {
       flex-direction: row;
     }
 
-    .dd3p2bodylogo {
+    .gb0u9bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,32 +137,32 @@
   }
 
   @media screen and (max-width: 768px) {
-    .dd3p2menulist ul a {
+    .gb0u9menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .bxo44head {
+  .nakikhead {
     width: var(--max);
   }
-  .bxo44bodyitemtitlename {
+  .nakikbodyitemtitlename {
     font-weight: 500;
   }
-  .bxo44 {
+  .nakik {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .bxo44body {
+  .nakikbody {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4, 1fr);
   }
-  .bxo44bodyitem {
+  .nakikbodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -171,17 +171,17 @@
     flex-direction: column;
     gap: 2px;
   }
-  .bxo44bodyitemimg {
+  .nakikbodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
-  .bxo44bodyitemimg img {
+  .nakikbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
-  .bxo44bodyitemtitle {
+  .nakikbodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -189,14 +189,14 @@
     display: flex;
     flex-direction: column;
   }
-  .bxo44bodyitemtitle > div {
+  .nakikbodyitemtitle > div {
     display: flex;
     justify-content: space-between;
     border: solid 1px #000;
     border-width: 0px 0px 1px 0px;
     padding: 5px;
   }
-  .bxo44bodyitemspot {
+  .nakikbodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -206,20 +206,20 @@
     display: flex;
     align-items: center;
   }
-  .bxo44bodyitemspot > div {
+  .nakikbodyitemspot > div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
   @media screen and (max-width: 1024px) {
-    .bxo44body {
+    .nakikbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
     }
   }
   @media screen and (max-width: 768px) {
-    .bxo44body {
+    .nakikbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);

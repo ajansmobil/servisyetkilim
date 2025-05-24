@@ -1,5 +1,5 @@
 
-  .zbqw3 {
+  .t8j1e {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .zbqw3title {
+  .t8j1etitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .zbqw3titlebody {
+  .t8j1etitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .zbqw3titlebodytitle {
+  .t8j1etitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .zbqw3titlebodylang {
+  .t8j1etitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .zbqw3titlebodylang ul {
+  .t8j1etitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .zbqw3body {
+  .t8j1ebody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .zbqw3menu {
+  .t8j1emenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .zbqw3menulist {
+  .t8j1emenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .zbqw3menubody {
+  .t8j1emenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .zbqw3menulist ul {
+  .t8j1emenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .zbqw3menulist ul a {
+  .t8j1emenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .zbqw3menulist ul a:hover {
+  .t8j1emenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .zbqw3menulistactive {
+  .t8j1emenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .zbqw3menulistbody {
+  .t8j1emenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .zbqw3bodylogo {
+    .t8j1ebodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .zbqw3menu {
+    .t8j1emenu {
       overflow-x: auto;
     }
 
-    .zbqw3menulist ul {
+    .t8j1emenulist ul {
       flex-direction: row;
     }
 
-    .zbqw3bodylogo {
+    .t8j1ebodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .zbqw3menulist ul a {
+    .t8j1emenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .ango5 {
+  .jdg96 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .ango5-menu {
+  .jdg96-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .ango5-menu > a {
+  .jdg96-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .ango5-menu > a:hover,
-  .ango5-menu > .active {
+  .jdg96-menu > a:hover,
+  .jdg96-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .ango5-body {
+  .jdg96-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .ango5-title {
+  .jdg96-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .ango5-title::before {
+  .jdg96-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .ango5-title span {
+  .jdg96-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .ango5 {
+    .jdg96 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .ango5-menu {
+    .jdg96-menu {
       display: none;
     }
-    .ango5-body {
+    .jdg96-body {
       width: 100%;
     }
   }

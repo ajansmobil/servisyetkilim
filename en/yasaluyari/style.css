@@ -1,5 +1,5 @@
 
-  .i47mr {
+  .uefuu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .i47mrtitle {
+  .uefuutitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .i47mrtitlebody {
+  .uefuutitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .i47mrtitlebodytitle {
+  .uefuutitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .i47mrtitlebodylang {
+  .uefuutitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .i47mrtitlebodylang ul {
+  .uefuutitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .i47mrbody {
+  .uefuubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .i47mrmenu {
+  .uefuumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .i47mrmenulist {
+  .uefuumenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .i47mrmenubody {
+  .uefuumenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .i47mrmenulist ul {
+  .uefuumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .i47mrmenulist ul a {
+  .uefuumenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .i47mrmenulist ul a:hover {
+  .uefuumenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .i47mrmenulistactive {
+  .uefuumenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .i47mrmenulistbody {
+  .uefuumenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .i47mrbodylogo {
+    .uefuubodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .i47mrmenu {
+    .uefuumenu {
       overflow-x: auto;
     }
 
-    .i47mrmenulist ul {
+    .uefuumenulist ul {
       flex-direction: row;
     }
 
-    .i47mrbodylogo {
+    .uefuubodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .i47mrmenulist ul a {
+    .uefuumenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .seta7 {
+  .jrmgz {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .seta7-menu {
+  .jrmgz-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .seta7-menu > a {
+  .jrmgz-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .seta7-menu > a:hover,
-  .seta7-menu > .active {
+  .jrmgz-menu > a:hover,
+  .jrmgz-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .seta7-body {
+  .jrmgz-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .seta7-title {
+  .jrmgz-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .seta7-title::before {
+  .jrmgz-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .seta7-title span {
+  .jrmgz-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .seta7 {
+    .jrmgz {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .seta7-menu {
+    .jrmgz-menu {
       display: none;
     }
-    .seta7-body {
+    .jrmgz-body {
       width: 100%;
     }
   }
