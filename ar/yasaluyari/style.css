@@ -1,5 +1,5 @@
 
-  .of43b {
+  .xe14f {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .of43btitle {
+  .xe14ftitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .of43btitlebody {
+  .xe14ftitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .of43btitlebodytitle {
+  .xe14ftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .of43btitlebodylang {
+  .xe14ftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .of43btitlebodylang ul {
+  .xe14ftitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .of43bbody {
+  .xe14fbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .of43bmenu {
+  .xe14fmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .of43bmenulist {
+  .xe14fmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .of43bmenubody {
+  .xe14fmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .of43bmenulist ul {
+  .xe14fmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .of43bmenulist ul a {
+  .xe14fmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .of43bmenulist ul a:hover {
+  .xe14fmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .of43bmenulistactive {
+  .xe14fmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .of43bmenulistbody {
+  .xe14fmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .of43bbodylogo {
+    .xe14fbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .of43bmenu {
+    .xe14fmenu {
       overflow-x: auto;
     }
 
-    .of43bmenulist ul {
+    .xe14fmenulist ul {
       flex-direction: row;
     }
 
-    .of43bbodylogo {
+    .xe14fbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .of43bmenulist ul a {
+    .xe14fmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .xh9ty {
+  .xseof {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .xh9ty-menu {
+  .xseof-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .xh9ty-menu > a {
+  .xseof-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .xh9ty-menu > a:hover,
-  .xh9ty-menu > .active {
+  .xseof-menu > a:hover,
+  .xseof-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .xh9ty-body {
+  .xseof-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .xh9ty-title {
+  .xseof-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .xh9ty-title::before {
+  .xseof-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .xh9ty-title span {
+  .xseof-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .xh9ty {
+    .xseof {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .xh9ty-menu {
+    .xseof-menu {
       display: none;
     }
-    .xh9ty-body {
+    .xseof-body {
       width: 100%;
     }
   }

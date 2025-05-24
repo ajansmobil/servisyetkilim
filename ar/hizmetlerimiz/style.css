@@ -1,5 +1,5 @@
 
-  .arruy {
+  .a8f0l {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .arruytitle {
+  .a8f0ltitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .arruytitlebody {
+  .a8f0ltitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .arruytitlebodytitle {
+  .a8f0ltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .arruytitlebodylang {
+  .a8f0ltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .arruytitlebodylang ul {
+  .a8f0ltitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .arruybody {
+  .a8f0lbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .arruymenu {
+  .a8f0lmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .arruymenulist {
+  .a8f0lmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .arruymenubody {
+  .a8f0lmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .arruymenulist ul {
+  .a8f0lmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .arruymenulist ul a {
+  .a8f0lmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .arruymenulist ul a:hover {
+  .a8f0lmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .arruymenulistactive {
+  .a8f0lmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .arruymenulistbody {
+  .a8f0lmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .arruybodylogo {
+    .a8f0lbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .arruymenu {
+    .a8f0lmenu {
       overflow-x: auto;
     }
 
-    .arruymenulist ul {
+    .a8f0lmenulist ul {
       flex-direction: row;
     }
 
-    .arruybodylogo {
+    .a8f0lbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,32 +137,32 @@
   }
 
   @media screen and (max-width: 768px) {
-    .arruymenulist ul a {
+    .a8f0lmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .h5psyhead {
+  .srxf4head {
     width: var(--max);
   }
-  .h5psybodyitemtitlename {
+  .srxf4bodyitemtitlename {
     font-weight: 500;
   }
-  .h5psy {
+  .srxf4 {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .h5psybody {
+  .srxf4body {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4, 1fr);
   }
-  .h5psybodyitem {
+  .srxf4bodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -171,17 +171,17 @@
     flex-direction: column;
     gap: 2px;
   }
-  .h5psybodyitemimg {
+  .srxf4bodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
-  .h5psybodyitemimg img {
+  .srxf4bodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
-  .h5psybodyitemtitle {
+  .srxf4bodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -189,14 +189,14 @@
     display: flex;
     flex-direction: column;
   }
-  .h5psybodyitemtitle > div {
+  .srxf4bodyitemtitle > div {
     display: flex;
     justify-content: space-between;
     border: solid 1px #000;
     border-width: 0px 0px 1px 0px;
     padding: 5px;
   }
-  .h5psybodyitemspot {
+  .srxf4bodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -206,20 +206,20 @@
     display: flex;
     align-items: center;
   }
-  .h5psybodyitemspot > div {
+  .srxf4bodyitemspot > div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
   @media screen and (max-width: 1024px) {
-    .h5psybody {
+    .srxf4body {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
     }
   }
   @media screen and (max-width: 768px) {
-    .h5psybody {
+    .srxf4body {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);

@@ -1,5 +1,5 @@
 
-  .us152 {
+  .ou886 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .us152title {
+  .ou886title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .us152titlebody {
+  .ou886titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .us152titlebodytitle {
+  .ou886titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .us152titlebodylang {
+  .ou886titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .us152titlebodylang ul {
+  .ou886titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .us152body {
+  .ou886body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .us152menu {
+  .ou886menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .us152menulist {
+  .ou886menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .us152menubody {
+  .ou886menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .us152menulist ul {
+  .ou886menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .us152menulist ul a {
+  .ou886menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .us152menulist ul a:hover {
+  .ou886menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .us152menulistactive {
+  .ou886menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .us152menulistbody {
+  .ou886menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .us152bodylogo {
+    .ou886bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .us152menu {
+    .ou886menu {
       overflow-x: auto;
     }
 
-    .us152menulist ul {
+    .ou886menulist ul {
       flex-direction: row;
     }
 
-    .us152bodylogo {
+    .ou886bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .us152menulist ul a {
+    .ou886menulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .td0cu {
+  .eknuo {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .td0cu-menu {
+  .eknuo-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .td0cu-menu > a {
+  .eknuo-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .td0cu-menu > a:hover,
-  .td0cu-menu > .active {
+  .eknuo-menu > a:hover,
+  .eknuo-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .td0cu-body {
+  .eknuo-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .td0cu-title {
+  .eknuo-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .td0cu-title::before {
+  .eknuo-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .td0cu-title span {
+  .eknuo-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .td0cu {
+    .eknuo {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .td0cu-menu {
+    .eknuo-menu {
       display: none;
     }
-    .td0cu-body {
+    .eknuo-body {
       width: 100%;
     }
   }

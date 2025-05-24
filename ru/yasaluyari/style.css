@@ -1,5 +1,5 @@
 
-  .vh41i {
+  .exy4x {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .vh41ititle {
+  .exy4xtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .vh41ititlebody {
+  .exy4xtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .vh41ititlebodytitle {
+  .exy4xtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .vh41ititlebodylang {
+  .exy4xtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .vh41ititlebodylang ul {
+  .exy4xtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .vh41ibody {
+  .exy4xbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .vh41imenu {
+  .exy4xmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .vh41imenulist {
+  .exy4xmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .vh41imenubody {
+  .exy4xmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .vh41imenulist ul {
+  .exy4xmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .vh41imenulist ul a {
+  .exy4xmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .vh41imenulist ul a:hover {
+  .exy4xmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .vh41imenulistactive {
+  .exy4xmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .vh41imenulistbody {
+  .exy4xmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .vh41ibodylogo {
+    .exy4xbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .vh41imenu {
+    .exy4xmenu {
       overflow-x: auto;
     }
 
-    .vh41imenulist ul {
+    .exy4xmenulist ul {
       flex-direction: row;
     }
 
-    .vh41ibodylogo {
+    .exy4xbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .vh41imenulist ul a {
+    .exy4xmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .ydfbd {
+  .ota2u {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .ydfbd-menu {
+  .ota2u-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .ydfbd-menu > a {
+  .ota2u-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .ydfbd-menu > a:hover,
-  .ydfbd-menu > .active {
+  .ota2u-menu > a:hover,
+  .ota2u-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .ydfbd-body {
+  .ota2u-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .ydfbd-title {
+  .ota2u-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .ydfbd-title::before {
+  .ota2u-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .ydfbd-title span {
+  .ota2u-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .ydfbd {
+    .ota2u {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .ydfbd-menu {
+    .ota2u-menu {
       display: none;
     }
-    .ydfbd-body {
+    .ota2u-body {
       width: 100%;
     }
   }

@@ -1,5 +1,5 @@
 
-  .i01py {
+  .gjg3a {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .i01pytitle {
+  .gjg3atitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .i01pytitlebody {
+  .gjg3atitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .i01pytitlebodytitle {
+  .gjg3atitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .i01pytitlebodylang {
+  .gjg3atitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .i01pytitlebodylang ul {
+  .gjg3atitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .i01pybody {
+  .gjg3abody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .i01pymenu {
+  .gjg3amenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .i01pymenulist {
+  .gjg3amenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .i01pymenubody {
+  .gjg3amenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .i01pymenulist ul {
+  .gjg3amenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .i01pymenulist ul a {
+  .gjg3amenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .i01pymenulist ul a:hover {
+  .gjg3amenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .i01pymenulistactive {
+  .gjg3amenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .i01pymenulistbody {
+  .gjg3amenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .i01pybodylogo {
+    .gjg3abodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .i01pymenu {
+    .gjg3amenu {
       overflow-x: auto;
     }
 
-    .i01pymenulist ul {
+    .gjg3amenulist ul {
       flex-direction: row;
     }
 
-    .i01pybodylogo {
+    .gjg3abodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .i01pymenulist ul a {
+    .gjg3amenulist ul a {
       font-size: 14px;
     }
   }
