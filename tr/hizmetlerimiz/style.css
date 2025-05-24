@@ -1,5 +1,5 @@
 
-  .nbyj5 {
+  .rhvvy {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .nbyj5title {
+  .rhvvytitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .nbyj5titlebody {
+  .rhvvytitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .nbyj5titlebodytitle {
+  .rhvvytitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .nbyj5titlebodylang {
+  .rhvvytitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .nbyj5titlebodylang ul {
+  .rhvvytitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .nbyj5body {
+  .rhvvybody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .nbyj5menu {
+  .rhvvymenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .nbyj5menulist {
+  .rhvvymenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .nbyj5menubody {
+  .rhvvymenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .nbyj5menulist ul {
+  .rhvvymenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .nbyj5menulist ul a {
+  .rhvvymenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .nbyj5menulist ul a:hover {
+  .rhvvymenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .nbyj5menulistactive {
+  .rhvvymenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .nbyj5menulistbody {
+  .rhvvymenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .nbyj5bodylogo {
+    .rhvvybodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .nbyj5menu {
+    .rhvvymenu {
       overflow-x: auto;
     }
 
-    .nbyj5menulist ul {
+    .rhvvymenulist ul {
       flex-direction: row;
     }
 
-    .nbyj5bodylogo {
+    .rhvvybodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,8 +137,92 @@
   }
 
   @media screen and (max-width: 768px) {
-    .nbyj5menulist ul a {
+    .rhvvymenulist ul a {
       font-size: 14px;
+    }
+  }
+
+
+  .y6olhhead {
+    width: var(--max);
+  }
+  .y6olhbodyitemtitlename {
+    font-weight: 500;
+  }
+  .y6olh {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .y6olhbody {
+    width: var(--max);
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .y6olhbodyitem {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .y6olhbodyitemimg {
+    aspect-ratio: 12 / 8;
+    display: flex;
+  }
+  .y6olhbodyitemimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .y6olhbodyitemtitle {
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #e9e9e9;
+    display: flex;
+    flex-direction: column;
+  }
+  .y6olhbodyitemtitle > div {
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px #000;
+    border-width: 0px 0px 1px 0px;
+    padding: 5px;
+  }
+  .y6olhbodyitemspot {
+    border-radius: 3px;
+    height: 50px !important;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #1e3046;
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  .y6olhbodyitemspot > div {
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+  }
+  @media screen and (max-width: 1024px) {
+    .y6olhbody {
+      width: calc(100% - 10px);
+      margin: 0px 5px 0px 5px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .y6olhbody {
+      width: calc(100% - 10px);
+      margin: 0px 5px 0px 5px;
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 

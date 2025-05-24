@@ -1,5 +1,5 @@
 
-  .ctj49 {
+  .yj9rf {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ctj49title {
+  .yj9rftitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ctj49titlebody {
+  .yj9rftitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ctj49titlebodytitle {
+  .yj9rftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ctj49titlebodylang {
+  .yj9rftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ctj49titlebodylang ul {
+  .yj9rftitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ctj49body {
+  .yj9rfbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ctj49menu {
+  .yj9rfmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ctj49menulist {
+  .yj9rfmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ctj49menubody {
+  .yj9rfmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .ctj49menulist ul {
+  .yj9rfmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ctj49menulist ul a {
+  .yj9rfmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .ctj49menulist ul a:hover {
+  .yj9rfmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ctj49menulistactive {
+  .yj9rfmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ctj49menulistbody {
+  .yj9rfmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .ctj49bodylogo {
+    .yj9rfbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ctj49menu {
+    .yj9rfmenu {
       overflow-x: auto;
     }
 
-    .ctj49menulist ul {
+    .yj9rfmenulist ul {
       flex-direction: row;
     }
 
-    .ctj49bodylogo {
+    .yj9rfbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ctj49menulist ul a {
+    .yj9rfmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .geeuu {
+  .fn581 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .geeuu-menu {
+  .fn581-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .geeuu-menu > a {
+  .fn581-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .geeuu-menu > a:hover,
-  .geeuu-menu > .active {
+  .fn581-menu > a:hover,
+  .fn581-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .geeuu-body {
+  .fn581-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .geeuu-title {
+  .fn581-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .geeuu-title::before {
+  .fn581-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .geeuu-title span {
+  .fn581-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .geeuu {
+    .fn581 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .geeuu-menu {
+    .fn581-menu {
       display: none;
     }
-    .geeuu-body {
+    .fn581-body {
       width: 100%;
     }
   }

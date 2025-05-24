@@ -1,5 +1,5 @@
 
-  .owe80 {
+  .w8q3p {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .owe80title {
+  .w8q3ptitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .owe80titlebody {
+  .w8q3ptitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .owe80titlebodytitle {
+  .w8q3ptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .owe80titlebodylang {
+  .w8q3ptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .owe80titlebodylang ul {
+  .w8q3ptitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .owe80body {
+  .w8q3pbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .owe80menu {
+  .w8q3pmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .owe80menulist {
+  .w8q3pmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .owe80menubody {
+  .w8q3pmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .owe80menulist ul {
+  .w8q3pmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .owe80menulist ul a {
+  .w8q3pmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .owe80menulist ul a:hover {
+  .w8q3pmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .owe80menulistactive {
+  .w8q3pmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .owe80menulistbody {
+  .w8q3pmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .owe80bodylogo {
+    .w8q3pbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .owe80menu {
+    .w8q3pmenu {
       overflow-x: auto;
     }
 
-    .owe80menulist ul {
+    .w8q3pmenulist ul {
       flex-direction: row;
     }
 
-    .owe80bodylogo {
+    .w8q3pbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .owe80menulist ul a {
+    .w8q3pmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .ul26l {
+  .ya0a2 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .ul26l-menu {
+  .ya0a2-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .ul26l-menu > a {
+  .ya0a2-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .ul26l-menu > a:hover,
-  .ul26l-menu > .active {
+  .ya0a2-menu > a:hover,
+  .ya0a2-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .ul26l-body {
+  .ya0a2-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .ul26l-title {
+  .ya0a2-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .ul26l-title::before {
+  .ya0a2-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .ul26l-title span {
+  .ya0a2-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .ul26l {
+    .ya0a2 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .ul26l-menu {
+    .ya0a2-menu {
       display: none;
     }
-    .ul26l-body {
+    .ya0a2-body {
       width: 100%;
     }
   }

@@ -1,5 +1,5 @@
 
-  .rfmvv {
+  .uj26x {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .rfmvvtitle {
+  .uj26xtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .rfmvvtitlebody {
+  .uj26xtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .rfmvvtitlebodytitle {
+  .uj26xtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .rfmvvtitlebodylang {
+  .uj26xtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .rfmvvtitlebodylang ul {
+  .uj26xtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .rfmvvbody {
+  .uj26xbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .rfmvvmenu {
+  .uj26xmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .rfmvvmenulist {
+  .uj26xmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .rfmvvmenubody {
+  .uj26xmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .rfmvvmenulist ul {
+  .uj26xmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .rfmvvmenulist ul a {
+  .uj26xmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .rfmvvmenulist ul a:hover {
+  .uj26xmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .rfmvvmenulistactive {
+  .uj26xmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .rfmvvmenulistbody {
+  .uj26xmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .rfmvvbodylogo {
+    .uj26xbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .rfmvvmenu {
+    .uj26xmenu {
       overflow-x: auto;
     }
 
-    .rfmvvmenulist ul {
+    .uj26xmenulist ul {
       flex-direction: row;
     }
 
-    .rfmvvbodylogo {
+    .uj26xbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .rfmvvmenulist ul a {
+    .uj26xmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .dmg5g {
+  .ap1sl {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .dmg5g-menu {
+  .ap1sl-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .dmg5g-menu > a {
+  .ap1sl-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .dmg5g-menu > a:hover,
-  .dmg5g-menu > .active {
+  .ap1sl-menu > a:hover,
+  .ap1sl-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .dmg5g-body {
+  .ap1sl-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .dmg5g-title {
+  .ap1sl-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .dmg5g-title::before {
+  .ap1sl-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .dmg5g-title span {
+  .ap1sl-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .dmg5g {
+    .ap1sl {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .dmg5g-menu {
+    .ap1sl-menu {
       display: none;
     }
-    .dmg5g-body {
+    .ap1sl-body {
       width: 100%;
     }
   }
