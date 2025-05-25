@@ -1,5 +1,5 @@
 
-  .fnyt8 {
+  .p5qtw {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .fnyt8title {
+  .p5qtwtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .fnyt8titlebody {
+  .p5qtwtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .fnyt8titlebodytitle {
+  .p5qtwtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .fnyt8titlebodylang {
+  .p5qtwtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .fnyt8titlebodylang ul {
+  .p5qtwtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .fnyt8body {
+  .p5qtwbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .fnyt8menu {
+  .p5qtwmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .fnyt8menulist {
+  .p5qtwmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .fnyt8menubody {
+  .p5qtwmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .fnyt8menulist ul {
+  .p5qtwmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .fnyt8menulist ul a {
+  .p5qtwmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .fnyt8menulist ul a:hover {
+  .p5qtwmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .fnyt8menulistactive {
+  .p5qtwmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .fnyt8menulistbody {
+  .p5qtwmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .fnyt8bodylogo {
+    .p5qtwbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .fnyt8menu {
+    .p5qtwmenu {
       overflow-x: auto;
     }
 
-    .fnyt8menulist ul {
+    .p5qtwmenulist ul {
       flex-direction: row;
     }
 
-    .fnyt8bodylogo {
+    .p5qtwbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .fnyt8menulist ul a {
+    .p5qtwmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .px50c {
+  .tap80 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .px50c-menu {
+  .tap80-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .px50c-menu > a {
+  .tap80-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .px50c-menu > a:hover,
-  .px50c-menu > .active {
+  .tap80-menu > a:hover,
+  .tap80-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .px50c-body {
+  .tap80-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .px50c-title {
+  .tap80-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .px50c-title::before {
+  .tap80-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .px50c-title span {
+  .tap80-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .px50c {
+    .tap80 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .px50c-menu {
+    .tap80-menu {
       display: none;
     }
-    .px50c-body {
+    .tap80-body {
       width: 100%;
     }
   }

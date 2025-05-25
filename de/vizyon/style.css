@@ -1,5 +1,5 @@
 
-  .m2t3v {
+  .uwtfa {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .m2t3vtitle {
+  .uwtfatitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .m2t3vtitlebody {
+  .uwtfatitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .m2t3vtitlebodytitle {
+  .uwtfatitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .m2t3vtitlebodylang {
+  .uwtfatitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .m2t3vtitlebodylang ul {
+  .uwtfatitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .m2t3vbody {
+  .uwtfabody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .m2t3vmenu {
+  .uwtfamenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .m2t3vmenulist {
+  .uwtfamenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .m2t3vmenubody {
+  .uwtfamenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .m2t3vmenulist ul {
+  .uwtfamenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .m2t3vmenulist ul a {
+  .uwtfamenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .m2t3vmenulist ul a:hover {
+  .uwtfamenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .m2t3vmenulistactive {
+  .uwtfamenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .m2t3vmenulistbody {
+  .uwtfamenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .m2t3vbodylogo {
+    .uwtfabodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .m2t3vmenu {
+    .uwtfamenu {
       overflow-x: auto;
     }
 
-    .m2t3vmenulist ul {
+    .uwtfamenulist ul {
       flex-direction: row;
     }
 
-    .m2t3vbodylogo {
+    .uwtfabodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .m2t3vmenulist ul a {
+    .uwtfamenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .nuk93 {
+  .tunek {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .nuk93-menu {
+  .tunek-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .nuk93-menu > a {
+  .tunek-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .nuk93-menu > a:hover,
-  .nuk93-menu > .active {
+  .tunek-menu > a:hover,
+  .tunek-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .nuk93-body {
+  .tunek-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .nuk93-title {
+  .tunek-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .nuk93-title::before {
+  .tunek-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .nuk93-title span {
+  .tunek-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .nuk93 {
+    .tunek {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .nuk93-menu {
+    .tunek-menu {
       display: none;
     }
-    .nuk93-body {
+    .tunek-body {
       width: 100%;
     }
   }

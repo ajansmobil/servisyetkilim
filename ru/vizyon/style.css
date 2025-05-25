@@ -1,5 +1,5 @@
 
-  .igxap {
+  .g12rv {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .igxaptitle {
+  .g12rvtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .igxaptitlebody {
+  .g12rvtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .igxaptitlebodytitle {
+  .g12rvtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .igxaptitlebodylang {
+  .g12rvtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .igxaptitlebodylang ul {
+  .g12rvtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .igxapbody {
+  .g12rvbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .igxapmenu {
+  .g12rvmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .igxapmenulist {
+  .g12rvmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .igxapmenubody {
+  .g12rvmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .igxapmenulist ul {
+  .g12rvmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .igxapmenulist ul a {
+  .g12rvmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .igxapmenulist ul a:hover {
+  .g12rvmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .igxapmenulistactive {
+  .g12rvmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .igxapmenulistbody {
+  .g12rvmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .igxapbodylogo {
+    .g12rvbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .igxapmenu {
+    .g12rvmenu {
       overflow-x: auto;
     }
 
-    .igxapmenulist ul {
+    .g12rvmenulist ul {
       flex-direction: row;
     }
 
-    .igxapbodylogo {
+    .g12rvbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .igxapmenulist ul a {
+    .g12rvmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .ctl9u {
+  .zhemv {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .ctl9u-menu {
+  .zhemv-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .ctl9u-menu > a {
+  .zhemv-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .ctl9u-menu > a:hover,
-  .ctl9u-menu > .active {
+  .zhemv-menu > a:hover,
+  .zhemv-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .ctl9u-body {
+  .zhemv-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .ctl9u-title {
+  .zhemv-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .ctl9u-title::before {
+  .zhemv-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .ctl9u-title span {
+  .zhemv-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .ctl9u {
+    .zhemv {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .ctl9u-menu {
+    .zhemv-menu {
       display: none;
     }
-    .ctl9u-body {
+    .zhemv-body {
       width: 100%;
     }
   }

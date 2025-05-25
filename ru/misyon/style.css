@@ -1,5 +1,5 @@
 
-  .l4wne {
+  .b031x {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .l4wnetitle {
+  .b031xtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .l4wnetitlebody {
+  .b031xtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .l4wnetitlebodytitle {
+  .b031xtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .l4wnetitlebodylang {
+  .b031xtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .l4wnetitlebodylang ul {
+  .b031xtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .l4wnebody {
+  .b031xbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .l4wnemenu {
+  .b031xmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .l4wnemenulist {
+  .b031xmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .l4wnemenubody {
+  .b031xmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .l4wnemenulist ul {
+  .b031xmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .l4wnemenulist ul a {
+  .b031xmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .l4wnemenulist ul a:hover {
+  .b031xmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .l4wnemenulistactive {
+  .b031xmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .l4wnemenulistbody {
+  .b031xmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .l4wnebodylogo {
+    .b031xbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .l4wnemenu {
+    .b031xmenu {
       overflow-x: auto;
     }
 
-    .l4wnemenulist ul {
+    .b031xmenulist ul {
       flex-direction: row;
     }
 
-    .l4wnebodylogo {
+    .b031xbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .l4wnemenulist ul a {
+    .b031xmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .otwaa {
+  .zja0y {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .otwaa-menu {
+  .zja0y-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .otwaa-menu > a {
+  .zja0y-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .otwaa-menu > a:hover,
-  .otwaa-menu > .active {
+  .zja0y-menu > a:hover,
+  .zja0y-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .otwaa-body {
+  .zja0y-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .otwaa-title {
+  .zja0y-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .otwaa-title::before {
+  .zja0y-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .otwaa-title span {
+  .zja0y-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .otwaa {
+    .zja0y {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .otwaa-menu {
+    .zja0y-menu {
       display: none;
     }
-    .otwaa-body {
+    .zja0y-body {
       width: 100%;
     }
   }
