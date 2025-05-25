@@ -1,5 +1,5 @@
 
-  .c2bgp {
+  .asoka {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .c2bgptitle {
+  .asokatitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .c2bgptitlebody {
+  .asokatitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .c2bgptitlebodytitle {
+  .asokatitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .c2bgptitlebodylang {
+  .asokatitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .c2bgptitlebodylang ul {
+  .asokatitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .c2bgpbody {
+  .asokabody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .c2bgpmenu {
+  .asokamenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .c2bgpmenulist {
+  .asokamenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .c2bgpmenubody {
+  .asokamenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .c2bgpmenulist ul {
+  .asokamenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .c2bgpmenulist ul a {
+  .asokamenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .c2bgpmenulist ul a:hover {
+  .asokamenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .c2bgpmenulistactive {
+  .asokamenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .c2bgpmenulistbody {
+  .asokamenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .c2bgpbodylogo {
+    .asokabodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .c2bgpmenu {
+    .asokamenu {
       overflow-x: auto;
     }
 
-    .c2bgpmenulist ul {
+    .asokamenulist ul {
       flex-direction: row;
     }
 
-    .c2bgpbodylogo {
+    .asokabodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .c2bgpmenulist ul a {
+    .asokamenulist ul a {
       font-size: 14px;
     }
   }

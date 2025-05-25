@@ -1,5 +1,5 @@
 
-  .zzsid {
+  .m3dcu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .zzsidtitle {
+  .m3dcutitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .zzsidtitlebody {
+  .m3dcutitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .zzsidtitlebodytitle {
+  .m3dcutitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .zzsidtitlebodylang {
+  .m3dcutitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .zzsidtitlebodylang ul {
+  .m3dcutitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .zzsidbody {
+  .m3dcubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .zzsidmenu {
+  .m3dcumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .zzsidmenulist {
+  .m3dcumenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .zzsidmenubody {
+  .m3dcumenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .zzsidmenulist ul {
+  .m3dcumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .zzsidmenulist ul a {
+  .m3dcumenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .zzsidmenulist ul a:hover {
+  .m3dcumenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .zzsidmenulistactive {
+  .m3dcumenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .zzsidmenulistbody {
+  .m3dcumenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .zzsidbodylogo {
+    .m3dcubodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .zzsidmenu {
+    .m3dcumenu {
       overflow-x: auto;
     }
 
-    .zzsidmenulist ul {
+    .m3dcumenulist ul {
       flex-direction: row;
     }
 
-    .zzsidbodylogo {
+    .m3dcubodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .zzsidmenulist ul a {
+    .m3dcumenulist ul a {
       font-size: 14px;
     }
   }

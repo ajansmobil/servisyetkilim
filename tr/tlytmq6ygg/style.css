@@ -1,5 +1,5 @@
 
-  .st096 {
+  .rytdo {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .st096title {
+  .rytdotitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .st096titlebody {
+  .rytdotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .st096titlebodytitle {
+  .rytdotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .st096titlebodylang {
+  .rytdotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .st096titlebodylang ul {
+  .rytdotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .st096body {
+  .rytdobody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .st096menu {
+  .rytdomenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .st096menulist {
+  .rytdomenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .st096menubody {
+  .rytdomenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .st096menulist ul {
+  .rytdomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .st096menulist ul a {
+  .rytdomenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .st096menulist ul a:hover {
+  .rytdomenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .st096menulistactive {
+  .rytdomenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .st096menulistbody {
+  .rytdomenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .st096bodylogo {
+    .rytdobodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .st096menu {
+    .rytdomenu {
       overflow-x: auto;
     }
 
-    .st096menulist ul {
+    .rytdomenulist ul {
       flex-direction: row;
     }
 
-    .st096bodylogo {
+    .rytdobodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .st096menulist ul a {
+    .rytdomenulist ul a {
       font-size: 14px;
     }
   }

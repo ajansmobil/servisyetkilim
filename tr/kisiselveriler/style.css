@@ -1,5 +1,5 @@
 
-  .wo8o1 {
+  .nrvmy {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .wo8o1title {
+  .nrvmytitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .wo8o1titlebody {
+  .nrvmytitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .wo8o1titlebodytitle {
+  .nrvmytitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .wo8o1titlebodylang {
+  .nrvmytitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .wo8o1titlebodylang ul {
+  .nrvmytitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .wo8o1body {
+  .nrvmybody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .wo8o1menu {
+  .nrvmymenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .wo8o1menulist {
+  .nrvmymenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .wo8o1menubody {
+  .nrvmymenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .wo8o1menulist ul {
+  .nrvmymenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .wo8o1menulist ul a {
+  .nrvmymenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .wo8o1menulist ul a:hover {
+  .nrvmymenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .wo8o1menulistactive {
+  .nrvmymenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .wo8o1menulistbody {
+  .nrvmymenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .wo8o1bodylogo {
+    .nrvmybodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .wo8o1menu {
+    .nrvmymenu {
       overflow-x: auto;
     }
 
-    .wo8o1menulist ul {
+    .nrvmymenulist ul {
       flex-direction: row;
     }
 
-    .wo8o1bodylogo {
+    .nrvmybodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .wo8o1menulist ul a {
+    .nrvmymenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .df44y {
+  .uvy3f {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .df44y-menu {
+  .uvy3f-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .df44y-menu > a {
+  .uvy3f-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .df44y-menu > a:hover,
-  .df44y-menu > .active {
+  .uvy3f-menu > a:hover,
+  .uvy3f-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .df44y-body {
+  .uvy3f-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .df44y-title {
+  .uvy3f-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .df44y-title::before {
+  .uvy3f-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .df44y-title span {
+  .uvy3f-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .df44y {
+    .uvy3f {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .df44y-menu {
+    .uvy3f-menu {
       display: none;
     }
-    .df44y-body {
+    .uvy3f-body {
       width: 100%;
     }
   }

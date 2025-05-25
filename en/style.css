@@ -1,5 +1,5 @@
 
-  .spins {
+  .x4pmy {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .spinstitle {
+  .x4pmytitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .spinstitlebody {
+  .x4pmytitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .spinstitlebodytitle {
+  .x4pmytitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .spinstitlebodylang {
+  .x4pmytitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .spinstitlebodylang ul {
+  .x4pmytitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .spinsbody {
+  .x4pmybody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .spinsmenu {
+  .x4pmymenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .spinsmenulist {
+  .x4pmymenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .spinsmenubody {
+  .x4pmymenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .spinsmenulist ul {
+  .x4pmymenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .spinsmenulist ul a {
+  .x4pmymenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .spinsmenulist ul a:hover {
+  .x4pmymenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .spinsmenulistactive {
+  .x4pmymenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .spinsmenulistbody {
+  .x4pmymenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .spinsbodylogo {
+    .x4pmybodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .spinsmenu {
+    .x4pmymenu {
       overflow-x: auto;
     }
 
-    .spinsmenulist ul {
+    .x4pmymenulist ul {
       flex-direction: row;
     }
 
-    .spinsbodylogo {
+    .x4pmybodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,32 +137,36 @@
   }
 
   @media screen and (max-width: 768px) {
-    .spinsmenulist ul a {
+    .x4pmymenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .pacp0head {
+  .xnyhohead {
     width: var(--max);
   }
-  .pacp0bodyitemtitlename {
+
+  .xnyhobodyitemtitlename {
     font-weight: 500;
   }
-  .pacp0 {
+
+  .xnyho {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  .pacp0body {
+
+  .xnyhobody {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4, 1fr);
   }
-  .pacp0bodyitem {
+
+  .xnyhobodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -171,17 +175,20 @@
     flex-direction: column;
     gap: 2px;
   }
-  .pacp0bodyitemimg {
+
+  .xnyhobodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
-  .pacp0bodyitemimg img {
+
+  .xnyhobodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
-  .pacp0bodyitemtitle {
+
+  .xnyhobodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -189,14 +196,16 @@
     display: flex;
     flex-direction: column;
   }
-  .pacp0bodyitemtitle > div {
+
+  .xnyhobodyitemtitle>div {
     display: flex;
     justify-content: space-between;
     border: solid 1px #000;
     border-width: 0px 0px 1px 0px;
     padding: 5px;
   }
-  .pacp0bodyitemspot {
+
+  .xnyhobodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -206,20 +215,23 @@
     display: flex;
     align-items: center;
   }
-  .pacp0bodyitemspot > div {
+
+  .xnyhobodyitemspot>div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
+
   @media screen and (max-width: 1024px) {
-    .pacp0body {
+    .xnyhobody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
     }
   }
+
   @media screen and (max-width: 768px) {
-    .pacp0body {
+    .xnyhobody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);
@@ -227,7 +239,7 @@
   }
 
 
-  .yfkao {
+  .iptth {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -235,13 +247,13 @@
     justify-content: center;
     position: relative;
   }
-  .yfkaocontainertitle {
+  .iptthcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .yfkaocontainerlist {
+  .iptthcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -249,23 +261,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .yfkaocontainerlist > div {
+  .iptthcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .yfkaocontainerlist:hover {
+  .iptthcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .yfkaocontainer {
+  .iptthcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .yfkaocontainerbody {
+  .iptthcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -274,24 +286,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .yfkaobody {
+  .iptthbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .yfkaocontainerlist > span {
+  .iptthcontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .yfkaobody {
+    .iptthbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .yfkaocontainerbody {
+    .iptthcontainerbody {
       padding: 15px;
     }
   }
@@ -321,13 +333,13 @@
       transform: scale(1);
     }
   }
-  .jizja-body {
+  .y9ut3-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .jizja-body-chile {
+  .y9ut3-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -335,10 +347,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .jizja-body-chile > div {
+  .y9ut3-body-chile > div {
     width: 100% !important;
   }
-  .jizja2 {
+  .y9ut32 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -349,21 +361,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .jizja {
+  .y9ut3 {
     display: flex;
     flex-direction: column;
   }
-  .jizja > svg {
+  .y9ut3 > svg {
     width: 100vw;
   }
-  .jizjabotton {
+  .y9ut3botton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .jizja-svg {
+  .y9ut3-svg {
     fill: #fff;
   }
-  .jizja-bg {
+  .y9ut3-bg {
     background-image: url("/img/s04brh/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;
@@ -500,7 +512,7 @@
   }
 
 
-  .footer-contact-bar-y38fe {
+  .footer-contact-bar-ohjjh {
     position: fixed;
     display: flex;
     align-items: center;
@@ -515,43 +527,43 @@
     z-index: 10000;
   }
 
-  .footer-body-y38fe {
+  .footer-body-ohjjh {
     width: var(--max);
     display: flex;
     align-items: center;
     padding: 0 20px;
   }
 
-  .footer-expert-img-y38fe {
+  .footer-expert-img-ohjjh {
     height: 200px;
     margin: -140px 0px 0px 0px;
   }
 
-  .footer-center-y38fe {
+  .footer-center-ohjjh {
     flex: 1;
     margin-left: 30px;
   }
 
-  .footer-title-y38fe {
+  .footer-title-ohjjh {
     display: flex;
     align-items: center;
     gap: 12px;
   }
 
-  .footer-name-y38fe {
+  .footer-name-ohjjh {
     font-size: 28px !important;
     color: #fff;
   }
 
-  .footer-phone-icon-y38fe {
+  .footer-phone-icon-ohjjh {
     font-size: 1.4rem;
     padding: 10px;
     border-radius: 50%;
     background: rgba(79, 209, 161, 0.15);
-    animation: pulsey38fe 2s infinite;
+    animation: pulseohjjh 2s infinite;
   }
 
-  @keyframes pulsey38fe {
+  @keyframes pulseohjjh {
     0% {
       transform: scale(1);
     }
@@ -565,18 +577,18 @@
     }
   }
 
-  .footer-phone-text-y38fe {
+  .footer-phone-text-ohjjh {
     display: flex;
     flex-direction: column;
     gap: 4px;
   }
 
-  .footer-phone-text-y38fe>div {
+  .footer-phone-text-ohjjh>div {
     font-size: 16px;
     color: #fff;
   }
 
-  .footer-call-btn-y38fe {
+  .footer-call-btn-ohjjh {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -593,43 +605,43 @@
     margin-left: 20px;
   }
 
-  .footer-call-btn-y38fe:hover {
+  .footer-call-btn-ohjjh:hover {
     background: #128C7E;
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
   }
 
   @media (max-width: 900px) {
-    .footer-contact-bar-y38fe {
+    .footer-contact-bar-ohjjh {
       padding: 10px;
     }
 
-    .footer-body-y38fe {
+    .footer-body-ohjjh {
       flex-direction: column;
       text-align: center;
       gap: 10px;
     }
 
-    .footer-expert-img-y38fe {
+    .footer-expert-img-ohjjh {
       width: 60px;
       height: 60px;
       margin: 0 auto;
     }
 
-    .footer-center-y38fe {
+    .footer-center-ohjjh {
       margin: 8px 0;
       text-align: center;
     }
 
-    .footer-title-y38fe {
+    .footer-title-ohjjh {
       justify-content: center;
     }
 
-    .footer-name-y38fe {
+    .footer-name-ohjjh {
       font-size: 24px;
     }
 
-    .footer-call-btn-y38fe {
+    .footer-call-btn-ohjjh {
       margin: 10px auto 0;
     }
   }
