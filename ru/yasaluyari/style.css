@@ -1,5 +1,5 @@
 
-  .exy4x {
+  .etape {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .exy4xtitle {
+  .etapetitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .exy4xtitlebody {
+  .etapetitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .exy4xtitlebodytitle {
+  .etapetitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .exy4xtitlebodylang {
+  .etapetitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .exy4xtitlebodylang ul {
+  .etapetitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .exy4xbody {
+  .etapebody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .exy4xmenu {
+  .etapemenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .exy4xmenulist {
+  .etapemenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .exy4xmenubody {
+  .etapemenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .exy4xmenulist ul {
+  .etapemenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .exy4xmenulist ul a {
+  .etapemenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .exy4xmenulist ul a:hover {
+  .etapemenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .exy4xmenulistactive {
+  .etapemenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .exy4xmenulistbody {
+  .etapemenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .exy4xbodylogo {
+    .etapebodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .exy4xmenu {
+    .etapemenu {
       overflow-x: auto;
     }
 
-    .exy4xmenulist ul {
+    .etapemenulist ul {
       flex-direction: row;
     }
 
-    .exy4xbodylogo {
+    .etapebodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .exy4xmenulist ul a {
+    .etapemenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .ota2u {
+  .upts4 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .ota2u-menu {
+  .upts4-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .ota2u-menu > a {
+  .upts4-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .ota2u-menu > a:hover,
-  .ota2u-menu > .active {
+  .upts4-menu > a:hover,
+  .upts4-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .ota2u-body {
+  .upts4-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .ota2u-title {
+  .upts4-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .ota2u-title::before {
+  .upts4-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .ota2u-title span {
+  .upts4-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .ota2u {
+    .upts4 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .ota2u-menu {
+    .upts4-menu {
       display: none;
     }
-    .ota2u-body {
+    .upts4-body {
       width: 100%;
     }
   }

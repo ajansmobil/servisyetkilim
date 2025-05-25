@@ -1,5 +1,5 @@
 
-  .co4b4 {
+  .cc5gl {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .co4b4title {
+  .cc5gltitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .co4b4titlebody {
+  .cc5gltitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .co4b4titlebodytitle {
+  .cc5gltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .co4b4titlebodylang {
+  .cc5gltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .co4b4titlebodylang ul {
+  .cc5gltitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .co4b4body {
+  .cc5glbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .co4b4menu {
+  .cc5glmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .co4b4menulist {
+  .cc5glmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .co4b4menubody {
+  .cc5glmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .co4b4menulist ul {
+  .cc5glmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .co4b4menulist ul a {
+  .cc5glmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .co4b4menulist ul a:hover {
+  .cc5glmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .co4b4menulistactive {
+  .cc5glmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .co4b4menulistbody {
+  .cc5glmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .co4b4bodylogo {
+    .cc5glbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .co4b4menu {
+    .cc5glmenu {
       overflow-x: auto;
     }
 
-    .co4b4menulist ul {
+    .cc5glmenulist ul {
       flex-direction: row;
     }
 
-    .co4b4bodylogo {
+    .cc5glbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .co4b4menulist ul a {
+    .cc5glmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .wvjrx {
+  .llz85 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .wvjrx-menu {
+  .llz85-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .wvjrx-menu > a {
+  .llz85-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .wvjrx-menu > a:hover,
-  .wvjrx-menu > .active {
+  .llz85-menu > a:hover,
+  .llz85-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .wvjrx-body {
+  .llz85-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .wvjrx-title {
+  .llz85-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .wvjrx-title::before {
+  .llz85-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .wvjrx-title span {
+  .llz85-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .wvjrx {
+    .llz85 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .wvjrx-menu {
+    .llz85-menu {
       display: none;
     }
-    .wvjrx-body {
+    .llz85-body {
       width: 100%;
     }
   }

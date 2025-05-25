@@ -1,5 +1,5 @@
 
-  .fiajn {
+  .x1wrv {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .fiajntitle {
+  .x1wrvtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .fiajntitlebody {
+  .x1wrvtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .fiajntitlebodytitle {
+  .x1wrvtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .fiajntitlebodylang {
+  .x1wrvtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .fiajntitlebodylang ul {
+  .x1wrvtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .fiajnbody {
+  .x1wrvbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .fiajnmenu {
+  .x1wrvmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .fiajnmenulist {
+  .x1wrvmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .fiajnmenubody {
+  .x1wrvmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .fiajnmenulist ul {
+  .x1wrvmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .fiajnmenulist ul a {
+  .x1wrvmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .fiajnmenulist ul a:hover {
+  .x1wrvmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .fiajnmenulistactive {
+  .x1wrvmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .fiajnmenulistbody {
+  .x1wrvmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .fiajnbodylogo {
+    .x1wrvbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .fiajnmenu {
+    .x1wrvmenu {
       overflow-x: auto;
     }
 
-    .fiajnmenulist ul {
+    .x1wrvmenulist ul {
       flex-direction: row;
     }
 
-    .fiajnbodylogo {
+    .x1wrvbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .fiajnmenulist ul a {
+    .x1wrvmenulist ul a {
       font-size: 14px;
     }
   }

@@ -1,5 +1,5 @@
 
-  .l8clv {
+  .zzsid {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .l8clvtitle {
+  .zzsidtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .l8clvtitlebody {
+  .zzsidtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .l8clvtitlebodytitle {
+  .zzsidtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .l8clvtitlebodylang {
+  .zzsidtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .l8clvtitlebodylang ul {
+  .zzsidtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .l8clvbody {
+  .zzsidbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .l8clvmenu {
+  .zzsidmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .l8clvmenulist {
+  .zzsidmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .l8clvmenubody {
+  .zzsidmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .l8clvmenulist ul {
+  .zzsidmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .l8clvmenulist ul a {
+  .zzsidmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .l8clvmenulist ul a:hover {
+  .zzsidmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .l8clvmenulistactive {
+  .zzsidmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .l8clvmenulistbody {
+  .zzsidmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .l8clvbodylogo {
+    .zzsidbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .l8clvmenu {
+    .zzsidmenu {
       overflow-x: auto;
     }
 
-    .l8clvmenulist ul {
+    .zzsidmenulist ul {
       flex-direction: row;
     }
 
-    .l8clvbodylogo {
+    .zzsidbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .l8clvmenulist ul a {
+    .zzsidmenulist ul a {
       font-size: 14px;
     }
   }

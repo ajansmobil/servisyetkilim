@@ -1,5 +1,5 @@
 
-  .idolf {
+  .trkw5 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .idolftitle {
+  .trkw5title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .idolftitlebody {
+  .trkw5titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .idolftitlebodytitle {
+  .trkw5titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .idolftitlebodylang {
+  .trkw5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .idolftitlebodylang ul {
+  .trkw5titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .idolfbody {
+  .trkw5body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .idolfmenu {
+  .trkw5menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .idolfmenulist {
+  .trkw5menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .idolfmenubody {
+  .trkw5menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .idolfmenulist ul {
+  .trkw5menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .idolfmenulist ul a {
+  .trkw5menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .idolfmenulist ul a:hover {
+  .trkw5menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .idolfmenulistactive {
+  .trkw5menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .idolfmenulistbody {
+  .trkw5menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .idolfbodylogo {
+    .trkw5bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .idolfmenu {
+    .trkw5menu {
       overflow-x: auto;
     }
 
-    .idolfmenulist ul {
+    .trkw5menulist ul {
       flex-direction: row;
     }
 
-    .idolfbodylogo {
+    .trkw5bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .idolfmenulist ul a {
+    .trkw5menulist ul a {
       font-size: 14px;
     }
   }
