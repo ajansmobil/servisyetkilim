@@ -1,5 +1,5 @@
 
-  .pyluu {
+  .inu1e {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .pyluutitle {
+  .inu1etitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .pyluutitlebody {
+  .inu1etitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .pyluutitlebodytitle {
+  .inu1etitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .pyluutitlebodylang {
+  .inu1etitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .pyluutitlebodylang ul {
+  .inu1etitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .pyluubody {
+  .inu1ebody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .pyluumenu {
+  .inu1emenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .pyluumenulist {
+  .inu1emenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .pyluumenubody {
+  .inu1emenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .pyluumenulist ul {
+  .inu1emenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .pyluumenulist ul a {
+  .inu1emenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .pyluumenulist ul a:hover {
+  .inu1emenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .pyluumenulistactive {
+  .inu1emenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .pyluumenulistbody {
+  .inu1emenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .pyluubodylogo {
+    .inu1ebodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .pyluumenu {
+    .inu1emenu {
       overflow-x: auto;
     }
 
-    .pyluumenulist ul {
+    .inu1emenulist ul {
       flex-direction: row;
     }
 
-    .pyluubodylogo {
+    .inu1ebodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .pyluumenulist ul a {
+    .inu1emenulist ul a {
       font-size: 14px;
     }
   }

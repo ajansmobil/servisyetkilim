@@ -1,5 +1,5 @@
 
-  .kpinf {
+  .bv3f4 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .kpinftitle {
+  .bv3f4title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .kpinftitlebody {
+  .bv3f4titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .kpinftitlebodytitle {
+  .bv3f4titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .kpinftitlebodylang {
+  .bv3f4titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .kpinftitlebodylang ul {
+  .bv3f4titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .kpinfbody {
+  .bv3f4body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .kpinfmenu {
+  .bv3f4menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .kpinfmenulist {
+  .bv3f4menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .kpinfmenubody {
+  .bv3f4menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .kpinfmenulist ul {
+  .bv3f4menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .kpinfmenulist ul a {
+  .bv3f4menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .kpinfmenulist ul a:hover {
+  .bv3f4menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .kpinfmenulistactive {
+  .bv3f4menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .kpinfmenulistbody {
+  .bv3f4menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .kpinfbodylogo {
+    .bv3f4bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .kpinfmenu {
+    .bv3f4menu {
       overflow-x: auto;
     }
 
-    .kpinfmenulist ul {
+    .bv3f4menulist ul {
       flex-direction: row;
     }
 
-    .kpinfbodylogo {
+    .bv3f4bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .kpinfmenulist ul a {
+    .bv3f4menulist ul a {
       font-size: 14px;
     }
   }

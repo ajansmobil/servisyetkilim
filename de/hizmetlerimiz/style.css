@@ -1,5 +1,5 @@
 
-  .sr12l {
+  .pu56l {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .sr12ltitle {
+  .pu56ltitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .sr12ltitlebody {
+  .pu56ltitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .sr12ltitlebodytitle {
+  .pu56ltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .sr12ltitlebodylang {
+  .pu56ltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .sr12ltitlebodylang ul {
+  .pu56ltitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .sr12lbody {
+  .pu56lbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .sr12lmenu {
+  .pu56lmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .sr12lmenulist {
+  .pu56lmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .sr12lmenubody {
+  .pu56lmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .sr12lmenulist ul {
+  .pu56lmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .sr12lmenulist ul a {
+  .pu56lmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .sr12lmenulist ul a:hover {
+  .pu56lmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .sr12lmenulistactive {
+  .pu56lmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .sr12lmenulistbody {
+  .pu56lmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .sr12lbodylogo {
+    .pu56lbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .sr12lmenu {
+    .pu56lmenu {
       overflow-x: auto;
     }
 
-    .sr12lmenulist ul {
+    .pu56lmenulist ul {
       flex-direction: row;
     }
 
-    .sr12lbodylogo {
+    .pu56lbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,24 +137,24 @@
   }
 
   @media screen and (max-width: 768px) {
-    .sr12lmenulist ul a {
+    .pu56lmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .tc056 {
+  .vr0hy {
     width: 100%;
     margin: 15px 0;
   }
 
-  .tc056body {
+  .vr0hybody {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
 
-  .tc056bodyitem {
+  .vr0hybodyitem {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,7 +167,7 @@
     position: relative;
   }
 
-  .tc056bodyitemlink {
+  .vr0hybodyitemlink {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +175,7 @@
     width: 100%;
   }
 
-  .tc056bodyitemimg {
+  .vr0hybodyitemimg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,19 +189,19 @@
     overflow: hidden;
   }
 
-  .tc056bodyitemimg:hover {
+  .vr0hybodyitemimg:hover {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
     transform: translateY(-5px);
   }
 
-  .tc056bodyitemimg img {
+  .vr0hybodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
   }
 
-  .tc056bodyitemtitle {
+  .vr0hybodyitemtitle {
     padding: 5px;
     display: flex;
     align-items: center;
@@ -213,7 +213,7 @@
 
   }
 
-  .tc056bodybg {
+  .vr0hybodybg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -224,7 +224,7 @@
     opacity: 0.5;
   }
 
-  .tc056bodyitems {
+  .vr0hybodyitems {
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -236,28 +236,28 @@
     transition: opacity 0.3s ease, transform 0.5s ease;
   }
 
-  .tc056bodyitems.left {
+  .vr0hybodyitems.left {
     align-self: flex-start;
     border-radius: 0px 10px 10px 0px;
     transform: translateX(-100px);
   }
 
-  .tc056bodyitems.right {
+  .vr0hybodyitems.right {
     align-self: flex-end;
     border-radius: 10px 0px 0px 10px;
     transform: translateX(100px);
   }
 
-  .tc056bodyitems.visible {
+  .vr0hybodyitems.visible {
     opacity: 1;
     transform: translateX(0);
   }
 
-  .tc056bodyitem.lefts {
+  .vr0hybodyitem.lefts {
     align-self: flex-end;
   }
 
-  .tc056bodyitem.rights {
+  .vr0hybodyitem.rights {
     align-self: flex-start;
   }
 
@@ -285,11 +285,11 @@
     }
   }
 
-  .tc056bodyitems {
+  .vr0hybodyitems {
     animation-delay: 0.3s;
   }
 
-  .tc056bodyitechile {
+  .vr0hybodyitechile {
     display: flex;
     gap: 10px;
     margin-top: 5px;
@@ -301,7 +301,7 @@
 
   }
 
-  .tc056bodyitechilesubpage {
+  .vr0hybodyitechilesubpage {
     font-size: 16px;
     color: #fff !important;
     padding: 10px;
@@ -316,17 +316,17 @@
     z-index: 3;
   }
 
-  .tc056bodyitechilesubpage:hover {
+  .vr0hybodyitechilesubpage:hover {
     opacity: 0.8;
     transform: translateY(-2px);
   }
 
   @media screen and (max-width: 1024px) {
-    .tc056bodyitem {
+    .vr0hybodyitem {
       width: calc(100% - 30px);
     }
 
-    .tc056body {
+    .vr0hybody {
       display: flex;
       flex-direction: column;
       gap: 15px;

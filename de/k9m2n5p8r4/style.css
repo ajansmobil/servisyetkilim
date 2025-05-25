@@ -1,5 +1,5 @@
 
-  .xsybk {
+  .t5moy {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .xsybktitle {
+  .t5moytitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .xsybktitlebody {
+  .t5moytitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .xsybktitlebodytitle {
+  .t5moytitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .xsybktitlebodylang {
+  .t5moytitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .xsybktitlebodylang ul {
+  .t5moytitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .xsybkbody {
+  .t5moybody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .xsybkmenu {
+  .t5moymenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .xsybkmenulist {
+  .t5moymenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .xsybkmenubody {
+  .t5moymenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .xsybkmenulist ul {
+  .t5moymenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .xsybkmenulist ul a {
+  .t5moymenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .xsybkmenulist ul a:hover {
+  .t5moymenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .xsybkmenulistactive {
+  .t5moymenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .xsybkmenulistbody {
+  .t5moymenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .xsybkbodylogo {
+    .t5moybodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .xsybkmenu {
+    .t5moymenu {
       overflow-x: auto;
     }
 
-    .xsybkmenulist ul {
+    .t5moymenulist ul {
       flex-direction: row;
     }
 
-    .xsybkbodylogo {
+    .t5moybodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .xsybkmenulist ul a {
+    .t5moymenulist ul a {
       font-size: 14px;
     }
   }

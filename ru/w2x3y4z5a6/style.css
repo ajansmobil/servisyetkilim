@@ -1,5 +1,5 @@
 
-  .gnirz {
+  .w78ep {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .gnirztitle {
+  .w78eptitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .gnirztitlebody {
+  .w78eptitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .gnirztitlebodytitle {
+  .w78eptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .gnirztitlebodylang {
+  .w78eptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .gnirztitlebodylang ul {
+  .w78eptitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .gnirzbody {
+  .w78epbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .gnirzmenu {
+  .w78epmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .gnirzmenulist {
+  .w78epmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .gnirzmenubody {
+  .w78epmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .gnirzmenulist ul {
+  .w78epmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .gnirzmenulist ul a {
+  .w78epmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .gnirzmenulist ul a:hover {
+  .w78epmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .gnirzmenulistactive {
+  .w78epmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .gnirzmenulistbody {
+  .w78epmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .gnirzbodylogo {
+    .w78epbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .gnirzmenu {
+    .w78epmenu {
       overflow-x: auto;
     }
 
-    .gnirzmenulist ul {
+    .w78epmenulist ul {
       flex-direction: row;
     }
 
-    .gnirzbodylogo {
+    .w78epbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .gnirzmenulist ul a {
+    .w78epmenulist ul a {
       font-size: 14px;
     }
   }

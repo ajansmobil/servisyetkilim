@@ -1,5 +1,5 @@
 
-  .jisiq {
+  .hho61 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .jisiqtitle {
+  .hho61title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .jisiqtitlebody {
+  .hho61titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .jisiqtitlebodytitle {
+  .hho61titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .jisiqtitlebodylang {
+  .hho61titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .jisiqtitlebodylang ul {
+  .hho61titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .jisiqbody {
+  .hho61body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .jisiqmenu {
+  .hho61menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .jisiqmenulist {
+  .hho61menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .jisiqmenubody {
+  .hho61menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .jisiqmenulist ul {
+  .hho61menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .jisiqmenulist ul a {
+  .hho61menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .jisiqmenulist ul a:hover {
+  .hho61menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .jisiqmenulistactive {
+  .hho61menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .jisiqmenulistbody {
+  .hho61menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .jisiqbodylogo {
+    .hho61bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .jisiqmenu {
+    .hho61menu {
       overflow-x: auto;
     }
 
-    .jisiqmenulist ul {
+    .hho61menulist ul {
       flex-direction: row;
     }
 
-    .jisiqbodylogo {
+    .hho61bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .jisiqmenulist ul a {
+    .hho61menulist ul a {
       font-size: 14px;
     }
   }
