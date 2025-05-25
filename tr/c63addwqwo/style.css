@@ -1,5 +1,5 @@
 
-  .ksrpm {
+  .bewd2 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ksrpmtitle {
+  .bewd2title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ksrpmtitlebody {
+  .bewd2titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ksrpmtitlebodytitle {
+  .bewd2titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ksrpmtitlebodylang {
+  .bewd2titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ksrpmtitlebodylang ul {
+  .bewd2titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ksrpmbody {
+  .bewd2body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ksrpmmenu {
+  .bewd2menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ksrpmmenulist {
+  .bewd2menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ksrpmmenubody {
+  .bewd2menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .ksrpmmenulist ul {
+  .bewd2menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ksrpmmenulist ul a {
+  .bewd2menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .ksrpmmenulist ul a:hover {
+  .bewd2menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ksrpmmenulistactive {
+  .bewd2menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ksrpmmenulistbody {
+  .bewd2menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .ksrpmbodylogo {
+    .bewd2bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ksrpmmenu {
+    .bewd2menu {
       overflow-x: auto;
     }
 
-    .ksrpmmenulist ul {
+    .bewd2menulist ul {
       flex-direction: row;
     }
 
-    .ksrpmbodylogo {
+    .bewd2bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ksrpmmenulist ul a {
+    .bewd2menulist ul a {
       font-size: 14px;
     }
   }

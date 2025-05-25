@@ -1,5 +1,5 @@
 
-  .jje9n {
+  .jujge {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .jje9ntitle {
+  .jujgetitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .jje9ntitlebody {
+  .jujgetitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .jje9ntitlebodytitle {
+  .jujgetitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .jje9ntitlebodylang {
+  .jujgetitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .jje9ntitlebodylang ul {
+  .jujgetitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .jje9nbody {
+  .jujgebody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .jje9nmenu {
+  .jujgemenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .jje9nmenulist {
+  .jujgemenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .jje9nmenubody {
+  .jujgemenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .jje9nmenulist ul {
+  .jujgemenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .jje9nmenulist ul a {
+  .jujgemenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .jje9nmenulist ul a:hover {
+  .jujgemenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .jje9nmenulistactive {
+  .jujgemenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .jje9nmenulistbody {
+  .jujgemenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .jje9nbodylogo {
+    .jujgebodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .jje9nmenu {
+    .jujgemenu {
       overflow-x: auto;
     }
 
-    .jje9nmenulist ul {
+    .jujgemenulist ul {
       flex-direction: row;
     }
 
-    .jje9nbodylogo {
+    .jujgebodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .jje9nmenulist ul a {
+    .jujgemenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .g94ev {
+  .jsx3v {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .g94ev-menu {
+  .jsx3v-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .g94ev-menu > a {
+  .jsx3v-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .g94ev-menu > a:hover,
-  .g94ev-menu > .active {
+  .jsx3v-menu > a:hover,
+  .jsx3v-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .g94ev-body {
+  .jsx3v-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .g94ev-title {
+  .jsx3v-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .g94ev-title::before {
+  .jsx3v-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .g94ev-title span {
+  .jsx3v-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .g94ev {
+    .jsx3v {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .g94ev-menu {
+    .jsx3v-menu {
       display: none;
     }
-    .g94ev-body {
+    .jsx3v-body {
       width: 100%;
     }
   }

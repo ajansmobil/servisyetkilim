@@ -1,5 +1,5 @@
 
-  .hpdim {
+  .uiskt {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .hpdimtitle {
+  .uiskttitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .hpdimtitlebody {
+  .uiskttitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .hpdimtitlebodytitle {
+  .uiskttitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .hpdimtitlebodylang {
+  .uiskttitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .hpdimtitlebodylang ul {
+  .uiskttitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .hpdimbody {
+  .uisktbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .hpdimmenu {
+  .uisktmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .hpdimmenulist {
+  .uisktmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .hpdimmenubody {
+  .uisktmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .hpdimmenulist ul {
+  .uisktmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .hpdimmenulist ul a {
+  .uisktmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .hpdimmenulist ul a:hover {
+  .uisktmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .hpdimmenulistactive {
+  .uisktmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .hpdimmenulistbody {
+  .uisktmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .hpdimbodylogo {
+    .uisktbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .hpdimmenu {
+    .uisktmenu {
       overflow-x: auto;
     }
 
-    .hpdimmenulist ul {
+    .uisktmenulist ul {
       flex-direction: row;
     }
 
-    .hpdimbodylogo {
+    .uisktbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .hpdimmenulist ul a {
+    .uisktmenulist ul a {
       font-size: 14px;
     }
   }

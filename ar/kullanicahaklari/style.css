@@ -1,5 +1,5 @@
 
-  .innmc {
+  .un2xo {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .innmctitle {
+  .un2xotitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .innmctitlebody {
+  .un2xotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .innmctitlebodytitle {
+  .un2xotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .innmctitlebodylang {
+  .un2xotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .innmctitlebodylang ul {
+  .un2xotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .innmcbody {
+  .un2xobody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .innmcmenu {
+  .un2xomenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .innmcmenulist {
+  .un2xomenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .innmcmenubody {
+  .un2xomenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .innmcmenulist ul {
+  .un2xomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .innmcmenulist ul a {
+  .un2xomenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .innmcmenulist ul a:hover {
+  .un2xomenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .innmcmenulistactive {
+  .un2xomenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .innmcmenulistbody {
+  .un2xomenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .innmcbodylogo {
+    .un2xobodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .innmcmenu {
+    .un2xomenu {
       overflow-x: auto;
     }
 
-    .innmcmenulist ul {
+    .un2xomenulist ul {
       flex-direction: row;
     }
 
-    .innmcbodylogo {
+    .un2xobodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .innmcmenulist ul a {
+    .un2xomenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .ccnx7 {
+  .rshag {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .ccnx7-menu {
+  .rshag-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .ccnx7-menu > a {
+  .rshag-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .ccnx7-menu > a:hover,
-  .ccnx7-menu > .active {
+  .rshag-menu > a:hover,
+  .rshag-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .ccnx7-body {
+  .rshag-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .ccnx7-title {
+  .rshag-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .ccnx7-title::before {
+  .rshag-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .ccnx7-title span {
+  .rshag-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .ccnx7 {
+    .rshag {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .ccnx7-menu {
+    .rshag-menu {
       display: none;
     }
-    .ccnx7-body {
+    .rshag-body {
       width: 100%;
     }
   }
