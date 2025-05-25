@@ -1,5 +1,5 @@
 
-  .bvy9z {
+  .iu7qs {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .bvy9ztitle {
+  .iu7qstitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .bvy9ztitlebody {
+  .iu7qstitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .bvy9ztitlebodytitle {
+  .iu7qstitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .bvy9ztitlebodylang {
+  .iu7qstitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .bvy9ztitlebodylang ul {
+  .iu7qstitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .bvy9zbody {
+  .iu7qsbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .bvy9zmenu {
+  .iu7qsmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .bvy9zmenulist {
+  .iu7qsmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .bvy9zmenubody {
+  .iu7qsmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .bvy9zmenulist ul {
+  .iu7qsmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .bvy9zmenulist ul a {
+  .iu7qsmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .bvy9zmenulist ul a:hover {
+  .iu7qsmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .bvy9zmenulistactive {
+  .iu7qsmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .bvy9zmenulistbody {
+  .iu7qsmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .bvy9zbodylogo {
+    .iu7qsbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .bvy9zmenu {
+    .iu7qsmenu {
       overflow-x: auto;
     }
 
-    .bvy9zmenulist ul {
+    .iu7qsmenulist ul {
       flex-direction: row;
     }
 
-    .bvy9zbodylogo {
+    .iu7qsbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .bvy9zmenulist ul a {
+    .iu7qsmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .rtx8o {
+  .jt1mu {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .rtx8o-menu {
+  .jt1mu-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .rtx8o-menu > a {
+  .jt1mu-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .rtx8o-menu > a:hover,
-  .rtx8o-menu > .active {
+  .jt1mu-menu > a:hover,
+  .jt1mu-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .rtx8o-body {
+  .jt1mu-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .rtx8o-title {
+  .jt1mu-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .rtx8o-title::before {
+  .jt1mu-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .rtx8o-title span {
+  .jt1mu-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .rtx8o {
+    .jt1mu {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .rtx8o-menu {
+    .jt1mu-menu {
       display: none;
     }
-    .rtx8o-body {
+    .jt1mu-body {
       width: 100%;
     }
   }

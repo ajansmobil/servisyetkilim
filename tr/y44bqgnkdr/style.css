@@ -1,5 +1,5 @@
 
-  .nnqob {
+  .wmbpx {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .nnqobtitle {
+  .wmbpxtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .nnqobtitlebody {
+  .wmbpxtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .nnqobtitlebodytitle {
+  .wmbpxtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .nnqobtitlebodylang {
+  .wmbpxtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .nnqobtitlebodylang ul {
+  .wmbpxtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .nnqobbody {
+  .wmbpxbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .nnqobmenu {
+  .wmbpxmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .nnqobmenulist {
+  .wmbpxmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .nnqobmenubody {
+  .wmbpxmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .nnqobmenulist ul {
+  .wmbpxmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .nnqobmenulist ul a {
+  .wmbpxmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .nnqobmenulist ul a:hover {
+  .wmbpxmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .nnqobmenulistactive {
+  .wmbpxmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .nnqobmenulistbody {
+  .wmbpxmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .nnqobbodylogo {
+    .wmbpxbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .nnqobmenu {
+    .wmbpxmenu {
       overflow-x: auto;
     }
 
-    .nnqobmenulist ul {
+    .wmbpxmenulist ul {
       flex-direction: row;
     }
 
-    .nnqobbodylogo {
+    .wmbpxbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .nnqobmenulist ul a {
+    .wmbpxmenulist ul a {
       font-size: 14px;
     }
   }

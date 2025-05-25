@@ -1,5 +1,5 @@
 
-  .sogzv {
+  .ryti2 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .sogzvtitle {
+  .ryti2title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .sogzvtitlebody {
+  .ryti2titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .sogzvtitlebodytitle {
+  .ryti2titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .sogzvtitlebodylang {
+  .ryti2titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .sogzvtitlebodylang ul {
+  .ryti2titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .sogzvbody {
+  .ryti2body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .sogzvmenu {
+  .ryti2menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .sogzvmenulist {
+  .ryti2menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .sogzvmenubody {
+  .ryti2menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .sogzvmenulist ul {
+  .ryti2menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .sogzvmenulist ul a {
+  .ryti2menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .sogzvmenulist ul a:hover {
+  .ryti2menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .sogzvmenulistactive {
+  .ryti2menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .sogzvmenulistbody {
+  .ryti2menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .sogzvbodylogo {
+    .ryti2bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .sogzvmenu {
+    .ryti2menu {
       overflow-x: auto;
     }
 
-    .sogzvmenulist ul {
+    .ryti2menulist ul {
       flex-direction: row;
     }
 
-    .sogzvbodylogo {
+    .ryti2bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .sogzvmenulist ul a {
+    .ryti2menulist ul a {
       font-size: 14px;
     }
   }

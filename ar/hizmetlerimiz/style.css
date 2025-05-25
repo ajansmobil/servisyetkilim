@@ -1,5 +1,5 @@
 
-  .tm6mr {
+  .yo3k2 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .tm6mrtitle {
+  .yo3k2title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .tm6mrtitlebody {
+  .yo3k2titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .tm6mrtitlebodytitle {
+  .yo3k2titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .tm6mrtitlebodylang {
+  .yo3k2titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .tm6mrtitlebodylang ul {
+  .yo3k2titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .tm6mrbody {
+  .yo3k2body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .tm6mrmenu {
+  .yo3k2menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .tm6mrmenulist {
+  .yo3k2menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .tm6mrmenubody {
+  .yo3k2menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .tm6mrmenulist ul {
+  .yo3k2menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .tm6mrmenulist ul a {
+  .yo3k2menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .tm6mrmenulist ul a:hover {
+  .yo3k2menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .tm6mrmenulistactive {
+  .yo3k2menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .tm6mrmenulistbody {
+  .yo3k2menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .tm6mrbodylogo {
+    .yo3k2bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .tm6mrmenu {
+    .yo3k2menu {
       overflow-x: auto;
     }
 
-    .tm6mrmenulist ul {
+    .yo3k2menulist ul {
       flex-direction: row;
     }
 
-    .tm6mrbodylogo {
+    .yo3k2bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,24 +137,24 @@
   }
 
   @media screen and (max-width: 768px) {
-    .tm6mrmenulist ul a {
+    .yo3k2menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .lhiak {
+  .osw1w {
     width: 100%;
     margin: 15px 0;
   }
 
-  .lhiakbody {
+  .osw1wbody {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
 
-  .lhiakbodyitem {
+  .osw1wbodyitem {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,7 +167,7 @@
     position: relative;
   }
 
-  .lhiakbodyitemlink {
+  .osw1wbodyitemlink {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +175,7 @@
     width: 100%;
   }
 
-  .lhiakbodyitemimg {
+  .osw1wbodyitemimg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,19 +189,19 @@
     overflow: hidden;
   }
 
-  .lhiakbodyitemimg:hover {
+  .osw1wbodyitemimg:hover {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
     transform: translateY(-5px);
   }
 
-  .lhiakbodyitemimg img {
+  .osw1wbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
   }
 
-  .lhiakbodyitemtitle {
+  .osw1wbodyitemtitle {
     padding: 5px;
     display: flex;
     align-items: center;
@@ -213,7 +213,7 @@
 
   }
 
-  .lhiakbodybg {
+  .osw1wbodybg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -224,7 +224,7 @@
     opacity: 0.5;
   }
 
-  .lhiakbodyitems {
+  .osw1wbodyitems {
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -236,28 +236,28 @@
     transition: opacity 0.3s ease, transform 0.5s ease;
   }
 
-  .lhiakbodyitems.left {
+  .osw1wbodyitems.left {
     align-self: flex-start;
     border-radius: 0px 10px 10px 0px;
     transform: translateX(-100px);
   }
 
-  .lhiakbodyitems.right {
+  .osw1wbodyitems.right {
     align-self: flex-end;
     border-radius: 10px 0px 0px 10px;
     transform: translateX(100px);
   }
 
-  .lhiakbodyitems.visible {
+  .osw1wbodyitems.visible {
     opacity: 1;
     transform: translateX(0);
   }
 
-  .lhiakbodyitem.lefts {
+  .osw1wbodyitem.lefts {
     align-self: flex-end;
   }
 
-  .lhiakbodyitem.rights {
+  .osw1wbodyitem.rights {
     align-self: flex-start;
   }
 
@@ -285,11 +285,11 @@
     }
   }
 
-  .lhiakbodyitems {
+  .osw1wbodyitems {
     animation-delay: 0.3s;
   }
 
-  .lhiakbodyitechile {
+  .osw1wbodyitechile {
     display: flex;
     gap: 10px;
     margin-top: 5px;
@@ -301,7 +301,7 @@
 
   }
 
-  .lhiakbodyitechilesubpage {
+  .osw1wbodyitechilesubpage {
     font-size: 16px;
     color: #fff !important;
     padding: 10px;
@@ -316,17 +316,17 @@
     z-index: 3;
   }
 
-  .lhiakbodyitechilesubpage:hover {
+  .osw1wbodyitechilesubpage:hover {
     opacity: 0.8;
     transform: translateY(-2px);
   }
 
   @media screen and (max-width: 1024px) {
-    .lhiakbodyitem {
+    .osw1wbodyitem {
       width: calc(100% - 30px);
     }
 
-    .lhiakbody {
+    .osw1wbody {
       display: flex;
       flex-direction: column;
       gap: 15px;

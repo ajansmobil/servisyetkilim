@@ -1,5 +1,5 @@
 
-  .tspyq {
+  .xnpm8 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .tspyqtitle {
+  .xnpm8title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .tspyqtitlebody {
+  .xnpm8titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .tspyqtitlebodytitle {
+  .xnpm8titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .tspyqtitlebodylang {
+  .xnpm8titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .tspyqtitlebodylang ul {
+  .xnpm8titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .tspyqbody {
+  .xnpm8body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .tspyqmenu {
+  .xnpm8menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .tspyqmenulist {
+  .xnpm8menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .tspyqmenubody {
+  .xnpm8menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .tspyqmenulist ul {
+  .xnpm8menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .tspyqmenulist ul a {
+  .xnpm8menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .tspyqmenulist ul a:hover {
+  .xnpm8menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .tspyqmenulistactive {
+  .xnpm8menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .tspyqmenulistbody {
+  .xnpm8menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .tspyqbodylogo {
+    .xnpm8bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .tspyqmenu {
+    .xnpm8menu {
       overflow-x: auto;
     }
 
-    .tspyqmenulist ul {
+    .xnpm8menulist ul {
       flex-direction: row;
     }
 
-    .tspyqbodylogo {
+    .xnpm8bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .tspyqmenulist ul a {
+    .xnpm8menulist ul a {
       font-size: 14px;
     }
   }
