@@ -1,5 +1,5 @@
 
-  .rq610 {
+  .m1neq {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .rq610title {
+  .m1neqtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .rq610titlebody {
+  .m1neqtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .rq610titlebodytitle {
+  .m1neqtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .rq610titlebodylang {
+  .m1neqtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .rq610titlebodylang ul {
+  .m1neqtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .rq610body {
+  .m1neqbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .rq610menu {
+  .m1neqmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .rq610menulist {
+  .m1neqmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .rq610menubody {
+  .m1neqmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .rq610menulist ul {
+  .m1neqmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .rq610menulist ul a {
+  .m1neqmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .rq610menulist ul a:hover {
+  .m1neqmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .rq610menulistactive {
+  .m1neqmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .rq610menulistbody {
+  .m1neqmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .rq610bodylogo {
+    .m1neqbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .rq610menu {
+    .m1neqmenu {
       overflow-x: auto;
     }
 
-    .rq610menulist ul {
+    .m1neqmenulist ul {
       flex-direction: row;
     }
 
-    .rq610bodylogo {
+    .m1neqbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .rq610menulist ul a {
+    .m1neqmenulist ul a {
       font-size: 14px;
     }
   }

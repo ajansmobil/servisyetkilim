@@ -1,5 +1,5 @@
 
-  .c6x1b {
+  .xhpkw {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .c6x1btitle {
+  .xhpkwtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .c6x1btitlebody {
+  .xhpkwtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .c6x1btitlebodytitle {
+  .xhpkwtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .c6x1btitlebodylang {
+  .xhpkwtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .c6x1btitlebodylang ul {
+  .xhpkwtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .c6x1bbody {
+  .xhpkwbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .c6x1bmenu {
+  .xhpkwmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .c6x1bmenulist {
+  .xhpkwmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .c6x1bmenubody {
+  .xhpkwmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .c6x1bmenulist ul {
+  .xhpkwmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .c6x1bmenulist ul a {
+  .xhpkwmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .c6x1bmenulist ul a:hover {
+  .xhpkwmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .c6x1bmenulistactive {
+  .xhpkwmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .c6x1bmenulistbody {
+  .xhpkwmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .c6x1bbodylogo {
+    .xhpkwbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .c6x1bmenu {
+    .xhpkwmenu {
       overflow-x: auto;
     }
 
-    .c6x1bmenulist ul {
+    .xhpkwmenulist ul {
       flex-direction: row;
     }
 
-    .c6x1bbodylogo {
+    .xhpkwbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .c6x1bmenulist ul a {
+    .xhpkwmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .dec22 {
+  .e5hdg {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .dec22-menu {
+  .e5hdg-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .dec22-menu > a {
+  .e5hdg-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .dec22-menu > a:hover,
-  .dec22-menu > .active {
+  .e5hdg-menu > a:hover,
+  .e5hdg-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .dec22-body {
+  .e5hdg-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .dec22-title {
+  .e5hdg-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .dec22-title::before {
+  .e5hdg-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .dec22-title span {
+  .e5hdg-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .dec22 {
+    .e5hdg {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .dec22-menu {
+    .e5hdg-menu {
       display: none;
     }
-    .dec22-body {
+    .e5hdg-body {
       width: 100%;
     }
   }

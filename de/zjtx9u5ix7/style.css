@@ -1,5 +1,5 @@
 
-  .usbz5 {
+  .u64p5 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .usbz5title {
+  .u64p5title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .usbz5titlebody {
+  .u64p5titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .usbz5titlebodytitle {
+  .u64p5titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .usbz5titlebodylang {
+  .u64p5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .usbz5titlebodylang ul {
+  .u64p5titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .usbz5body {
+  .u64p5body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .usbz5menu {
+  .u64p5menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .usbz5menulist {
+  .u64p5menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .usbz5menubody {
+  .u64p5menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .usbz5menulist ul {
+  .u64p5menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .usbz5menulist ul a {
+  .u64p5menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .usbz5menulist ul a:hover {
+  .u64p5menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .usbz5menulistactive {
+  .u64p5menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .usbz5menulistbody {
+  .u64p5menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .usbz5bodylogo {
+    .u64p5bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .usbz5menu {
+    .u64p5menu {
       overflow-x: auto;
     }
 
-    .usbz5menulist ul {
+    .u64p5menulist ul {
       flex-direction: row;
     }
 
-    .usbz5bodylogo {
+    .u64p5bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .usbz5menulist ul a {
+    .u64p5menulist ul a {
       font-size: 14px;
     }
   }

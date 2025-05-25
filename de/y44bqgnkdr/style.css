@@ -1,5 +1,5 @@
 
-  .f0ceh {
+  .clqsm {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .f0cehtitle {
+  .clqsmtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .f0cehtitlebody {
+  .clqsmtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .f0cehtitlebodytitle {
+  .clqsmtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .f0cehtitlebodylang {
+  .clqsmtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .f0cehtitlebodylang ul {
+  .clqsmtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .f0cehbody {
+  .clqsmbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .f0cehmenu {
+  .clqsmmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .f0cehmenulist {
+  .clqsmmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .f0cehmenubody {
+  .clqsmmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .f0cehmenulist ul {
+  .clqsmmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .f0cehmenulist ul a {
+  .clqsmmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .f0cehmenulist ul a:hover {
+  .clqsmmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .f0cehmenulistactive {
+  .clqsmmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .f0cehmenulistbody {
+  .clqsmmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .f0cehbodylogo {
+    .clqsmbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .f0cehmenu {
+    .clqsmmenu {
       overflow-x: auto;
     }
 
-    .f0cehmenulist ul {
+    .clqsmmenulist ul {
       flex-direction: row;
     }
 
-    .f0cehbodylogo {
+    .clqsmbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .f0cehmenulist ul a {
+    .clqsmmenulist ul a {
       font-size: 14px;
     }
   }
