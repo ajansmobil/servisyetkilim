@@ -1,5 +1,5 @@
 
-  .ta2rf {
+  .lg6os {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ta2rftitle {
+  .lg6ostitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ta2rftitlebody {
+  .lg6ostitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ta2rftitlebodytitle {
+  .lg6ostitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ta2rftitlebodylang {
+  .lg6ostitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ta2rftitlebodylang ul {
+  .lg6ostitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ta2rfbody {
+  .lg6osbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ta2rfmenu {
+  .lg6osmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ta2rfmenulist {
+  .lg6osmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ta2rfmenubody {
+  .lg6osmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .ta2rfmenulist ul {
+  .lg6osmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ta2rfmenulist ul a {
+  .lg6osmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .ta2rfmenulist ul a:hover {
+  .lg6osmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ta2rfmenulistactive {
+  .lg6osmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ta2rfmenulistbody {
+  .lg6osmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .ta2rfbodylogo {
+    .lg6osbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ta2rfmenu {
+    .lg6osmenu {
       overflow-x: auto;
     }
 
-    .ta2rfmenulist ul {
+    .lg6osmenulist ul {
       flex-direction: row;
     }
 
-    .ta2rfbodylogo {
+    .lg6osbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ta2rfmenulist ul a {
+    .lg6osmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .feks3 {
+  .aev4p {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .feks3-menu {
+  .aev4p-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .feks3-menu > a {
+  .aev4p-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .feks3-menu > a:hover,
-  .feks3-menu > .active {
+  .aev4p-menu > a:hover,
+  .aev4p-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .feks3-body {
+  .aev4p-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .feks3-title {
+  .aev4p-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .feks3-title::before {
+  .aev4p-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .feks3-title span {
+  .aev4p-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .feks3 {
+    .aev4p {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .feks3-menu {
+    .aev4p-menu {
       display: none;
     }
-    .feks3-body {
+    .aev4p-body {
       width: 100%;
     }
   }

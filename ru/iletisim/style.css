@@ -1,5 +1,5 @@
 
-  .fmybe {
+  .fzoml {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .fmybetitle {
+  .fzomltitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .fmybetitlebody {
+  .fzomltitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .fmybetitlebodytitle {
+  .fzomltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .fmybetitlebodylang {
+  .fzomltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .fmybetitlebodylang ul {
+  .fzomltitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .fmybebody {
+  .fzomlbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .fmybemenu {
+  .fzomlmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .fmybemenulist {
+  .fzomlmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .fmybemenubody {
+  .fzomlmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .fmybemenulist ul {
+  .fzomlmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .fmybemenulist ul a {
+  .fzomlmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .fmybemenulist ul a:hover {
+  .fzomlmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .fmybemenulistactive {
+  .fzomlmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .fmybemenulistbody {
+  .fzomlmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .fmybebodylogo {
+    .fzomlbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .fmybemenu {
+    .fzomlmenu {
       overflow-x: auto;
     }
 
-    .fmybemenulist ul {
+    .fzomlmenulist ul {
       flex-direction: row;
     }
 
-    .fmybebodylogo {
+    .fzomlbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,13 +137,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .fmybemenulist ul a {
+    .fzomlmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .nbz5z {
+  .xkzr4 {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -151,13 +151,13 @@
     justify-content: center;
     position: relative;
   }
-  .nbz5zcontainertitle {
+  .xkzr4containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .nbz5zcontainerlist {
+  .xkzr4containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +165,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .nbz5zcontainerlist > div {
+  .xkzr4containerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .nbz5zcontainerlist:hover {
+  .xkzr4containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .nbz5zcontainer {
+  .xkzr4container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .nbz5zcontainerbody {
+  .xkzr4containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,24 +190,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .nbz5zbody {
+  .xkzr4body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .nbz5zcontainerlist > span {
+  .xkzr4containerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .nbz5zbody {
+    .xkzr4body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .nbz5zcontainerbody {
+    .xkzr4containerbody {
       padding: 15px;
     }
   }
@@ -237,13 +237,13 @@
       transform: scale(1);
     }
   }
-  .gbilo-body {
+  .iofnw-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .gbilo-body-chile {
+  .iofnw-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -251,10 +251,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .gbilo-body-chile > div {
+  .iofnw-body-chile > div {
     width: 100% !important;
   }
-  .gbilo2 {
+  .iofnw2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -265,21 +265,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .gbilo {
+  .iofnw {
     display: flex;
     flex-direction: column;
   }
-  .gbilo > svg {
+  .iofnw > svg {
     width: 100vw;
   }
-  .gbilobotton {
+  .iofnwbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .gbilo-svg {
+  .iofnw-svg {
     fill: #fff;
   }
-  .gbilo-bg {
+  .iofnw-bg {
     background-image: url("/img/s04brh/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;

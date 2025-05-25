@@ -1,5 +1,5 @@
 
-  .codw3 {
+  .upgng {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .codw3title {
+  .upgngtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .codw3titlebody {
+  .upgngtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .codw3titlebodytitle {
+  .upgngtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .codw3titlebodylang {
+  .upgngtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .codw3titlebodylang ul {
+  .upgngtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .codw3body {
+  .upgngbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .codw3menu {
+  .upgngmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .codw3menulist {
+  .upgngmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .codw3menubody {
+  .upgngmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .codw3menulist ul {
+  .upgngmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .codw3menulist ul a {
+  .upgngmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .codw3menulist ul a:hover {
+  .upgngmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .codw3menulistactive {
+  .upgngmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .codw3menulistbody {
+  .upgngmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .codw3bodylogo {
+    .upgngbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .codw3menu {
+    .upgngmenu {
       overflow-x: auto;
     }
 
-    .codw3menulist ul {
+    .upgngmenulist ul {
       flex-direction: row;
     }
 
-    .codw3bodylogo {
+    .upgngbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .codw3menulist ul a {
+    .upgngmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .wowz4 {
+  .i2ftg {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .wowz4-menu {
+  .i2ftg-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .wowz4-menu > a {
+  .i2ftg-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .wowz4-menu > a:hover,
-  .wowz4-menu > .active {
+  .i2ftg-menu > a:hover,
+  .i2ftg-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .wowz4-body {
+  .i2ftg-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .wowz4-title {
+  .i2ftg-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .wowz4-title::before {
+  .i2ftg-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .wowz4-title span {
+  .i2ftg-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .wowz4 {
+    .i2ftg {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .wowz4-menu {
+    .i2ftg-menu {
       display: none;
     }
-    .wowz4-body {
+    .i2ftg-body {
       width: 100%;
     }
   }

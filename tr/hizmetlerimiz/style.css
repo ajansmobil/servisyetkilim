@@ -1,5 +1,5 @@
 
-  .mgg7e {
+  .xw3ka {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .mgg7etitle {
+  .xw3katitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .mgg7etitlebody {
+  .xw3katitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .mgg7etitlebodytitle {
+  .xw3katitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .mgg7etitlebodylang {
+  .xw3katitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .mgg7etitlebodylang ul {
+  .xw3katitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .mgg7ebody {
+  .xw3kabody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .mgg7emenu {
+  .xw3kamenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .mgg7emenulist {
+  .xw3kamenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .mgg7emenubody {
+  .xw3kamenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .mgg7emenulist ul {
+  .xw3kamenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .mgg7emenulist ul a {
+  .xw3kamenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .mgg7emenulist ul a:hover {
+  .xw3kamenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .mgg7emenulistactive {
+  .xw3kamenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .mgg7emenulistbody {
+  .xw3kamenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .mgg7ebodylogo {
+    .xw3kabodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .mgg7emenu {
+    .xw3kamenu {
       overflow-x: auto;
     }
 
-    .mgg7emenulist ul {
+    .xw3kamenulist ul {
       flex-direction: row;
     }
 
-    .mgg7ebodylogo {
+    .xw3kabodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,21 +137,21 @@
   }
 
   @media screen and (max-width: 768px) {
-    .mgg7emenulist ul a {
+    .xw3kamenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .ty64ohead {
+  .m2wxnhead {
     width: var(--max);
   }
 
-  .ty64obodyitemtitlename {
+  .m2wxnbodyitemtitlename {
     font-weight: 500;
   }
 
-  .ty64o {
+  .m2wxn {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -159,14 +159,14 @@
     flex-direction: column;
   }
 
-  .ty64obody {
+  .m2wxnbody {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .ty64obodyitem {
+  .m2wxnbodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -176,19 +176,19 @@
     gap: 2px;
   }
 
-  .ty64obodyitemimg {
+  .m2wxnbodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
 
-  .ty64obodyitemimg img {
+  .m2wxnbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
 
-  .ty64obodyitemtitle {
+  .m2wxnbodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -197,7 +197,7 @@
     flex-direction: column;
   }
 
-  .ty64obodyitemtitle>div {
+  .m2wxnbodyitemtitle>div {
     display: flex;
     justify-content: space-between;
     border: solid 1px #000;
@@ -205,7 +205,7 @@
     padding: 5px;
   }
 
-  .ty64obodyitemspot {
+  .m2wxnbodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -216,14 +216,14 @@
     align-items: center;
   }
 
-  .ty64obodyitemspot>div {
+  .m2wxnbodyitemspot>div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
 
   @media screen and (max-width: 1024px) {
-    .ty64obody {
+    .m2wxnbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
@@ -231,7 +231,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ty64obody {
+    .m2wxnbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);

@@ -1,5 +1,5 @@
 
-  .w9t0x {
+  .yhe78 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .w9t0xtitle {
+  .yhe78title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .w9t0xtitlebody {
+  .yhe78titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .w9t0xtitlebodytitle {
+  .yhe78titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .w9t0xtitlebodylang {
+  .yhe78titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .w9t0xtitlebodylang ul {
+  .yhe78titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .w9t0xbody {
+  .yhe78body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .w9t0xmenu {
+  .yhe78menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .w9t0xmenulist {
+  .yhe78menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .w9t0xmenubody {
+  .yhe78menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .w9t0xmenulist ul {
+  .yhe78menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .w9t0xmenulist ul a {
+  .yhe78menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .w9t0xmenulist ul a:hover {
+  .yhe78menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .w9t0xmenulistactive {
+  .yhe78menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .w9t0xmenulistbody {
+  .yhe78menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .w9t0xbodylogo {
+    .yhe78bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .w9t0xmenu {
+    .yhe78menu {
       overflow-x: auto;
     }
 
-    .w9t0xmenulist ul {
+    .yhe78menulist ul {
       flex-direction: row;
     }
 
-    .w9t0xbodylogo {
+    .yhe78bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,21 +137,21 @@
   }
 
   @media screen and (max-width: 768px) {
-    .w9t0xmenulist ul a {
+    .yhe78menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .vo2umhead {
+  .azlqchead {
     width: var(--max);
   }
 
-  .vo2umbodyitemtitlename {
+  .azlqcbodyitemtitlename {
     font-weight: 500;
   }
 
-  .vo2um {
+  .azlqc {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -159,14 +159,14 @@
     flex-direction: column;
   }
 
-  .vo2umbody {
+  .azlqcbody {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .vo2umbodyitem {
+  .azlqcbodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -176,19 +176,19 @@
     gap: 2px;
   }
 
-  .vo2umbodyitemimg {
+  .azlqcbodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
 
-  .vo2umbodyitemimg img {
+  .azlqcbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
 
-  .vo2umbodyitemtitle {
+  .azlqcbodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -197,7 +197,7 @@
     flex-direction: column;
   }
 
-  .vo2umbodyitemtitle>div {
+  .azlqcbodyitemtitle>div {
     display: flex;
     justify-content: space-between;
     border: solid 1px #000;
@@ -205,7 +205,7 @@
     padding: 5px;
   }
 
-  .vo2umbodyitemspot {
+  .azlqcbodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -216,14 +216,14 @@
     align-items: center;
   }
 
-  .vo2umbodyitemspot>div {
+  .azlqcbodyitemspot>div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
 
   @media screen and (max-width: 1024px) {
-    .vo2umbody {
+    .azlqcbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
@@ -231,7 +231,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .vo2umbody {
+    .azlqcbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);

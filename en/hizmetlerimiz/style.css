@@ -1,5 +1,5 @@
 
-  .bnh9p {
+  .syxa4 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .bnh9ptitle {
+  .syxa4title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .bnh9ptitlebody {
+  .syxa4titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .bnh9ptitlebodytitle {
+  .syxa4titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .bnh9ptitlebodylang {
+  .syxa4titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .bnh9ptitlebodylang ul {
+  .syxa4titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .bnh9pbody {
+  .syxa4body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .bnh9pmenu {
+  .syxa4menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .bnh9pmenulist {
+  .syxa4menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .bnh9pmenubody {
+  .syxa4menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .bnh9pmenulist ul {
+  .syxa4menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .bnh9pmenulist ul a {
+  .syxa4menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .bnh9pmenulist ul a:hover {
+  .syxa4menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .bnh9pmenulistactive {
+  .syxa4menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .bnh9pmenulistbody {
+  .syxa4menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .bnh9pbodylogo {
+    .syxa4bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .bnh9pmenu {
+    .syxa4menu {
       overflow-x: auto;
     }
 
-    .bnh9pmenulist ul {
+    .syxa4menulist ul {
       flex-direction: row;
     }
 
-    .bnh9pbodylogo {
+    .syxa4bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,21 +137,21 @@
   }
 
   @media screen and (max-width: 768px) {
-    .bnh9pmenulist ul a {
+    .syxa4menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .m4j8phead {
+  .wm07fhead {
     width: var(--max);
   }
 
-  .m4j8pbodyitemtitlename {
+  .wm07fbodyitemtitlename {
     font-weight: 500;
   }
 
-  .m4j8p {
+  .wm07f {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -159,14 +159,14 @@
     flex-direction: column;
   }
 
-  .m4j8pbody {
+  .wm07fbody {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .m4j8pbodyitem {
+  .wm07fbodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -176,19 +176,19 @@
     gap: 2px;
   }
 
-  .m4j8pbodyitemimg {
+  .wm07fbodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
 
-  .m4j8pbodyitemimg img {
+  .wm07fbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
 
-  .m4j8pbodyitemtitle {
+  .wm07fbodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -197,7 +197,7 @@
     flex-direction: column;
   }
 
-  .m4j8pbodyitemtitle>div {
+  .wm07fbodyitemtitle>div {
     display: flex;
     justify-content: space-between;
     border: solid 1px #000;
@@ -205,7 +205,7 @@
     padding: 5px;
   }
 
-  .m4j8pbodyitemspot {
+  .wm07fbodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -216,14 +216,14 @@
     align-items: center;
   }
 
-  .m4j8pbodyitemspot>div {
+  .wm07fbodyitemspot>div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
 
   @media screen and (max-width: 1024px) {
-    .m4j8pbody {
+    .wm07fbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
@@ -231,7 +231,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .m4j8pbody {
+    .wm07fbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);

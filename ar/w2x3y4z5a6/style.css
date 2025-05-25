@@ -1,5 +1,5 @@
 
-  .zla67 {
+  .homwa {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .zla67title {
+  .homwatitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .zla67titlebody {
+  .homwatitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .zla67titlebodytitle {
+  .homwatitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .zla67titlebodylang {
+  .homwatitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .zla67titlebodylang ul {
+  .homwatitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .zla67body {
+  .homwabody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .zla67menu {
+  .homwamenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .zla67menulist {
+  .homwamenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .zla67menubody {
+  .homwamenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .zla67menulist ul {
+  .homwamenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .zla67menulist ul a {
+  .homwamenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .zla67menulist ul a:hover {
+  .homwamenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .zla67menulistactive {
+  .homwamenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .zla67menulistbody {
+  .homwamenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .zla67bodylogo {
+    .homwabodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .zla67menu {
+    .homwamenu {
       overflow-x: auto;
     }
 
-    .zla67menulist ul {
+    .homwamenulist ul {
       flex-direction: row;
     }
 
-    .zla67bodylogo {
+    .homwabodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .zla67menulist ul a {
+    .homwamenulist ul a {
       font-size: 14px;
     }
   }

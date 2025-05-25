@@ -1,5 +1,5 @@
 
-  .qadid {
+  .yzzbc {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .qadidtitle {
+  .yzzbctitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .qadidtitlebody {
+  .yzzbctitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qadidtitlebodytitle {
+  .yzzbctitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .qadidtitlebodylang {
+  .yzzbctitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .qadidtitlebodylang ul {
+  .yzzbctitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .qadidbody {
+  .yzzbcbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .qadidmenu {
+  .yzzbcmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .qadidmenulist {
+  .yzzbcmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .qadidmenubody {
+  .yzzbcmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .qadidmenulist ul {
+  .yzzbcmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .qadidmenulist ul a {
+  .yzzbcmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .qadidmenulist ul a:hover {
+  .yzzbcmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .qadidmenulistactive {
+  .yzzbcmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .qadidmenulistbody {
+  .yzzbcmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .qadidbodylogo {
+    .yzzbcbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .qadidmenu {
+    .yzzbcmenu {
       overflow-x: auto;
     }
 
-    .qadidmenulist ul {
+    .yzzbcmenulist ul {
       flex-direction: row;
     }
 
-    .qadidbodylogo {
+    .yzzbcbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,21 +137,21 @@
   }
 
   @media screen and (max-width: 768px) {
-    .qadidmenulist ul a {
+    .yzzbcmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .ysh2ohead {
+  .ovc7bhead {
     width: var(--max);
   }
 
-  .ysh2obodyitemtitlename {
+  .ovc7bbodyitemtitlename {
     font-weight: 500;
   }
 
-  .ysh2o {
+  .ovc7b {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -159,14 +159,14 @@
     flex-direction: column;
   }
 
-  .ysh2obody {
+  .ovc7bbody {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .ysh2obodyitem {
+  .ovc7bbodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -176,19 +176,19 @@
     gap: 2px;
   }
 
-  .ysh2obodyitemimg {
+  .ovc7bbodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
 
-  .ysh2obodyitemimg img {
+  .ovc7bbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
 
-  .ysh2obodyitemtitle {
+  .ovc7bbodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -197,7 +197,7 @@
     flex-direction: column;
   }
 
-  .ysh2obodyitemtitle>div {
+  .ovc7bbodyitemtitle>div {
     display: flex;
     justify-content: space-between;
     border: solid 1px #000;
@@ -205,7 +205,7 @@
     padding: 5px;
   }
 
-  .ysh2obodyitemspot {
+  .ovc7bbodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -216,14 +216,14 @@
     align-items: center;
   }
 
-  .ysh2obodyitemspot>div {
+  .ovc7bbodyitemspot>div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
 
   @media screen and (max-width: 1024px) {
-    .ysh2obody {
+    .ovc7bbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
@@ -231,7 +231,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ysh2obody {
+    .ovc7bbody {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);

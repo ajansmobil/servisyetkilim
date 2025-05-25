@@ -1,5 +1,5 @@
 
-  .k9o8y {
+  .j7gtb {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .k9o8ytitle {
+  .j7gtbtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .k9o8ytitlebody {
+  .j7gtbtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .k9o8ytitlebodytitle {
+  .j7gtbtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .k9o8ytitlebodylang {
+  .j7gtbtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .k9o8ytitlebodylang ul {
+  .j7gtbtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .k9o8ybody {
+  .j7gtbbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .k9o8ymenu {
+  .j7gtbmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .k9o8ymenulist {
+  .j7gtbmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .k9o8ymenubody {
+  .j7gtbmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .k9o8ymenulist ul {
+  .j7gtbmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .k9o8ymenulist ul a {
+  .j7gtbmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .k9o8ymenulist ul a:hover {
+  .j7gtbmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .k9o8ymenulistactive {
+  .j7gtbmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .k9o8ymenulistbody {
+  .j7gtbmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .k9o8ybodylogo {
+    .j7gtbbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .k9o8ymenu {
+    .j7gtbmenu {
       overflow-x: auto;
     }
 
-    .k9o8ymenulist ul {
+    .j7gtbmenulist ul {
       flex-direction: row;
     }
 
-    .k9o8ybodylogo {
+    .j7gtbbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .k9o8ymenulist ul a {
+    .j7gtbmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .gqsxm {
+  .bi6q5 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .gqsxm-menu {
+  .bi6q5-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .gqsxm-menu > a {
+  .bi6q5-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .gqsxm-menu > a:hover,
-  .gqsxm-menu > .active {
+  .bi6q5-menu > a:hover,
+  .bi6q5-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .gqsxm-body {
+  .bi6q5-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .gqsxm-title {
+  .bi6q5-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .gqsxm-title::before {
+  .bi6q5-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .gqsxm-title span {
+  .bi6q5-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .gqsxm {
+    .bi6q5 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .gqsxm-menu {
+    .bi6q5-menu {
       display: none;
     }
-    .gqsxm-body {
+    .bi6q5-body {
       width: 100%;
     }
   }

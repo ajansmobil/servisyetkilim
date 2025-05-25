@@ -1,5 +1,5 @@
 
-  .hf900 {
+  .eqmph {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .hf900title {
+  .eqmphtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .hf900titlebody {
+  .eqmphtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .hf900titlebodytitle {
+  .eqmphtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .hf900titlebodylang {
+  .eqmphtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .hf900titlebodylang ul {
+  .eqmphtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .hf900body {
+  .eqmphbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .hf900menu {
+  .eqmphmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .hf900menulist {
+  .eqmphmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .hf900menubody {
+  .eqmphmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .hf900menulist ul {
+  .eqmphmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .hf900menulist ul a {
+  .eqmphmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .hf900menulist ul a:hover {
+  .eqmphmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .hf900menulistactive {
+  .eqmphmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .hf900menulistbody {
+  .eqmphmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .hf900bodylogo {
+    .eqmphbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .hf900menu {
+    .eqmphmenu {
       overflow-x: auto;
     }
 
-    .hf900menulist ul {
+    .eqmphmenulist ul {
       flex-direction: row;
     }
 
-    .hf900bodylogo {
+    .eqmphbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .hf900menulist ul a {
+    .eqmphmenulist ul a {
       font-size: 14px;
     }
   }
