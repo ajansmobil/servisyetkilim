@@ -1,5 +1,5 @@
 
-  .oq7tw {
+  .zsj98 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .oq7twtitle {
+  .zsj98title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .oq7twtitlebody {
+  .zsj98titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .oq7twtitlebodytitle {
+  .zsj98titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .oq7twtitlebodylang {
+  .zsj98titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .oq7twtitlebodylang ul {
+  .zsj98titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .oq7twbody {
+  .zsj98body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .oq7twmenu {
+  .zsj98menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .oq7twmenulist {
+  .zsj98menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .oq7twmenubody {
+  .zsj98menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .oq7twmenulist ul {
+  .zsj98menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .oq7twmenulist ul a {
+  .zsj98menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .oq7twmenulist ul a:hover {
+  .zsj98menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .oq7twmenulistactive {
+  .zsj98menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .oq7twmenulistbody {
+  .zsj98menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .oq7twbodylogo {
+    .zsj98bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .oq7twmenu {
+    .zsj98menu {
       overflow-x: auto;
     }
 
-    .oq7twmenulist ul {
+    .zsj98menulist ul {
       flex-direction: row;
     }
 
-    .oq7twbodylogo {
+    .zsj98bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .oq7twmenulist ul a {
+    .zsj98menulist ul a {
       font-size: 14px;
     }
   }

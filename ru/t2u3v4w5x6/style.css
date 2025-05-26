@@ -1,5 +1,5 @@
 
-  .pqgii {
+  .lprst {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .pqgiititle {
+  .lprsttitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .pqgiititlebody {
+  .lprsttitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .pqgiititlebodytitle {
+  .lprsttitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .pqgiititlebodylang {
+  .lprsttitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .pqgiititlebodylang ul {
+  .lprsttitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .pqgiibody {
+  .lprstbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .pqgiimenu {
+  .lprstmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .pqgiimenulist {
+  .lprstmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .pqgiimenubody {
+  .lprstmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .pqgiimenulist ul {
+  .lprstmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .pqgiimenulist ul a {
+  .lprstmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .pqgiimenulist ul a:hover {
+  .lprstmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .pqgiimenulistactive {
+  .lprstmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .pqgiimenulistbody {
+  .lprstmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .pqgiibodylogo {
+    .lprstbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .pqgiimenu {
+    .lprstmenu {
       overflow-x: auto;
     }
 
-    .pqgiimenulist ul {
+    .lprstmenulist ul {
       flex-direction: row;
     }
 
-    .pqgiibodylogo {
+    .lprstbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .pqgiimenulist ul a {
+    .lprstmenulist ul a {
       font-size: 14px;
     }
   }

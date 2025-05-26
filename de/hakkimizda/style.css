@@ -1,5 +1,5 @@
 
-  .s0qcb {
+  .xxxbo {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .s0qcbtitle {
+  .xxxbotitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .s0qcbtitlebody {
+  .xxxbotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .s0qcbtitlebodytitle {
+  .xxxbotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .s0qcbtitlebodylang {
+  .xxxbotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .s0qcbtitlebodylang ul {
+  .xxxbotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .s0qcbbody {
+  .xxxbobody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .s0qcbmenu {
+  .xxxbomenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .s0qcbmenulist {
+  .xxxbomenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .s0qcbmenubody {
+  .xxxbomenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .s0qcbmenulist ul {
+  .xxxbomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .s0qcbmenulist ul a {
+  .xxxbomenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .s0qcbmenulist ul a:hover {
+  .xxxbomenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .s0qcbmenulistactive {
+  .xxxbomenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .s0qcbmenulistbody {
+  .xxxbomenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .s0qcbbodylogo {
+    .xxxbobodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .s0qcbmenu {
+    .xxxbomenu {
       overflow-x: auto;
     }
 
-    .s0qcbmenulist ul {
+    .xxxbomenulist ul {
       flex-direction: row;
     }
 
-    .s0qcbbodylogo {
+    .xxxbobodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .s0qcbmenulist ul a {
+    .xxxbomenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .udp95 {
+  .m9hbt {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .udp95-menu {
+  .m9hbt-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .udp95-menu > a {
+  .m9hbt-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .udp95-menu > a:hover,
-  .udp95-menu > .active {
+  .m9hbt-menu > a:hover,
+  .m9hbt-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .udp95-body {
+  .m9hbt-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .udp95-title {
+  .m9hbt-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .udp95-title::before {
+  .m9hbt-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .udp95-title span {
+  .m9hbt-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .udp95 {
+    .m9hbt {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .udp95-menu {
+    .m9hbt-menu {
       display: none;
     }
-    .udp95-body {
+    .m9hbt-body {
       width: 100%;
     }
   }
