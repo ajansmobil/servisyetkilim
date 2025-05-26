@@ -1,5 +1,5 @@
 
-  .ep9yv {
+  .p3181 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ep9yvtitle {
+  .p3181title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ep9yvtitlebody {
+  .p3181titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ep9yvtitlebodytitle {
+  .p3181titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ep9yvtitlebodylang {
+  .p3181titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ep9yvtitlebodylang ul {
+  .p3181titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ep9yvbody {
+  .p3181body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ep9yvmenu {
+  .p3181menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ep9yvmenulist {
+  .p3181menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ep9yvmenubody {
+  .p3181menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .ep9yvmenulist ul {
+  .p3181menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ep9yvmenulist ul a {
+  .p3181menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .ep9yvmenulist ul a:hover {
+  .p3181menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ep9yvmenulistactive {
+  .p3181menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ep9yvmenulistbody {
+  .p3181menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .ep9yvbodylogo {
+    .p3181bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ep9yvmenu {
+    .p3181menu {
       overflow-x: auto;
     }
 
-    .ep9yvmenulist ul {
+    .p3181menulist ul {
       flex-direction: row;
     }
 
-    .ep9yvbodylogo {
+    .p3181bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,13 +137,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ep9yvmenulist ul a {
+    .p3181menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .he4kv {
+  .tc2gi {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -151,13 +151,13 @@
     justify-content: center;
     position: relative;
   }
-  .he4kvcontainertitle {
+  .tc2gicontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .he4kvcontainerlist {
+  .tc2gicontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +165,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .he4kvcontainerlist > div {
+  .tc2gicontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .he4kvcontainerlist:hover {
+  .tc2gicontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .he4kvcontainer {
+  .tc2gicontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .he4kvcontainerbody {
+  .tc2gicontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,24 +190,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .he4kvbody {
+  .tc2gibody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .he4kvcontainerlist > span {
+  .tc2gicontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .he4kvbody {
+    .tc2gibody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .he4kvcontainerbody {
+    .tc2gicontainerbody {
       padding: 15px;
     }
   }
@@ -284,7 +284,7 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
@@ -298,7 +298,7 @@
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;

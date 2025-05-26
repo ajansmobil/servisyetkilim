@@ -1,5 +1,5 @@
 
-  .qe0t0 {
+  .j3dzj {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .qe0t0title {
+  .j3dzjtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .qe0t0titlebody {
+  .j3dzjtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qe0t0titlebodytitle {
+  .j3dzjtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .qe0t0titlebodylang {
+  .j3dzjtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .qe0t0titlebodylang ul {
+  .j3dzjtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .qe0t0body {
+  .j3dzjbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .qe0t0menu {
+  .j3dzjmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .qe0t0menulist {
+  .j3dzjmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .qe0t0menubody {
+  .j3dzjmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .qe0t0menulist ul {
+  .j3dzjmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .qe0t0menulist ul a {
+  .j3dzjmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .qe0t0menulist ul a:hover {
+  .j3dzjmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .qe0t0menulistactive {
+  .j3dzjmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .qe0t0menulistbody {
+  .j3dzjmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .qe0t0bodylogo {
+    .j3dzjbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .qe0t0menu {
+    .j3dzjmenu {
       overflow-x: auto;
     }
 
-    .qe0t0menulist ul {
+    .j3dzjmenulist ul {
       flex-direction: row;
     }
 
-    .qe0t0bodylogo {
+    .j3dzjbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .qe0t0menulist ul a {
+    .j3dzjmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .g31hk {
+  .vataw {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .g31hk-menu {
+  .vataw-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .g31hk-menu > a {
+  .vataw-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .g31hk-menu > a:hover,
-  .g31hk-menu > .active {
+  .vataw-menu > a:hover,
+  .vataw-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .g31hk-body {
+  .vataw-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .g31hk-title {
+  .vataw-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .g31hk-title::before {
+  .vataw-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .g31hk-title span {
+  .vataw-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .g31hk {
+    .vataw {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .g31hk-menu {
+    .vataw-menu {
       display: none;
     }
-    .g31hk-body {
+    .vataw-body {
       width: 100%;
     }
   }
@@ -298,7 +298,7 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
@@ -312,7 +312,7 @@
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;

@@ -1,5 +1,5 @@
 
-  .a8bfw {
+  .i1z0b {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .a8bfwtitle {
+  .i1z0btitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .a8bfwtitlebody {
+  .i1z0btitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .a8bfwtitlebodytitle {
+  .i1z0btitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .a8bfwtitlebodylang {
+  .i1z0btitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .a8bfwtitlebodylang ul {
+  .i1z0btitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .a8bfwbody {
+  .i1z0bbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .a8bfwmenu {
+  .i1z0bmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .a8bfwmenulist {
+  .i1z0bmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .a8bfwmenubody {
+  .i1z0bmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .a8bfwmenulist ul {
+  .i1z0bmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .a8bfwmenulist ul a {
+  .i1z0bmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .a8bfwmenulist ul a:hover {
+  .i1z0bmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .a8bfwmenulistactive {
+  .i1z0bmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .a8bfwmenulistbody {
+  .i1z0bmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .a8bfwbodylogo {
+    .i1z0bbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .a8bfwmenu {
+    .i1z0bmenu {
       overflow-x: auto;
     }
 
-    .a8bfwmenulist ul {
+    .i1z0bmenulist ul {
       flex-direction: row;
     }
 
-    .a8bfwbodylogo {
+    .i1z0bbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .a8bfwmenulist ul a {
+    .i1z0bmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .nl5gu {
+  .cfkwi {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .nl5gu-menu {
+  .cfkwi-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .nl5gu-menu > a {
+  .cfkwi-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .nl5gu-menu > a:hover,
-  .nl5gu-menu > .active {
+  .cfkwi-menu > a:hover,
+  .cfkwi-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .nl5gu-body {
+  .cfkwi-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .nl5gu-title {
+  .cfkwi-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .nl5gu-title::before {
+  .cfkwi-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .nl5gu-title span {
+  .cfkwi-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .nl5gu {
+    .cfkwi {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .nl5gu-menu {
+    .cfkwi-menu {
       display: none;
     }
-    .nl5gu-body {
+    .cfkwi-body {
       width: 100%;
     }
   }
@@ -298,7 +298,7 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
@@ -312,7 +312,7 @@
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
