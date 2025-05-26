@@ -1,5 +1,5 @@
 
-  .evv6p {
+  .hmpia {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .evv6ptitle {
+  .hmpiatitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .evv6ptitlebody {
+  .hmpiatitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .evv6ptitlebodytitle {
+  .hmpiatitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .evv6ptitlebodylang {
+  .hmpiatitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .evv6ptitlebodylang ul {
+  .hmpiatitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .evv6pbody {
+  .hmpiabody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .evv6pmenu {
+  .hmpiamenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .evv6pmenulist {
+  .hmpiamenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .evv6pmenubody {
+  .hmpiamenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .evv6pmenulist ul {
+  .hmpiamenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .evv6pmenulist ul a {
+  .hmpiamenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .evv6pmenulist ul a:hover {
+  .hmpiamenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .evv6pmenulistactive {
+  .hmpiamenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .evv6pmenulistbody {
+  .hmpiamenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .evv6pbodylogo {
+    .hmpiabodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .evv6pmenu {
+    .hmpiamenu {
       overflow-x: auto;
     }
 
-    .evv6pmenulist ul {
+    .hmpiamenulist ul {
       flex-direction: row;
     }
 
-    .evv6pbodylogo {
+    .hmpiabodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,13 +137,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .evv6pmenulist ul a {
+    .hmpiamenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .vugqy {
+  .f9185 {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -151,13 +151,13 @@
     justify-content: center;
     position: relative;
   }
-  .vugqycontainertitle {
+  .f9185containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .vugqycontainerlist {
+  .f9185containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +165,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .vugqycontainerlist > div {
+  .f9185containerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .vugqycontainerlist:hover {
+  .f9185containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .vugqycontainer {
+  .f9185container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .vugqycontainerbody {
+  .f9185containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,24 +190,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .vugqybody {
+  .f9185body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .vugqycontainerlist > span {
+  .f9185containerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .vugqybody {
+    .f9185body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .vugqycontainerbody {
+    .f9185containerbody {
       padding: 15px;
     }
   }

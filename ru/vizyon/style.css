@@ -1,5 +1,5 @@
 
-  .mr9w7 {
+  .texz7 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .mr9w7title {
+  .texz7title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .mr9w7titlebody {
+  .texz7titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .mr9w7titlebodytitle {
+  .texz7titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .mr9w7titlebodylang {
+  .texz7titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .mr9w7titlebodylang ul {
+  .texz7titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .mr9w7body {
+  .texz7body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .mr9w7menu {
+  .texz7menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .mr9w7menulist {
+  .texz7menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .mr9w7menubody {
+  .texz7menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .mr9w7menulist ul {
+  .texz7menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .mr9w7menulist ul a {
+  .texz7menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .mr9w7menulist ul a:hover {
+  .texz7menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .mr9w7menulistactive {
+  .texz7menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .mr9w7menulistbody {
+  .texz7menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .mr9w7bodylogo {
+    .texz7bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .mr9w7menu {
+    .texz7menu {
       overflow-x: auto;
     }
 
-    .mr9w7menulist ul {
+    .texz7menulist ul {
       flex-direction: row;
     }
 
-    .mr9w7bodylogo {
+    .texz7bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .mr9w7menulist ul a {
+    .texz7menulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .fabub {
+  .e3la4 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .fabub-menu {
+  .e3la4-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .fabub-menu > a {
+  .e3la4-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .fabub-menu > a:hover,
-  .fabub-menu > .active {
+  .e3la4-menu > a:hover,
+  .e3la4-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .fabub-body {
+  .e3la4-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .fabub-title {
+  .e3la4-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .fabub-title::before {
+  .e3la4-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .fabub-title span {
+  .e3la4-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .fabub {
+    .e3la4 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .fabub-menu {
+    .e3la4-menu {
       display: none;
     }
-    .fabub-body {
+    .e3la4-body {
       width: 100%;
     }
   }
