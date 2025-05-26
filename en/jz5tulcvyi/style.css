@@ -1,5 +1,5 @@
 
-  .lf442 {
+  .z2875 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .lf442title {
+  .z2875title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .lf442titlebody {
+  .z2875titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .lf442titlebodytitle {
+  .z2875titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .lf442titlebodylang {
+  .z2875titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .lf442titlebodylang ul {
+  .z2875titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .lf442body {
+  .z2875body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .lf442menu {
+  .z2875menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .lf442menulist {
+  .z2875menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .lf442menubody {
+  .z2875menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .lf442menulist ul {
+  .z2875menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .lf442menulist ul a {
+  .z2875menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .lf442menulist ul a:hover {
+  .z2875menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .lf442menulistactive {
+  .z2875menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .lf442menulistbody {
+  .z2875menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .lf442bodylogo {
+    .z2875bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .lf442menu {
+    .z2875menu {
       overflow-x: auto;
     }
 
-    .lf442menulist ul {
+    .z2875menulist ul {
       flex-direction: row;
     }
 
-    .lf442bodylogo {
+    .z2875bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .lf442menulist ul a {
+    .z2875menulist ul a {
       font-size: 14px;
     }
   }

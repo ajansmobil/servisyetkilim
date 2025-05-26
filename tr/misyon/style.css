@@ -1,5 +1,5 @@
 
-  .nihsn {
+  .tj6eu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .nihsntitle {
+  .tj6eutitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .nihsntitlebody {
+  .tj6eutitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .nihsntitlebodytitle {
+  .tj6eutitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .nihsntitlebodylang {
+  .tj6eutitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .nihsntitlebodylang ul {
+  .tj6eutitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .nihsnbody {
+  .tj6eubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .nihsnmenu {
+  .tj6eumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .nihsnmenulist {
+  .tj6eumenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .nihsnmenubody {
+  .tj6eumenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .nihsnmenulist ul {
+  .tj6eumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .nihsnmenulist ul a {
+  .tj6eumenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .nihsnmenulist ul a:hover {
+  .tj6eumenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .nihsnmenulistactive {
+  .tj6eumenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .nihsnmenulistbody {
+  .tj6eumenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .nihsnbodylogo {
+    .tj6eubodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .nihsnmenu {
+    .tj6eumenu {
       overflow-x: auto;
     }
 
-    .nihsnmenulist ul {
+    .tj6eumenulist ul {
       flex-direction: row;
     }
 
-    .nihsnbodylogo {
+    .tj6eubodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .nihsnmenulist ul a {
+    .tj6eumenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .jy3rb {
+  .iqwxd {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .jy3rb-menu {
+  .iqwxd-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .jy3rb-menu > a {
+  .iqwxd-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .jy3rb-menu > a:hover,
-  .jy3rb-menu > .active {
+  .iqwxd-menu > a:hover,
+  .iqwxd-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .jy3rb-body {
+  .iqwxd-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .jy3rb-title {
+  .iqwxd-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .jy3rb-title::before {
+  .iqwxd-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .jy3rb-title span {
+  .iqwxd-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .jy3rb {
+    .iqwxd {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .jy3rb-menu {
+    .iqwxd-menu {
       display: none;
     }
-    .jy3rb-body {
+    .iqwxd-body {
       width: 100%;
     }
   }

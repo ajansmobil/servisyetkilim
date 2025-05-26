@@ -1,5 +1,5 @@
 
-  .pkksy {
+  .yiosk {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .pkksytitle {
+  .yiosktitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .pkksytitlebody {
+  .yiosktitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .pkksytitlebodytitle {
+  .yiosktitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .pkksytitlebodylang {
+  .yiosktitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .pkksytitlebodylang ul {
+  .yiosktitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .pkksybody {
+  .yioskbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .pkksymenu {
+  .yioskmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .pkksymenulist {
+  .yioskmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .pkksymenubody {
+  .yioskmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .pkksymenulist ul {
+  .yioskmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .pkksymenulist ul a {
+  .yioskmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .pkksymenulist ul a:hover {
+  .yioskmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .pkksymenulistactive {
+  .yioskmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .pkksymenulistbody {
+  .yioskmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .pkksybodylogo {
+    .yioskbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .pkksymenu {
+    .yioskmenu {
       overflow-x: auto;
     }
 
-    .pkksymenulist ul {
+    .yioskmenulist ul {
       flex-direction: row;
     }
 
-    .pkksybodylogo {
+    .yioskbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .pkksymenulist ul a {
+    .yioskmenulist ul a {
       font-size: 14px;
     }
   }

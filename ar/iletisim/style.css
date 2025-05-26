@@ -1,5 +1,5 @@
 
-  .chgob {
+  .bz545 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .chgobtitle {
+  .bz545title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .chgobtitlebody {
+  .bz545titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .chgobtitlebodytitle {
+  .bz545titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .chgobtitlebodylang {
+  .bz545titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .chgobtitlebodylang ul {
+  .bz545titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .chgobbody {
+  .bz545body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .chgobmenu {
+  .bz545menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .chgobmenulist {
+  .bz545menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .chgobmenubody {
+  .bz545menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .chgobmenulist ul {
+  .bz545menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .chgobmenulist ul a {
+  .bz545menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .chgobmenulist ul a:hover {
+  .bz545menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .chgobmenulistactive {
+  .bz545menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .chgobmenulistbody {
+  .bz545menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .chgobbodylogo {
+    .bz545bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .chgobmenu {
+    .bz545menu {
       overflow-x: auto;
     }
 
-    .chgobmenulist ul {
+    .bz545menulist ul {
       flex-direction: row;
     }
 
-    .chgobbodylogo {
+    .bz545bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,13 +137,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .chgobmenulist ul a {
+    .bz545menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .caxcw {
+  .q1qd0 {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -151,13 +151,13 @@
     justify-content: center;
     position: relative;
   }
-  .caxcwcontainertitle {
+  .q1qd0containertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .caxcwcontainerlist {
+  .q1qd0containerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +165,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .caxcwcontainerlist > div {
+  .q1qd0containerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .caxcwcontainerlist:hover {
+  .q1qd0containerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .caxcwcontainer {
+  .q1qd0container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .caxcwcontainerbody {
+  .q1qd0containerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,24 +190,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .caxcwbody {
+  .q1qd0body {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .caxcwcontainerlist > span {
+  .q1qd0containerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .caxcwbody {
+    .q1qd0body {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .caxcwcontainerbody {
+    .q1qd0containerbody {
       padding: 15px;
     }
   }

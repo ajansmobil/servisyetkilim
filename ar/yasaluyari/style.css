@@ -1,5 +1,5 @@
 
-  .sjmuq {
+  .an3ep {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .sjmuqtitle {
+  .an3eptitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .sjmuqtitlebody {
+  .an3eptitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .sjmuqtitlebodytitle {
+  .an3eptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .sjmuqtitlebodylang {
+  .an3eptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .sjmuqtitlebodylang ul {
+  .an3eptitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .sjmuqbody {
+  .an3epbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .sjmuqmenu {
+  .an3epmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .sjmuqmenulist {
+  .an3epmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .sjmuqmenubody {
+  .an3epmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .sjmuqmenulist ul {
+  .an3epmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .sjmuqmenulist ul a {
+  .an3epmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .sjmuqmenulist ul a:hover {
+  .an3epmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .sjmuqmenulistactive {
+  .an3epmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .sjmuqmenulistbody {
+  .an3epmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .sjmuqbodylogo {
+    .an3epbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .sjmuqmenu {
+    .an3epmenu {
       overflow-x: auto;
     }
 
-    .sjmuqmenulist ul {
+    .an3epmenulist ul {
       flex-direction: row;
     }
 
-    .sjmuqbodylogo {
+    .an3epbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .sjmuqmenulist ul a {
+    .an3epmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .ueug0 {
+  .ukpjn {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .ueug0-menu {
+  .ukpjn-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .ueug0-menu > a {
+  .ukpjn-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .ueug0-menu > a:hover,
-  .ueug0-menu > .active {
+  .ukpjn-menu > a:hover,
+  .ukpjn-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .ueug0-body {
+  .ukpjn-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .ueug0-title {
+  .ukpjn-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .ueug0-title::before {
+  .ukpjn-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .ueug0-title span {
+  .ukpjn-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .ueug0 {
+    .ukpjn {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .ueug0-menu {
+    .ukpjn-menu {
       display: none;
     }
-    .ueug0-body {
+    .ukpjn-body {
       width: 100%;
     }
   }

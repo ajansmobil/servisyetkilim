@@ -1,5 +1,5 @@
 
-  .u9p2v {
+  .g5j67 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .u9p2vtitle {
+  .g5j67title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .u9p2vtitlebody {
+  .g5j67titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .u9p2vtitlebodytitle {
+  .g5j67titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .u9p2vtitlebodylang {
+  .g5j67titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .u9p2vtitlebodylang ul {
+  .g5j67titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .u9p2vbody {
+  .g5j67body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .u9p2vmenu {
+  .g5j67menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .u9p2vmenulist {
+  .g5j67menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .u9p2vmenubody {
+  .g5j67menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .u9p2vmenulist ul {
+  .g5j67menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .u9p2vmenulist ul a {
+  .g5j67menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .u9p2vmenulist ul a:hover {
+  .g5j67menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .u9p2vmenulistactive {
+  .g5j67menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .u9p2vmenulistbody {
+  .g5j67menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .u9p2vbodylogo {
+    .g5j67bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .u9p2vmenu {
+    .g5j67menu {
       overflow-x: auto;
     }
 
-    .u9p2vmenulist ul {
+    .g5j67menulist ul {
       flex-direction: row;
     }
 
-    .u9p2vbodylogo {
+    .g5j67bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .u9p2vmenulist ul a {
+    .g5j67menulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .wi3ap {
+  .pita1 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .wi3ap-menu {
+  .pita1-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .wi3ap-menu > a {
+  .pita1-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .wi3ap-menu > a:hover,
-  .wi3ap-menu > .active {
+  .pita1-menu > a:hover,
+  .pita1-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .wi3ap-body {
+  .pita1-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .wi3ap-title {
+  .pita1-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .wi3ap-title::before {
+  .pita1-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .wi3ap-title span {
+  .pita1-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .wi3ap {
+    .pita1 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .wi3ap-menu {
+    .pita1-menu {
       display: none;
     }
-    .wi3ap-body {
+    .pita1-body {
       width: 100%;
     }
   }
