@@ -1,5 +1,5 @@
 
-  .sinuq {
+  .d0zfr {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .sinuqtitle {
+  .d0zfrtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .sinuqtitlebody {
+  .d0zfrtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .sinuqtitlebodytitle {
+  .d0zfrtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .sinuqtitlebodylang {
+  .d0zfrtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .sinuqtitlebodylang ul {
+  .d0zfrtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .sinuqbody {
+  .d0zfrbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .sinuqmenu {
+  .d0zfrmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .sinuqmenulist {
+  .d0zfrmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .sinuqmenubody {
+  .d0zfrmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .sinuqmenulist ul {
+  .d0zfrmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .sinuqmenulist ul a {
+  .d0zfrmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .sinuqmenulist ul a:hover {
+  .d0zfrmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .sinuqmenulistactive {
+  .d0zfrmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .sinuqmenulistbody {
+  .d0zfrmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .sinuqbodylogo {
+    .d0zfrbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .sinuqmenu {
+    .d0zfrmenu {
       overflow-x: auto;
     }
 
-    .sinuqmenulist ul {
+    .d0zfrmenulist ul {
       flex-direction: row;
     }
 
-    .sinuqbodylogo {
+    .d0zfrbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .sinuqmenulist ul a {
+    .d0zfrmenulist ul a {
       font-size: 14px;
     }
   }

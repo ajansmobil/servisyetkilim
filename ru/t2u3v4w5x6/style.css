@@ -1,5 +1,5 @@
 
-  .cx4wy {
+  .mcbzd {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .cx4wytitle {
+  .mcbzdtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .cx4wytitlebody {
+  .mcbzdtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .cx4wytitlebodytitle {
+  .mcbzdtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .cx4wytitlebodylang {
+  .mcbzdtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .cx4wytitlebodylang ul {
+  .mcbzdtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .cx4wybody {
+  .mcbzdbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .cx4wymenu {
+  .mcbzdmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .cx4wymenulist {
+  .mcbzdmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .cx4wymenubody {
+  .mcbzdmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .cx4wymenulist ul {
+  .mcbzdmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .cx4wymenulist ul a {
+  .mcbzdmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .cx4wymenulist ul a:hover {
+  .mcbzdmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .cx4wymenulistactive {
+  .mcbzdmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .cx4wymenulistbody {
+  .mcbzdmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .cx4wybodylogo {
+    .mcbzdbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .cx4wymenu {
+    .mcbzdmenu {
       overflow-x: auto;
     }
 
-    .cx4wymenulist ul {
+    .mcbzdmenulist ul {
       flex-direction: row;
     }
 
-    .cx4wybodylogo {
+    .mcbzdbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .cx4wymenulist ul a {
+    .mcbzdmenulist ul a {
       font-size: 14px;
     }
   }

@@ -1,5 +1,5 @@
 
-  .a1maj {
+  .gm2e1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .a1majtitle {
+  .gm2e1title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .a1majtitlebody {
+  .gm2e1titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .a1majtitlebodytitle {
+  .gm2e1titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .a1majtitlebodylang {
+  .gm2e1titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .a1majtitlebodylang ul {
+  .gm2e1titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .a1majbody {
+  .gm2e1body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .a1majmenu {
+  .gm2e1menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .a1majmenulist {
+  .gm2e1menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .a1majmenubody {
+  .gm2e1menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .a1majmenulist ul {
+  .gm2e1menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .a1majmenulist ul a {
+  .gm2e1menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .a1majmenulist ul a:hover {
+  .gm2e1menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .a1majmenulistactive {
+  .gm2e1menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .a1majmenulistbody {
+  .gm2e1menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .a1majbodylogo {
+    .gm2e1bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .a1majmenu {
+    .gm2e1menu {
       overflow-x: auto;
     }
 
-    .a1majmenulist ul {
+    .gm2e1menulist ul {
       flex-direction: row;
     }
 
-    .a1majbodylogo {
+    .gm2e1bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .a1majmenulist ul a {
+    .gm2e1menulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .d50gh {
+  .e0inc {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .d50gh-menu {
+  .e0inc-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .d50gh-menu > a {
+  .e0inc-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .d50gh-menu > a:hover,
-  .d50gh-menu > .active {
+  .e0inc-menu > a:hover,
+  .e0inc-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .d50gh-body {
+  .e0inc-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .d50gh-title {
+  .e0inc-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .d50gh-title::before {
+  .e0inc-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .d50gh-title span {
+  .e0inc-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .d50gh {
+    .e0inc {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .d50gh-menu {
+    .e0inc-menu {
       display: none;
     }
-    .d50gh-body {
+    .e0inc-body {
       width: 100%;
     }
   }

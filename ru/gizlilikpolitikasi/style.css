@@ -1,5 +1,5 @@
 
-  .x0sj8 {
+  .h3w2q {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .x0sj8title {
+  .h3w2qtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .x0sj8titlebody {
+  .h3w2qtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .x0sj8titlebodytitle {
+  .h3w2qtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .x0sj8titlebodylang {
+  .h3w2qtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .x0sj8titlebodylang ul {
+  .h3w2qtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .x0sj8body {
+  .h3w2qbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .x0sj8menu {
+  .h3w2qmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .x0sj8menulist {
+  .h3w2qmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .x0sj8menubody {
+  .h3w2qmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .x0sj8menulist ul {
+  .h3w2qmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .x0sj8menulist ul a {
+  .h3w2qmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .x0sj8menulist ul a:hover {
+  .h3w2qmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .x0sj8menulistactive {
+  .h3w2qmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .x0sj8menulistbody {
+  .h3w2qmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .x0sj8bodylogo {
+    .h3w2qbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .x0sj8menu {
+    .h3w2qmenu {
       overflow-x: auto;
     }
 
-    .x0sj8menulist ul {
+    .h3w2qmenulist ul {
       flex-direction: row;
     }
 
-    .x0sj8bodylogo {
+    .h3w2qbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .x0sj8menulist ul a {
+    .h3w2qmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .cah61 {
+  .u388t {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .cah61-menu {
+  .u388t-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .cah61-menu > a {
+  .u388t-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .cah61-menu > a:hover,
-  .cah61-menu > .active {
+  .u388t-menu > a:hover,
+  .u388t-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .cah61-body {
+  .u388t-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .cah61-title {
+  .u388t-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .cah61-title::before {
+  .u388t-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .cah61-title span {
+  .u388t-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .cah61 {
+    .u388t {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .cah61-menu {
+    .u388t-menu {
       display: none;
     }
-    .cah61-body {
+    .u388t-body {
       width: 100%;
     }
   }
