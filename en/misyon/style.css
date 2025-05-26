@@ -1,5 +1,5 @@
 
-  .t3q8q {
+  .e5i1c {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .t3q8qtitle {
+  .e5i1ctitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .t3q8qtitlebody {
+  .e5i1ctitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .t3q8qtitlebodytitle {
+  .e5i1ctitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .t3q8qtitlebodylang {
+  .e5i1ctitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .t3q8qtitlebodylang ul {
+  .e5i1ctitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .t3q8qbody {
+  .e5i1cbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .t3q8qmenu {
+  .e5i1cmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .t3q8qmenulist {
+  .e5i1cmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .t3q8qmenubody {
+  .e5i1cmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .t3q8qmenulist ul {
+  .e5i1cmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .t3q8qmenulist ul a {
+  .e5i1cmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .t3q8qmenulist ul a:hover {
+  .e5i1cmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .t3q8qmenulistactive {
+  .e5i1cmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .t3q8qmenulistbody {
+  .e5i1cmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .t3q8qbodylogo {
+    .e5i1cbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .t3q8qmenu {
+    .e5i1cmenu {
       overflow-x: auto;
     }
 
-    .t3q8qmenulist ul {
+    .e5i1cmenulist ul {
       flex-direction: row;
     }
 
-    .t3q8qbodylogo {
+    .e5i1cbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .t3q8qmenulist ul a {
+    .e5i1cmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .dwagc {
+  .cvk1f {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .dwagc-menu {
+  .cvk1f-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .dwagc-menu > a {
+  .cvk1f-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .dwagc-menu > a:hover,
-  .dwagc-menu > .active {
+  .cvk1f-menu > a:hover,
+  .cvk1f-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .dwagc-body {
+  .cvk1f-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .dwagc-title {
+  .cvk1f-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .dwagc-title::before {
+  .cvk1f-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .dwagc-title span {
+  .cvk1f-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .dwagc {
+    .cvk1f {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .dwagc-menu {
+    .cvk1f-menu {
       display: none;
     }
-    .dwagc-body {
+    .cvk1f-body {
       width: 100%;
     }
   }

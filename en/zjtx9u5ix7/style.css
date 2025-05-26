@@ -1,5 +1,5 @@
 
-  .ti97o {
+  .vwsog {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ti97otitle {
+  .vwsogtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ti97otitlebody {
+  .vwsogtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ti97otitlebodytitle {
+  .vwsogtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ti97otitlebodylang {
+  .vwsogtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ti97otitlebodylang ul {
+  .vwsogtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ti97obody {
+  .vwsogbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ti97omenu {
+  .vwsogmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ti97omenulist {
+  .vwsogmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ti97omenubody {
+  .vwsogmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .ti97omenulist ul {
+  .vwsogmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ti97omenulist ul a {
+  .vwsogmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .ti97omenulist ul a:hover {
+  .vwsogmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ti97omenulistactive {
+  .vwsogmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ti97omenulistbody {
+  .vwsogmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .ti97obodylogo {
+    .vwsogbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ti97omenu {
+    .vwsogmenu {
       overflow-x: auto;
     }
 
-    .ti97omenulist ul {
+    .vwsogmenulist ul {
       flex-direction: row;
     }
 
-    .ti97obodylogo {
+    .vwsogbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ti97omenulist ul a {
+    .vwsogmenulist ul a {
       font-size: 14px;
     }
   }

@@ -1,5 +1,5 @@
 
-  .b5f9x {
+  .anrhu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .b5f9xtitle {
+  .anrhutitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .b5f9xtitlebody {
+  .anrhutitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .b5f9xtitlebodytitle {
+  .anrhutitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .b5f9xtitlebodylang {
+  .anrhutitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .b5f9xtitlebodylang ul {
+  .anrhutitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .b5f9xbody {
+  .anrhubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .b5f9xmenu {
+  .anrhumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .b5f9xmenulist {
+  .anrhumenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .b5f9xmenubody {
+  .anrhumenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .b5f9xmenulist ul {
+  .anrhumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .b5f9xmenulist ul a {
+  .anrhumenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .b5f9xmenulist ul a:hover {
+  .anrhumenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .b5f9xmenulistactive {
+  .anrhumenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .b5f9xmenulistbody {
+  .anrhumenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .b5f9xbodylogo {
+    .anrhubodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .b5f9xmenu {
+    .anrhumenu {
       overflow-x: auto;
     }
 
-    .b5f9xmenulist ul {
+    .anrhumenulist ul {
       flex-direction: row;
     }
 
-    .b5f9xbodylogo {
+    .anrhubodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .b5f9xmenulist ul a {
+    .anrhumenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .lsdl9 {
+  .dnmc4 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .lsdl9-menu {
+  .dnmc4-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .lsdl9-menu > a {
+  .dnmc4-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .lsdl9-menu > a:hover,
-  .lsdl9-menu > .active {
+  .dnmc4-menu > a:hover,
+  .dnmc4-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .lsdl9-body {
+  .dnmc4-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .lsdl9-title {
+  .dnmc4-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .lsdl9-title::before {
+  .dnmc4-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .lsdl9-title span {
+  .dnmc4-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .lsdl9 {
+    .dnmc4 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .lsdl9-menu {
+    .dnmc4-menu {
       display: none;
     }
-    .lsdl9-body {
+    .dnmc4-body {
       width: 100%;
     }
   }
