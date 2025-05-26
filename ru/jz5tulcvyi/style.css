@@ -1,5 +1,5 @@
 
-  .seceb {
+  .o61pu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .secebtitle {
+  .o61putitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .secebtitlebody {
+  .o61putitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .secebtitlebodytitle {
+  .o61putitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .secebtitlebodylang {
+  .o61putitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .secebtitlebodylang ul {
+  .o61putitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .secebbody {
+  .o61pubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .secebmenu {
+  .o61pumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .secebmenulist {
+  .o61pumenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .secebmenubody {
+  .o61pumenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .secebmenulist ul {
+  .o61pumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .secebmenulist ul a {
+  .o61pumenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .secebmenulist ul a:hover {
+  .o61pumenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .secebmenulistactive {
+  .o61pumenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .secebmenulistbody {
+  .o61pumenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .secebbodylogo {
+    .o61pubodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .secebmenu {
+    .o61pumenu {
       overflow-x: auto;
     }
 
-    .secebmenulist ul {
+    .o61pumenulist ul {
       flex-direction: row;
     }
 
-    .secebbodylogo {
+    .o61pubodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .secebmenulist ul a {
+    .o61pumenulist ul a {
       font-size: 14px;
     }
   }

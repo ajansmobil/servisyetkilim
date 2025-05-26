@@ -1,5 +1,5 @@
 
-  .bz5mx {
+  .ueobs {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .bz5mxtitle {
+  .ueobstitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .bz5mxtitlebody {
+  .ueobstitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .bz5mxtitlebodytitle {
+  .ueobstitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .bz5mxtitlebodylang {
+  .ueobstitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .bz5mxtitlebodylang ul {
+  .ueobstitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .bz5mxbody {
+  .ueobsbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .bz5mxmenu {
+  .ueobsmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .bz5mxmenulist {
+  .ueobsmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .bz5mxmenubody {
+  .ueobsmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .bz5mxmenulist ul {
+  .ueobsmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .bz5mxmenulist ul a {
+  .ueobsmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .bz5mxmenulist ul a:hover {
+  .ueobsmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .bz5mxmenulistactive {
+  .ueobsmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .bz5mxmenulistbody {
+  .ueobsmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .bz5mxbodylogo {
+    .ueobsbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .bz5mxmenu {
+    .ueobsmenu {
       overflow-x: auto;
     }
 
-    .bz5mxmenulist ul {
+    .ueobsmenulist ul {
       flex-direction: row;
     }
 
-    .bz5mxbodylogo {
+    .ueobsbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .bz5mxmenulist ul a {
+    .ueobsmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .i8pmp {
+  .bdgce {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .i8pmp-menu {
+  .bdgce-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .i8pmp-menu > a {
+  .bdgce-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .i8pmp-menu > a:hover,
-  .i8pmp-menu > .active {
+  .bdgce-menu > a:hover,
+  .bdgce-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .i8pmp-body {
+  .bdgce-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .i8pmp-title {
+  .bdgce-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .i8pmp-title::before {
+  .bdgce-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .i8pmp-title span {
+  .bdgce-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .i8pmp {
+    .bdgce {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .i8pmp-menu {
+    .bdgce-menu {
       display: none;
     }
-    .i8pmp-body {
+    .bdgce-body {
       width: 100%;
     }
   }

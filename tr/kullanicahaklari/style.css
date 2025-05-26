@@ -1,5 +1,5 @@
 
-  .cmxh9 {
+  .p1tzq {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .cmxh9title {
+  .p1tzqtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .cmxh9titlebody {
+  .p1tzqtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .cmxh9titlebodytitle {
+  .p1tzqtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .cmxh9titlebodylang {
+  .p1tzqtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .cmxh9titlebodylang ul {
+  .p1tzqtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .cmxh9body {
+  .p1tzqbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .cmxh9menu {
+  .p1tzqmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .cmxh9menulist {
+  .p1tzqmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .cmxh9menubody {
+  .p1tzqmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .cmxh9menulist ul {
+  .p1tzqmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .cmxh9menulist ul a {
+  .p1tzqmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .cmxh9menulist ul a:hover {
+  .p1tzqmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .cmxh9menulistactive {
+  .p1tzqmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .cmxh9menulistbody {
+  .p1tzqmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .cmxh9bodylogo {
+    .p1tzqbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .cmxh9menu {
+    .p1tzqmenu {
       overflow-x: auto;
     }
 
-    .cmxh9menulist ul {
+    .p1tzqmenulist ul {
       flex-direction: row;
     }
 
-    .cmxh9bodylogo {
+    .p1tzqbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .cmxh9menulist ul a {
+    .p1tzqmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .atefx {
+  .hlaf7 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .atefx-menu {
+  .hlaf7-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .atefx-menu > a {
+  .hlaf7-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .atefx-menu > a:hover,
-  .atefx-menu > .active {
+  .hlaf7-menu > a:hover,
+  .hlaf7-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .atefx-body {
+  .hlaf7-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .atefx-title {
+  .hlaf7-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .atefx-title::before {
+  .hlaf7-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .atefx-title span {
+  .hlaf7-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .atefx {
+    .hlaf7 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .atefx-menu {
+    .hlaf7-menu {
       display: none;
     }
-    .atefx-body {
+    .hlaf7-body {
       width: 100%;
     }
   }

@@ -1,5 +1,5 @@
 
-  .yvwnw {
+  .r5mih {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .yvwnwtitle {
+  .r5mihtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .yvwnwtitlebody {
+  .r5mihtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .yvwnwtitlebodytitle {
+  .r5mihtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .yvwnwtitlebodylang {
+  .r5mihtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .yvwnwtitlebodylang ul {
+  .r5mihtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .yvwnwbody {
+  .r5mihbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .yvwnwmenu {
+  .r5mihmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .yvwnwmenulist {
+  .r5mihmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .yvwnwmenubody {
+  .r5mihmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .yvwnwmenulist ul {
+  .r5mihmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .yvwnwmenulist ul a {
+  .r5mihmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .yvwnwmenulist ul a:hover {
+  .r5mihmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .yvwnwmenulistactive {
+  .r5mihmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .yvwnwmenulistbody {
+  .r5mihmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .yvwnwbodylogo {
+    .r5mihbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .yvwnwmenu {
+    .r5mihmenu {
       overflow-x: auto;
     }
 
-    .yvwnwmenulist ul {
+    .r5mihmenulist ul {
       flex-direction: row;
     }
 
-    .yvwnwbodylogo {
+    .r5mihbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .yvwnwmenulist ul a {
+    .r5mihmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .ffacy {
+  .m3b7j {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .ffacy-menu {
+  .m3b7j-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .ffacy-menu > a {
+  .m3b7j-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .ffacy-menu > a:hover,
-  .ffacy-menu > .active {
+  .m3b7j-menu > a:hover,
+  .m3b7j-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .ffacy-body {
+  .m3b7j-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .ffacy-title {
+  .m3b7j-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .ffacy-title::before {
+  .m3b7j-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .ffacy-title span {
+  .m3b7j-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .ffacy {
+    .m3b7j {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .ffacy-menu {
+    .m3b7j-menu {
       display: none;
     }
-    .ffacy-body {
+    .m3b7j-body {
       width: 100%;
     }
   }
