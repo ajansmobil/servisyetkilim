@@ -1,5 +1,5 @@
 
-  .k9dac {
+  .mxooy {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .k9dactitle {
+  .mxooytitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .k9dactitlebody {
+  .mxooytitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .k9dactitlebodytitle {
+  .mxooytitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .k9dactitlebodylang {
+  .mxooytitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .k9dactitlebodylang ul {
+  .mxooytitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .k9dacbody {
+  .mxooybody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .k9dacmenu {
+  .mxooymenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .k9dacmenulist {
+  .mxooymenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .k9dacmenubody {
+  .mxooymenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .k9dacmenulist ul {
+  .mxooymenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .k9dacmenulist ul a {
+  .mxooymenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .k9dacmenulist ul a:hover {
+  .mxooymenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .k9dacmenulistactive {
+  .mxooymenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .k9dacmenulistbody {
+  .mxooymenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .k9dacbodylogo {
+    .mxooybodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .k9dacmenu {
+    .mxooymenu {
       overflow-x: auto;
     }
 
-    .k9dacmenulist ul {
+    .mxooymenulist ul {
       flex-direction: row;
     }
 
-    .k9dacbodylogo {
+    .mxooybodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .k9dacmenulist ul a {
+    .mxooymenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .japtl {
+  .j32xe {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .japtl-menu {
+  .j32xe-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .japtl-menu > a {
+  .j32xe-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .japtl-menu > a:hover,
-  .japtl-menu > .active {
+  .j32xe-menu > a:hover,
+  .j32xe-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .japtl-body {
+  .j32xe-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .japtl-title {
+  .j32xe-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .japtl-title::before {
+  .j32xe-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .japtl-title span {
+  .j32xe-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .japtl {
+    .j32xe {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .japtl-menu {
+    .j32xe-menu {
       display: none;
     }
-    .japtl-body {
+    .j32xe-body {
       width: 100%;
     }
   }
@@ -305,7 +305,7 @@
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
@@ -319,7 +319,7 @@
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;
