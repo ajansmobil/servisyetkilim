@@ -1,5 +1,5 @@
 
-  .bjaii {
+  .pj208 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .bjaiititle {
+  .pj208title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .bjaiititlebody {
+  .pj208titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .bjaiititlebodytitle {
+  .pj208titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .bjaiititlebodylang {
+  .pj208titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .bjaiititlebodylang ul {
+  .pj208titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .bjaiibody {
+  .pj208body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .bjaiimenu {
+  .pj208menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .bjaiimenulist {
+  .pj208menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .bjaiimenubody {
+  .pj208menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .bjaiimenulist ul {
+  .pj208menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .bjaiimenulist ul a {
+  .pj208menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .bjaiimenulist ul a:hover {
+  .pj208menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .bjaiimenulistactive {
+  .pj208menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .bjaiimenulistbody {
+  .pj208menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .bjaiibodylogo {
+    .pj208bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .bjaiimenu {
+    .pj208menu {
       overflow-x: auto;
     }
 
-    .bjaiimenulist ul {
+    .pj208menulist ul {
       flex-direction: row;
     }
 
-    .bjaiibodylogo {
+    .pj208bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,13 +137,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .bjaiimenulist ul a {
+    .pj208menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .c4866 {
+  .b1dkw {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -151,13 +151,13 @@
     justify-content: center;
     position: relative;
   }
-  .c4866containertitle {
+  .b1dkwcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .c4866containerlist {
+  .b1dkwcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +165,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .c4866containerlist > div {
+  .b1dkwcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .c4866containerlist:hover {
+  .b1dkwcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .c4866container {
+  .b1dkwcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .c4866containerbody {
+  .b1dkwcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,24 +190,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .c4866body {
+  .b1dkwbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .c4866containerlist > span {
+  .b1dkwcontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .c4866body {
+    .b1dkwbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .c4866containerbody {
+    .b1dkwcontainerbody {
       padding: 15px;
     }
   }

@@ -1,5 +1,5 @@
 
-  .wrn7s {
+  .wcmgt {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .wrn7stitle {
+  .wcmgttitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .wrn7stitlebody {
+  .wcmgttitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .wrn7stitlebodytitle {
+  .wcmgttitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .wrn7stitlebodylang {
+  .wcmgttitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .wrn7stitlebodylang ul {
+  .wcmgttitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .wrn7sbody {
+  .wcmgtbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .wrn7smenu {
+  .wcmgtmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .wrn7smenulist {
+  .wcmgtmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .wrn7smenubody {
+  .wcmgtmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .wrn7smenulist ul {
+  .wcmgtmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .wrn7smenulist ul a {
+  .wcmgtmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .wrn7smenulist ul a:hover {
+  .wcmgtmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .wrn7smenulistactive {
+  .wcmgtmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .wrn7smenulistbody {
+  .wcmgtmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .wrn7sbodylogo {
+    .wcmgtbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .wrn7smenu {
+    .wcmgtmenu {
       overflow-x: auto;
     }
 
-    .wrn7smenulist ul {
+    .wcmgtmenulist ul {
       flex-direction: row;
     }
 
-    .wrn7sbodylogo {
+    .wcmgtbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,13 +137,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .wrn7smenulist ul a {
+    .wcmgtmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .w2sjx {
+  .loejt {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -151,13 +151,13 @@
     justify-content: center;
     position: relative;
   }
-  .w2sjxcontainertitle {
+  .loejtcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .w2sjxcontainerlist {
+  .loejtcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +165,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .w2sjxcontainerlist > div {
+  .loejtcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .w2sjxcontainerlist:hover {
+  .loejtcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .w2sjxcontainer {
+  .loejtcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .w2sjxcontainerbody {
+  .loejtcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,24 +190,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .w2sjxbody {
+  .loejtbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .w2sjxcontainerlist > span {
+  .loejtcontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .w2sjxbody {
+    .loejtbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .w2sjxcontainerbody {
+    .loejtcontainerbody {
       padding: 15px;
     }
   }

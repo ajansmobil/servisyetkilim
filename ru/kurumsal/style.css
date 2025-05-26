@@ -1,5 +1,5 @@
 
-  .t0cvp {
+  .rgn9g {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .t0cvptitle {
+  .rgn9gtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .t0cvptitlebody {
+  .rgn9gtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .t0cvptitlebodytitle {
+  .rgn9gtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .t0cvptitlebodylang {
+  .rgn9gtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .t0cvptitlebodylang ul {
+  .rgn9gtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .t0cvpbody {
+  .rgn9gbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .t0cvpmenu {
+  .rgn9gmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .t0cvpmenulist {
+  .rgn9gmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .t0cvpmenubody {
+  .rgn9gmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .t0cvpmenulist ul {
+  .rgn9gmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .t0cvpmenulist ul a {
+  .rgn9gmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .t0cvpmenulist ul a:hover {
+  .rgn9gmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .t0cvpmenulistactive {
+  .rgn9gmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .t0cvpmenulistbody {
+  .rgn9gmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .t0cvpbodylogo {
+    .rgn9gbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .t0cvpmenu {
+    .rgn9gmenu {
       overflow-x: auto;
     }
 
-    .t0cvpmenulist ul {
+    .rgn9gmenulist ul {
       flex-direction: row;
     }
 
-    .t0cvpbodylogo {
+    .rgn9gbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .t0cvpmenulist ul a {
+    .rgn9gmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .atl58 {
+  .zv567 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .atl58-menu {
+  .zv567-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .atl58-menu > a {
+  .zv567-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .atl58-menu > a:hover,
-  .atl58-menu > .active {
+  .zv567-menu > a:hover,
+  .zv567-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .atl58-body {
+  .zv567-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .atl58-title {
+  .zv567-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .atl58-title::before {
+  .zv567-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .atl58-title span {
+  .zv567-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .atl58 {
+    .zv567 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .atl58-menu {
+    .zv567-menu {
       display: none;
     }
-    .atl58-body {
+    .zv567-body {
       width: 100%;
     }
   }

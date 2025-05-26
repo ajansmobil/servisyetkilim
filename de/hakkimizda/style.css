@@ -1,5 +1,5 @@
 
-  .h7loe {
+  .jm1to {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .h7loetitle {
+  .jm1totitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .h7loetitlebody {
+  .jm1totitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .h7loetitlebodytitle {
+  .jm1totitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .h7loetitlebodylang {
+  .jm1totitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .h7loetitlebodylang ul {
+  .jm1totitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .h7loebody {
+  .jm1tobody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .h7loemenu {
+  .jm1tomenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .h7loemenulist {
+  .jm1tomenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .h7loemenubody {
+  .jm1tomenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .h7loemenulist ul {
+  .jm1tomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .h7loemenulist ul a {
+  .jm1tomenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .h7loemenulist ul a:hover {
+  .jm1tomenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .h7loemenulistactive {
+  .jm1tomenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .h7loemenulistbody {
+  .jm1tomenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .h7loebodylogo {
+    .jm1tobodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .h7loemenu {
+    .jm1tomenu {
       overflow-x: auto;
     }
 
-    .h7loemenulist ul {
+    .jm1tomenulist ul {
       flex-direction: row;
     }
 
-    .h7loebodylogo {
+    .jm1tobodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .h7loemenulist ul a {
+    .jm1tomenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .nkmh3 {
+  .up0qe {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .nkmh3-menu {
+  .up0qe-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .nkmh3-menu > a {
+  .up0qe-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .nkmh3-menu > a:hover,
-  .nkmh3-menu > .active {
+  .up0qe-menu > a:hover,
+  .up0qe-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .nkmh3-body {
+  .up0qe-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .nkmh3-title {
+  .up0qe-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .nkmh3-title::before {
+  .up0qe-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .nkmh3-title span {
+  .up0qe-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .nkmh3 {
+    .up0qe {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .nkmh3-menu {
+    .up0qe-menu {
       display: none;
     }
-    .nkmh3-body {
+    .up0qe-body {
       width: 100%;
     }
   }

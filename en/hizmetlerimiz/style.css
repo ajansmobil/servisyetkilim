@@ -1,5 +1,5 @@
 
-  .p1j4v {
+  .jwipi {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .p1j4vtitle {
+  .jwipititle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .p1j4vtitlebody {
+  .jwipititlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .p1j4vtitlebodytitle {
+  .jwipititlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .p1j4vtitlebodylang {
+  .jwipititlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .p1j4vtitlebodylang ul {
+  .jwipititlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .p1j4vbody {
+  .jwipibody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .p1j4vmenu {
+  .jwipimenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .p1j4vmenulist {
+  .jwipimenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .p1j4vmenubody {
+  .jwipimenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .p1j4vmenulist ul {
+  .jwipimenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .p1j4vmenulist ul a {
+  .jwipimenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .p1j4vmenulist ul a:hover {
+  .jwipimenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .p1j4vmenulistactive {
+  .jwipimenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .p1j4vmenulistbody {
+  .jwipimenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .p1j4vbodylogo {
+    .jwipibodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .p1j4vmenu {
+    .jwipimenu {
       overflow-x: auto;
     }
 
-    .p1j4vmenulist ul {
+    .jwipimenulist ul {
       flex-direction: row;
     }
 
-    .p1j4vbodylogo {
+    .jwipibodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,24 +137,24 @@
   }
 
   @media screen and (max-width: 768px) {
-    .p1j4vmenulist ul a {
+    .jwipimenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .p1s49 {
+  .ttymy {
     width: 100%;
     margin: 15px 0;
   }
 
-  .p1s49body {
+  .ttymybody {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
 
-  .p1s49bodyitem {
+  .ttymybodyitem {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,7 +167,7 @@
     position: relative;
   }
 
-  .p1s49bodyitemlink {
+  .ttymybodyitemlink {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +175,7 @@
     width: 100%;
   }
 
-  .p1s49bodyitemimg {
+  .ttymybodyitemimg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,19 +189,19 @@
     overflow: hidden;
   }
 
-  .p1s49bodyitemimg:hover {
+  .ttymybodyitemimg:hover {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
     transform: translateY(-5px);
   }
 
-  .p1s49bodyitemimg img {
+  .ttymybodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
   }
 
-  .p1s49bodyitemtitle {
+  .ttymybodyitemtitle {
     padding: 5px;
     display: flex;
     align-items: center;
@@ -213,7 +213,7 @@
 
   }
 
-  .p1s49bodybg {
+  .ttymybodybg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -224,7 +224,7 @@
     opacity: 0.5;
   }
 
-  .p1s49bodyitems {
+  .ttymybodyitems {
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -236,28 +236,28 @@
     transition: opacity 0.3s ease, transform 0.5s ease;
   }
 
-  .p1s49bodyitems.left {
+  .ttymybodyitems.left {
     align-self: flex-start;
     border-radius: 0px 10px 10px 0px;
     transform: translateX(-100px);
   }
 
-  .p1s49bodyitems.right {
+  .ttymybodyitems.right {
     align-self: flex-end;
     border-radius: 10px 0px 0px 10px;
     transform: translateX(100px);
   }
 
-  .p1s49bodyitems.visible {
+  .ttymybodyitems.visible {
     opacity: 1;
     transform: translateX(0);
   }
 
-  .p1s49bodyitem.lefts {
+  .ttymybodyitem.lefts {
     align-self: flex-end;
   }
 
-  .p1s49bodyitem.rights {
+  .ttymybodyitem.rights {
     align-self: flex-start;
   }
 
@@ -285,11 +285,11 @@
     }
   }
 
-  .p1s49bodyitems {
+  .ttymybodyitems {
     animation-delay: 0.3s;
   }
 
-  .p1s49bodyitechile {
+  .ttymybodyitechile {
     display: flex;
     gap: 10px;
     margin-top: 5px;
@@ -301,7 +301,7 @@
 
   }
 
-  .p1s49bodyitechilesubpage {
+  .ttymybodyitechilesubpage {
     font-size: 16px;
     color: #fff !important;
     padding: 10px;
@@ -316,17 +316,17 @@
     z-index: 3;
   }
 
-  .p1s49bodyitechilesubpage:hover {
+  .ttymybodyitechilesubpage:hover {
     opacity: 0.8;
     transform: translateY(-2px);
   }
 
   @media screen and (max-width: 1024px) {
-    .p1s49bodyitem {
+    .ttymybodyitem {
       width: calc(100% - 30px);
     }
 
-    .p1s49body {
+    .ttymybody {
       display: flex;
       flex-direction: column;
       gap: 15px;
