@@ -1,5 +1,5 @@
 
-  .pripx {
+  .kao49 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .pripxtitle {
+  .kao49title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .pripxtitlebody {
+  .kao49titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .pripxtitlebodytitle {
+  .kao49titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .pripxtitlebodylang {
+  .kao49titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .pripxtitlebodylang ul {
+  .kao49titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .pripxbody {
+  .kao49body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .pripxmenu {
+  .kao49menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .pripxmenulist {
+  .kao49menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .pripxmenubody {
+  .kao49menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .pripxmenulist ul {
+  .kao49menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .pripxmenulist ul a {
+  .kao49menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .pripxmenulist ul a:hover {
+  .kao49menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .pripxmenulistactive {
+  .kao49menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .pripxmenulistbody {
+  .kao49menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .pripxbodylogo {
+    .kao49bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .pripxmenu {
+    .kao49menu {
       overflow-x: auto;
     }
 
-    .pripxmenulist ul {
+    .kao49menulist ul {
       flex-direction: row;
     }
 
-    .pripxbodylogo {
+    .kao49bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,13 +137,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .pripxmenulist ul a {
+    .kao49menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .c566v {
+  .n7ary {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -151,13 +151,13 @@
     justify-content: center;
     position: relative;
   }
-  .c566vcontainertitle {
+  .n7arycontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .c566vcontainerlist {
+  .n7arycontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +165,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .c566vcontainerlist > div {
+  .n7arycontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .c566vcontainerlist:hover {
+  .n7arycontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .c566vcontainer {
+  .n7arycontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .c566vcontainerbody {
+  .n7arycontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,110 +190,26 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .c566vbody {
+  .n7arybody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .c566vcontainerlist > span {
+  .n7arycontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .c566vbody {
+    .n7arybody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .c566vcontainerbody {
+    .n7arycontainerbody {
       padding: 15px;
     }
-  }
-
-
-  .zoom-icon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200;
-    width: 100%;
-  }
-  .zoom-icon {
-    font-size: 250px !important;
-    color: #333;
-    animation: pulse 2s infinite;
-    opacity: 0.5;
-  }
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-  .liraf-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: var(--max);
-  }
-  .liraf-body-chile {
-    padding: 20px;
-    display: flex;
-    align-items: top;
-    justify-content: left;
-    flex-direction: column;
-    position: absolute;
-  }
-  .liraf-body-chile > div {
-    width: 100% !important;
-  }
-  .liraf2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    cursor: pointer;
-  }
-  .liraf {
-    display: flex;
-    flex-direction: column;
-  }
-  .liraf > svg {
-    width: 100vw;
-  }
-  .lirafbotton {
-    transform: scaleY(-1);
-    margin-bottom: -1px;
-  }
-  .liraf-svg {
-    fill: #fff;
-  }
-  .liraf-bg {
-    background-image: url("/img/s04brh/map.png?v={{random}}") !important;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    color: white;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-  @media screen and (max-width: 1024px) {
   }
 
 

@@ -1,5 +1,5 @@
 
-  .yv9al {
+  .sinuq {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .yv9altitle {
+  .sinuqtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .yv9altitlebody {
+  .sinuqtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .yv9altitlebodytitle {
+  .sinuqtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .yv9altitlebodylang {
+  .sinuqtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .yv9altitlebodylang ul {
+  .sinuqtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .yv9albody {
+  .sinuqbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .yv9almenu {
+  .sinuqmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .yv9almenulist {
+  .sinuqmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .yv9almenubody {
+  .sinuqmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .yv9almenulist ul {
+  .sinuqmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .yv9almenulist ul a {
+  .sinuqmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .yv9almenulist ul a:hover {
+  .sinuqmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .yv9almenulistactive {
+  .sinuqmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .yv9almenulistbody {
+  .sinuqmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .yv9albodylogo {
+    .sinuqbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .yv9almenu {
+    .sinuqmenu {
       overflow-x: auto;
     }
 
-    .yv9almenulist ul {
+    .sinuqmenulist ul {
       flex-direction: row;
     }
 
-    .yv9albodylogo {
+    .sinuqbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .yv9almenulist ul a {
+    .sinuqmenulist ul a {
       font-size: 14px;
     }
   }
