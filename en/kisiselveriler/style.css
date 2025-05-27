@@ -1,5 +1,5 @@
 
-  .lx8j3 {
+  .ipel6 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .lx8j3title {
+  .ipel6title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .lx8j3titlebody {
+  .ipel6titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .lx8j3titlebodytitle {
+  .ipel6titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .lx8j3titlebodylang {
+  .ipel6titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .lx8j3titlebodylang ul {
+  .ipel6titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .lx8j3body {
+  .ipel6body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .lx8j3menu {
+  .ipel6menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .lx8j3menulist {
+  .ipel6menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .lx8j3menubody {
+  .ipel6menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .lx8j3menulist ul {
+  .ipel6menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .lx8j3menulist ul a {
+  .ipel6menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .lx8j3menulist ul a:hover {
+  .ipel6menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .lx8j3menulistactive {
+  .ipel6menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .lx8j3menulistbody {
+  .ipel6menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .lx8j3bodylogo {
+    .ipel6bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .lx8j3menu {
+    .ipel6menu {
       overflow-x: auto;
     }
 
-    .lx8j3menulist ul {
+    .ipel6menulist ul {
       flex-direction: row;
     }
 
-    .lx8j3bodylogo {
+    .ipel6bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .lx8j3menulist ul a {
+    .ipel6menulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .xdsho {
+  .ocfpo {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .xdsho-menu {
+  .ocfpo-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .xdsho-menu > a {
+  .ocfpo-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .xdsho-menu > a:hover,
-  .xdsho-menu > .active {
+  .ocfpo-menu > a:hover,
+  .ocfpo-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .xdsho-body {
+  .ocfpo-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .xdsho-title {
+  .ocfpo-title {
     width: 100%;
     height: 150px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .xdsho-title::before {
+  .ocfpo-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .xdsho-title span {
+  .ocfpo-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .xdsho {
+    .ocfpo {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .xdsho-menu {
+    .ocfpo-menu {
       display: none;
     }
-    .xdsho-body {
+    .ocfpo-body {
       width: 100%;
     }
   }
