@@ -1,0 +1,143 @@
+{
+  "data": [
+    {
+      "name": "Menü 2",
+      "path": "menu-2",
+      "local": "header",
+      "category": "menu",
+      "desing": {
+        "logo": "logo.png",
+        "color": "#1e3046"
+      },
+      "id": "qtxaqs",
+      "index": 0
+    },
+    {
+      "index": 1,
+      "name": "Footer 1",
+      "path": "footer-1",
+      "local": "footer",
+      "category": "footer",
+      "desing": {
+        "color": "#1e3046"
+      },
+      "id": "b5gbva",
+      "data": []
+    },
+    {
+      "index": 2,
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "desing": {
+        "color": "#1e3046",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "اتصل بنا",
+          "de": "Kontaktieren Sie uns",
+          "ru": "Свяжитесь с нами"
+        },
+        "margin": "30px 0px 30px 0px"
+      },
+      "data": [
+        {
+          "icon": "phone",
+          "text": "0850 885 10 33",
+          "url": "tel:08508851033"
+        },
+        {
+          "icon": "email",
+          "text": "info@{{domain}}"
+        }
+      ],
+      "id": "ub7jf2"
+    },
+    {
+      "index": 3,
+      "name": "Page Desing 2",
+      "path": "page-desing-3",
+      "local": "body",
+      "category": "page",
+      "desing": {
+        "height": "150",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "category": "kurumsal"
+      },
+      "id": "s6b2qb"
+    },
+    {
+      "index": 4,
+      "name": "Sayfa Listesi Kare",
+      "path": "page-list-call",
+      "local": "body",
+      "category": "page list",
+      "desing": {
+        "page": "services",
+        "size": 4,
+        "number": "08508851033",
+        "color": "#1e3046",
+        "name": {
+          "tr": "Hemen Ara...",
+          "en": "",
+          "ar": "",
+          "de": "",
+          "ru": ""
+        }
+      },
+      "id": "vquvgo"
+    },
+    {
+      "index": 5,
+      "name": "Arama Telefon",
+      "path": "arama",
+      "local": "footer",
+      "category": "contact",
+      "desing": {
+        "color": "#1e3046",
+        "number": "08508851033",
+        "name": {
+          "tr": "Uzman Ekibimizle Hemen Görüşün",
+          "en": "Contact Our Expert Team Now",
+          "ar": "تواصل مع فريقنا الخبير الآن",
+          "de": "Kontaktieren Sie jetzt unser Expertenteam",
+          "ru": "Свяжитесь с нашей командой экспертов сейчас"
+        },
+        "height": "200px",
+        "margin": "-140px 0px 0px 0px",
+        "img": "index.png",
+        "numbertext": "0850 885 10 33",
+        "name2": {
+          "tr": "Hemen Görüşün",
+          "en": "Contact Now",
+          "ar": "تواصل الآن",
+          "de": "Jetzt kontaktieren",
+          "ru": "Связаться сейчас"
+        }
+      },
+      "id": "evzqpv"
+    },
+    {
+      "index": 6,
+      "name": "Sayfa Listesi Column",
+      "path": "page-column-4",
+      "local": "body",
+      "category": "page list",
+      "desing": {
+        "page": "services",
+        "color": "#fff",
+        "bgcolor": "#1e3046",
+        "height": "250px",
+        "font-size": "18px",
+        "opacity": "0.5",
+        "chilebgcolor": "#000",
+        "chilecolor": "#fff",
+        "chilesize": "16px"
+      },
+      "id": "jqkwtw"
+    }
+  ]
+}

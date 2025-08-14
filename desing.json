@@ -1,0 +1,23 @@
+{
+  "header": [
+    "qtxaqs",
+    "xxxx"
+  ],
+  "body": [
+    "vquvgo",
+    "ub7jf2"
+  ],
+  "footer": [
+    "b5gbva",
+    "evzqpv"
+  ],
+  "headerdefault": [
+    "qtxaqs"
+  ],
+  "bodydefault": [],
+  "footerdefault": [
+    "b5gbva"
+  ],
+  "headtop": "",
+  "headbottom": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-17121837195\">\n</script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-17121837195');\n</script>"
+}

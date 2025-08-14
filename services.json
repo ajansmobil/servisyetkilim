@@ -1,0 +1,145 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Beyaz Eşya Servisi",
+        "en": "White Goods Service",
+        "ar": "خدمة الأجهزة المنزلية",
+        "de": "Weißwaren-Service",
+        "ru": "Сервис бытовой техники"
+      },
+      "status": "play",
+      "category": "",
+      "id": "zjtx9u5ix7",
+      "url": "",
+      "path": "beyazesyaservisi",
+      "index": 0,
+      "icon": "home",
+      "img": "xc3r6.png"
+    },
+    {
+      "name": {
+        "tr": "Bulaşık Makinesi Servisi",
+        "en": "Dishwasher Service",
+        "ar": "خدمة غسالة الصحون",
+        "de": "Geschirrspüler-Service",
+        "ru": "Сервис посудомоечной машины"
+      },
+      "status": "play",
+      "category": "",
+      "id": "tlytmq6ygg",
+      "url": "",
+      "path": "bulasikmakinesiservisi",
+      "index": 1,
+      "icon": "utensils",
+      "img": "xm730.png"
+    },
+    {
+      "name": {
+        "tr": "Çamaşır Makinesi Servisi",
+        "en": "Washing Machine Service",
+        "ar": "خدمة الغسالة",
+        "de": "Waschmaschinen-Service",
+        "ru": "Сервис стиральной машины"
+      },
+      "status": "play",
+      "category": "",
+      "id": "w2x3y4z5a6",
+      "url": "",
+      "path": "camasirmakinesiservisi",
+      "index": 2,
+      "icon": "tshirt",
+      "img": "ekvzl.png"
+    },
+    {
+      "name": {
+        "tr": "Buzdolabı Servisi",
+        "en": "Refrigerator Service",
+        "ar": "خدمة الثلاجة",
+        "de": "Kühlschrank-Service",
+        "ru": "Сервис холодильника"
+      },
+      "status": "play",
+      "category": "",
+      "id": "b7c8d9e0f1",
+      "url": "",
+      "path": "buzdolabiservisi",
+      "index": 3,
+      "icon": "snowflake",
+      "img": "lp4iq.png"
+    },
+    {
+      "name": {
+        "tr": "Fırın ve Ocak Servisi",
+        "en": "Oven and Stove Service",
+        "ar": "خدمة الفرن والموقد",
+        "de": "Ofen- und Herd-Service",
+        "ru": "Сервис духовки и плиты"
+      },
+      "status": "play",
+      "category": "",
+      "id": "jz5tulcvyi",
+      "url": "",
+      "path": "firinveocakservisi",
+      "index": 4,
+      "icon": "fire",
+      "img": "ikbc7.png"
+    },
+    {
+      "name": {
+        "tr": "Klima Bakımı",
+        "en": "Air Conditioner Maintenance",
+        "ar": "صيانة مكيف الهواء",
+        "de": "Klimaanlagen-Wartung",
+        "ru": "Обслуживание кондиционера"
+      },
+      "status": "play",
+      "category": "",
+      "id": "k9m2n5p8r4",
+      "url": "",
+      "path": "klimabakimi",
+      "index": 5,
+      "icon": "snowflake",
+      "img": "k1uq3.png"
+    },
+    {
+      "name": {
+        "tr": "Endüstriyel Soğutma",
+        "en": "Industrial Cooling",
+        "ar": "التبريد الصناعي",
+        "de": "Industrielle Kühlung",
+        "ru": "Промышленное охлаждение"
+      },
+      "status": "play",
+      "category": "",
+      "id": "y44bqgnkdr",
+      "url": "",
+      "path": "endustriyelsogutma",
+      "index": 6,
+      "icon": "industry",
+      "img": "lmcp7.png"
+    },
+    {
+      "name": {
+        "tr": "Televizyon Servisi",
+        "en": "Television Service",
+        "ar": "خدمة التلفاز",
+        "de": "Fernseher-Service",
+        "ru": "Сервис телевизора"
+      },
+      "status": "play",
+      "category": "",
+      "id": "t2u3v4w5x6",
+      "url": "",
+      "path": "televizyonservisi",
+      "index": 7,
+      "icon": "tv",
+      "img": "oths3.png"
+    }
+  ],
+  "modulestatus": {
+    "img": true,
+    "detail": true,
+    "bgimg": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Servis Yetkilim, beyaz eşya ve klima servisinde 20 yılı aşkın tecrübesiyle Mersin ve çevre illerde profesyonel teknik servis hizmeti sunmaktadır.",
+    "en": "Servis Yetkilim provides professional technical service in Mersin and surrounding provinces with over 20 years of experience in white goods and air conditioning service.",
+    "ar": "تقدم سيرفيس ييتكليم خدمة فنية احترافية في مرسين والمحافظات المحيطة مع أكثر من 20 عامًا من الخبرة في خدمة الأجهزة المنزلية وتكييف الهواء.",
+    "de": "Servis Yetkilim bietet professionellen technischen Service in Mersin und umliegenden Provinzen mit über 20 Jahren Erfahrung im Weißwaren- und Klimaservice.",
+    "ru": "Servis Yetkilim предоставляет профессиональные технические услуги в Мерсине и близлежащих провинциях с более чем 20-летним опытом в обслуживании бытовой техники и кондиционеров."
+  },
+  "keyword": {
+    "tr": "beyaz eşya servisi, klima servisi, teknik servis, beyaz eşya tamir, klima tamir, yetkili servis, mersin servis",
+    "en": "white goods service, air conditioner service, technical service, white goods repair, air conditioner repair, authorized service, mersin service",
+    "ar": "خدمة الأجهزة المنزلية، خدمة مكيفات الهواء، خدمة فنية، إصلاح الأجهزة المنزلية، إصلاح مكيفات الهواء، خدمة معتمدة، خدمة مرسين",
+    "de": "Weißwarenservice, Klimaservice, technischer Service, Weißwarenreparatur, Klimareparatur, autorisierter Service, Mersin Service",
+    "ru": "сервис бытовой техники, сервис кондиционеров, техническое обслуживание, ремонт бытовой техники, ремонт кондиционеров, авторизованный сервис, сервис Мерсин"
+  },
+  "multi": false,
+  "category": "Kurumsal",
+  "name": "Servis Yetkilim Yetkili Servis",
+  "domain": "servisyetkilim.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": true,
+    "ru": true,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png"
+}

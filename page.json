@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Hizmetlerimiz",
+        "en": "Our Services",
+        "ar": "خدماتنا",
+        "de": "Unsere Dienstleistungen",
+        "ru": "Наши услуги"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gn8rapw9y1",
+      "url": "",
+      "path": "hizmetlerimiz",
+      "index": 0,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "jqkwtw"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Hizmet Bölgelerimiz",
+        "en": "Service Areas",
+        "ar": "مناطق الخدمة",
+        "de": "Servicebereiche",
+        "ru": "Зоны обслуживания"
+      },
+      "status": "play",
+      "category": "",
+      "id": "c63addwqwo",
+      "url": "",
+      "path": "hizmetbolgelerimiz",
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Kurumsal",
+        "en": "Corporate",
+        "ar": "الشركة",
+        "de": "Unternehmen",
+        "ru": "О компании"
+      },
+      "status": "play",
+      "category": "",
+      "id": "dng6sf974s",
+      "url": "",
+      "path": "hakkimizda",
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "icon": "home",
+      "pathnext": "hakkimizda"
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا",
+        "de": "Kontakt",
+        "ru": "Контакты"
+      },
+      "status": "play",
+      "category": "",
+      "id": "mvb01r0qon",
+      "url": "",
+      "path": "iletisim",
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "ub7jf2"
+        ],
+        "footer": []
+      }
+    }
+  ]
+}
