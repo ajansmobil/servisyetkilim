@@ -1,0 +1,53 @@
+{
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our Services",
+    "ar": "خدماتنا",
+    "de": "Unsere Dienstleistungen",
+    "ru": "Наши услуги"
+  },
+  "status": "play",
+  "category": "",
+  "id": "gn8rapw9y1",
+  "url": "",
+  "path": "hizmetlerimiz",
+  "keyword": {
+    "tr": "beyaz eşya servisi, klima servisi, teknik servis, beyaz eşya tamir, klima tamir",
+    "en": "white goods service, air conditioner service, technical service, white goods repair, air conditioner repair",
+    "ar": "خدمة الأجهزة المنزلية، خدمة مكيفات الهواء، خدمة فنية، إصلاح الأجهزة المنزلية، إصلاح مكيفات الهواء",
+    "de": "Weißwarenservice, Klimaservice, technischer Service, Weißwarenreparatur, Klimareparatur",
+    "ru": "сервис бытовой техники, сервис кондиционеров, техническое обслуживание, ремонт бытовой техники, ремонт кондиционеров"
+  },
+  "description": {
+    "tr": "Profesyonel beyaz eşya ve klima servis hizmetlerimiz ile tüm markalara özel teknik destek ve tamir hizmeti sunuyoruz.",
+    "en": "We provide technical support and repair services for all brands with our professional white goods and air conditioner services.",
+    "ar": "نقدم الدعم الفني وخدمات الإصلاح لجميع العلامات التجارية مع خدماتنا المهنية للأجهزة المنزلية ومكيفات الهواء.",
+    "de": "Wir bieten technischen Support und Reparaturservices für alle Marken mit unseren professionellen Weißwaren- und Klimaservices.",
+    "ru": "Мы предоставляем техническую поддержку и услуги по ремонту для всех брендов с нашими профессиональными услугами по обслуживанию бытовой техники и кондиционеров."
+  },
+  "text": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "index": 0,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [
+      "jqkwtw"
+    ],
+    "footer": []
+  },
+  "update": "2025-07-05T23:40:47.810Z",
+  "date": "2025-06-15T21:33:27.847Z"
+}

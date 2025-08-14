@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Televizyon Servisi",
+    "en": "Television Service",
+    "ar": "خدمة التلفاز",
+    "de": "Fernseher-Service",
+    "ru": "Сервис телевизора"
+  },
+  "status": "play",
+  "category": "",
+  "id": "t2u3v4w5x6",
+  "url": "",
+  "path": "televizyonservisi",
+  "keyword": {
+    "tr": "televizyon servisi, tv tamiri, tv bakımı, tv panel değişimi, tv yazılım güncelleme",
+    "en": "television service, TV repair, TV maintenance, TV panel replacement, TV software update",
+    "ar": "خدمة التلفاز، إصلاح التلفاز، صيانة التلفاز، استبدال شاشة التلفاز، تحديث برامج التلفاز",
+    "de": "Fernseher-Service, TV-Reparatur, TV-Wartung, TV-Panel-Austausch, TV-Software-Update",
+    "ru": "сервис телевизора, ремонт телевизора, обслуживание телевизора, замена панели телевизора, обновление ПО телевизора"
+  },
+  "description": {
+    "tr": "Profesyonel televizyon servis hizmeti. Tüm marka ve modeller için panel değişimi, yazılım güncelleme, bakım ve onarım.",
+    "en": "Professional television service. Panel replacement, software update, maintenance and repair for all brands and models.",
+    "ar": "خدمة تلفاز احترافية. استبدال الشاشة، تحديث البرامج، الصيانة والإصلاح لجميع الماركات والموديلات.",
+    "de": "Professioneller Fernseher-Service. Panel-Austausch, Software-Update, Wartung und Reparatur für alle Marken und Modelle.",
+    "ru": "Профессиональный сервис телевизоров. Замена панели, обновление ПО, обслуживание и ремонт для всех марок и моделей."
+  },
+  "text": {
+    "tr": "Televizyonlarınız için profesyonel servis hizmeti. Panel, elektronik kart, yazılım ve diğer parçaların tamiri ve değişimi. Yerinde servis imkanı.",
+    "en": "Professional service for your televisions. Repair and replacement of panels, electronic cards, software and other parts. On-site service available.",
+    "ar": "خدمة احترافية لتلفازاتك. إصلاح واستبدال الشاشات والبطاقات الإلكترونية والبرامج والأجزاء الأخرى. خدمة في الموقع متاحة.",
+    "de": "Professioneller Service für Ihre Fernseher. Reparatur und Austausch von Panels, elektronischen Karten, Software und anderen Teilen. Vor-Ort-Service verfügbar.",
+    "ru": "Профессиональное обслуживание ваших телевизоров. Ремонт и замена панелей, электронных плат, ПО и других деталей. Доступен выездной сервис."
+  },
+  "spot": {
+    "tr": "✓ Panel Değişimi\n✓ Yazılım Güncelleme\n✓ Elektronik Tamir\n✓ Yerinde Servis",
+    "en": "✓ Panel Replacement\n✓ Software Update\n✓ Electronic Repair\n✓ On-site Service",
+    "ar": "✓ استبدال الشاشة\n✓ تحديث البرامج\n✓ إصلاح إلكتروني\n✓ خدمة في الموقع",
+    "de": "✓ Panel-Austausch\n✓ Software-Update\n✓ Elektronische Reparatur\n✓ Vor-Ort-Service",
+    "ru": "✓ Замена панели\n✓ Обновление ПО\n✓ Электронный ремонт\n✓ Выездной сервис"
+  },
+  "index": 7,
+  "icon": "tv",
+  "img": "oths3.png",
+  "update": "2025-07-05T23:40:47.978Z",
+  "date": "2025-06-15T21:33:28.112Z"
+}

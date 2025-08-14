@@ -1,0 +1,52 @@
+{
+  "name": {
+    "tr": "Kullanıcı Hakları",
+    "en": "User Rights",
+    "ar": "حقون المستخدم",
+    "de": "Benutzerrechte",
+    "ru": "Права пользователя"
+  },
+  "status": "play",
+  "id": "kullanicahaklari",
+  "path": "kullanicihaklari",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Kullanıcı Hakları</h2>\n    <p style=\"font-size: 16px;\">\n        Herkes, kişisel verilerinin korunmasını isteme hakkına sahiptir. Kişisel verilerinizin korunması bizim için çok önemlidir ve bu doğrultuda 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat çerçevesinde hareket etmekteyiz. Kullanıcılar, verilerinin hangi amaçlarla toplandığı, nasıl saklandığı ve kimlerle paylaşıldığı konusunda bilgilendirilme hakkına sahiptir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizi güncelleme, düzeltme, silme ve anonimleştirme taleplerinde bulunabilirsiniz. Aynı zamanda, toplanan verilerin hangi amaçla kullanıldığı ve işleme süreciyle ilgili ayrıntılı bilgi talep edebilir, bu süreçlerde yer alan üçüncü taraflar hakkında bilgi alabilirsiniz. Haklarınızı kullanmak için bizimle her zaman iletişime geçebilirsiniz.</p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizin korunması ve haklarınızla ilgili detaylı bilgi almak için sitemizde yer alan Gizlilik Politikası'nı inceleyebilirsiniz. Kullanıcı olarak, verilerinizin güvenliği bizim önceliğimizdir ve gerekli teknik ve idari önlemleri almış bulunmaktayız.</p>",
+    "en": "<h2 style=\"font-size: 24px;\">User Rights</h2>\n    <p style=\" font-size: 16px;\">\n        Everyone has the right to request access to their personal data. We take your personal data seriously and we take necessary technical and administrative measures to protect it. You have the right to access, correct, delete, or anonymize your personal data. If you have any questions or concerns about your personal data, please contact us.</p>",
+    "ar": "<h2 style=\"font-size: 24px;\">حقون المستخدم</h2>\n    <p style=\" font-size: 16px;\">\n        يحق كل شخص الحق في طلب الوصول إلى بياناته الشخصية. إن بياناتك الشخصية هامة لنا ونحن نتخذ الإجراءات الفنية والإدارية اللازمة لحمايتها. لديك الحق في الوصول إليها وتصحيحها ومحوها وتجهيلها وإذا كان لديك أي أسئلة أو مخاوف بشأن البيانات الشخصية، يرجى الاتصال بنا.</p>",
+    "de": "<h2 style=\"font-size: 24px;\">Benutzerrechte</h2>\n    <p style=\" font-size: 16px;\">\n        Jeder hat das Recht, auf seine persönlichen Daten zuzugreifen. Wir nehmen Ihre persönlichen Daten ernst und ergreifen die notwendigen technischen und administrativen Maßnahmen, um sie zu schützen. Sie haben das Recht, auf sie zuzugreifen, sie zu korrigieren, sie zu löschen oder sie anonym zu machen. Wenn Sie Fragen oder Bedenken zu Ihren persönlichen Daten haben, wenden Sie sich bitte an uns.</p>",
+    "ru": "<h2 style=\"font-size: 24px;\">Права пользователя</h2>\n    <p style=\" font-size: 16px;\">\n        У каждого есть право запросить доступ к своим личным данным. Личные данные важны для нас, и мы принимаем необходимые технические и административные меры для их защиты. У вас есть право получить доступ к ним, исправить их, удалить или анонимизировать. Если у вас есть какие-либо вопросы или опасения по поводу ваших личных данных, пожалуйста, свяжитесь с нами.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "kişisel veriler, gizlilik politikamız, kurumsal kimlik, firma profili, şirket bilgileri",
+    "en": "personal data, privacy policy, corporate identity, company profile, company information",
+    "ar": "البيانات الشخصية، سياسة خصوصية، الهوية المؤسسية، الملف التعريفي للشركة، معلومات الشركة",
+    "de": "Persönliche Daten, Datenschutzrichtlinie, Unternehmensidentität, Firmenprofil, Unternehmensinformationen",
+    "ru": "личные данные, политика конфиденциальности, корпоративная идентичность, профиль компании, информация о компании"
+  },
+  "description": {
+    "tr": "Servis Yetkilim olarak 20 yılı aşkın tecrübemizle müşteri memnuniyetini ön planda tutarak, sektördeki en iyi hizmeti sunmayı hedefliyoruz.",
+    "en": "As Servis Yetkilim, with over 20 years of experience, we aim to provide the best service in the industry by prioritizing customer satisfaction.",
+    "ar": "نحن في سيرفيس ييتكليم، مع أكثر من 20 عامًا من الخبرة، نهدف إلى تقديم أفضل خدمة في الصناعة من خلال إعطاء الأولوية لرضا العملاء.",
+    "de": "Als Servis Yetkilim streben wir mit über 20 Jahren Erfahrung an, den besten Service in der Branche zu bieten, indem wir die Kundenzufriedenheit in den Vordergrund stellen.",
+    "ru": "Как Servis Yetkilim, с более чем 20-летним опытом, мы стремимся предоставить лучший сервис в отрасли, ставя удовлетворенность клиентов на первое место."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "index": 7,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2025-07-05T23:40:47.905Z",
+  "date": "2025-06-15T21:33:28.005Z"
+}

@@ -1,0 +1,52 @@
+{
+  "name": {
+    "tr": "Kurumsal",
+    "en": "Corporate",
+    "ar": "الشركة",
+    "de": "Unternehmen",
+    "ru": "О компании"
+  },
+  "status": "play",
+  "category": "",
+  "id": "dng6sf974s",
+  "url": "",
+  "path": "kurumsal8hj",
+  "keyword": {
+    "tr": "kurumsal bilgi, firma profili, şirket hakkında, teknik servis firması",
+    "en": "corporate information, company profile, about company, technical service company",
+    "ar": "معلومات الشركة، الملف التعريفي للشركة، عن الشركة، شركة الخدمة الفنية",
+    "de": "Unternehmensinformationen, Firmenprofil, über das Unternehmen, technische Servicefirma",
+    "ru": "корпоративная информация, профиль компании, о компании, компания технического обслуживания"
+  },
+  "description": {
+    "tr": "20 yılı aşkın tecrübemiz ile beyaz eşya ve klima sektöründe güvenilir çözüm ortağınız.",
+    "en": "Your reliable solution partner in white goods and air conditioning industry with over 20 years of experience.",
+    "ar": "شريكك الموثوق في صناعة الأجهزة المنزلية وتكييف الهواء مع أكثر من 20 عامًا من الخبرة.",
+    "de": "Ihr zuverlässiger Lösungspartner in der Weißwaren- und Klimaindustrie mit über 20 Jahren Erfahrung.",
+    "ru": "Ваш надежный партнер по решениям в индустрии бытовой техники и кондиционирования с более чем 20-летним опытом."
+  },
+  "text": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "index": 2,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "icon": "home",
+  "update": "2025-07-05T23:40:47.822Z",
+  "date": "2025-06-15T21:33:27.877Z",
+  "pathnext": "hakkimizda"
+}

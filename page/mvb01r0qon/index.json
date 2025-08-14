@@ -1,0 +1,53 @@
+{
+  "name": {
+    "tr": "İletişim",
+    "en": "Contact",
+    "ar": "اتصل بنا",
+    "de": "Kontakt",
+    "ru": "Контакты"
+  },
+  "status": "play",
+  "category": "",
+  "id": "mvb01r0qon",
+  "url": "",
+  "path": "iletisim",
+  "keyword": {
+    "tr": "iletişim bilgileri, adres, telefon, e-posta, teknik servis iletişim",
+    "en": "contact information, address, phone, email, technical service contact",
+    "ar": "معلومات الاتصال، العنوان، الهاتف، البريد الإلكتروني، جهة اتصال الخدمة الفنية",
+    "de": "Kontaktinformationen, Adresse, Telefon, E-Mail, technischer Servicekontakt",
+    "ru": "контактная информация, адрес, телефон, электронная почта, контакт технического обслуживания"
+  },
+  "description": {
+    "tr": "Bize 7/24 ulaşabilir, teknik destek ve servis talepleriniz için iletişime geçebilirsiniz.",
+    "en": "You can reach us 24/7 and contact us for technical support and service requests.",
+    "ar": "يمكنك الوصول إلينا على مدار الساعة طوال أيام الأسبوع والاتصال بنا للحصول على الدعم الفني وطلبات الخدمة.",
+    "de": "Sie können uns rund um die Uhr erreichen und uns für technischen Support und Servicenanfragen kontaktieren.",
+    "ru": "Вы можете связаться с нами 24/7 и обратиться к нам за технической поддержкой и запросами на обслуживание."
+  },
+  "text": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "index": 3,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [
+      "ub7jf2"
+    ],
+    "footer": []
+  },
+  "update": "2025-07-05T23:40:47.829Z",
+  "date": "2025-06-15T21:33:27.889Z"
+}

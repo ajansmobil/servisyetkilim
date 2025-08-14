@@ -1,0 +1,52 @@
+{
+  "name": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة",
+    "de": "Qualitätsrichtlinie",
+    "ru": "Политика качества"
+  },
+  "status": "play",
+  "id": "kalitepolitikamiz",
+  "path": "kalite-politikamiz",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Kalite Politikamız</h2><p style=\" font-size: 16px;\">Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz.</p>",
+    "en": "<h2 style=\"font-size: 24px;\">Quality Policy</h2>\n    <p style=\" font-size: 16px;\">\n        Our quality policy is to prioritize customer satisfaction and continuously improve our processes. We strive to deliver the best possible service in every project.\n    </p>",
+    "ar": "<h2 style=\"font-size: 24px;\">سياسة الجودة</h2>\n    <p style=\" font-size: 16px;\">سياسة الجودة هي أن تضمن رضا العملاء وتحسين عملياتنا بشكل مستمر. نحن نهدف إلى تقديم أفضل خدمة ممكنة في كل مشروع.</p>",
+    "de": "<h2 style=\"font-size: 24px;\">Qualitätsrichtlinie</h2>\n    <p style=\" font-size: 16px;\">\n        Unsere Qualitätsrichtlinie besteht darin, die Zufriedenheit unserer Kunden zu priorisieren und unsere Prozesse kontinuierlich zu verbessern. Wir streben danach, die bestmögliche Dienstleistung in jedem Projekt zu liefern.\n    </p>",
+    "ru": "<h2 style=\"font-size: 24px;\">Политика качества</h2>\n    <p style=\" font-size: 16px;\">\n        Наша политика качества заключается в том, чтобы приоритетом была удовлетворенность клиентов и непрерывное совершенствование наших процессов. Мы стремимся предоставить лучший возможный сервис в каждом проекте.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "kalite politikamız, kurumsal kimlik, firma profili, şirket bilgileri",
+    "en": "quality policy, corporate identity, company profile, company information",
+    "ar": "سياسة الجودة، الهوية المؤسسية، الملف التعريفي للشركة، معلومات الشركة",
+    "de": "Qualitätsrichtlinie, Unternehmensidentität, Firmenprofil, Unternehmensinformationen",
+    "ru": "политика качества, корпоративная идентичность, профиль компании, информация о компании"
+  },
+  "description": {
+    "tr": "Servis Yetkilim olarak 20 yılı aşkın tecrübemizle müşteri memnuniyetini ön planda tutarak, sektördeki en iyi hizmeti sunmayı hedefliyoruz.",
+    "en": "As Servis Yetkilim, with over 20 years of experience, we aim to provide the best service in the industry by prioritizing customer satisfaction.",
+    "ar": "نحن في سيرفيس ييتكليم، مع أكثر من 20 عامًا من الخبرة، نهدف إلى تقديم أفضل خدمة في الصناعة من خلال إعطاء الأولوية لرضا العملاء.",
+    "de": "Als Servis Yetkilim streben wir mit über 20 Jahren Erfahrung an, den besten Service in der Branche zu bieten, indem wir die Kundenzufriedenheit in den Vordergrund stellen.",
+    "ru": "Как Servis Yetkilim, с более чем 20-летним опытом, мы стремимся предоставить лучший сервис в отрасли, ставя удовлетворенность клиентов на первое место."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "index": 4,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2025-07-05T23:40:47.877Z",
+  "date": "2025-06-15T21:33:27.966Z"
+}

@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Fırın ve Ocak Servisi",
+    "en": "Oven and Stove Service",
+    "ar": "خدمة الفرن والموقد",
+    "de": "Ofen- und Herd-Service",
+    "ru": "Сервис духовки и плиты"
+  },
+  "status": "play",
+  "category": "",
+  "id": "jz5tulcvyi",
+  "url": "",
+  "path": "firinveocakservisi",
+  "keyword": {
+    "tr": "fırın servisi, ocak servisi, fırın tamiri, ocak tamiri, fırın bakımı, ocak bakımı",
+    "en": "oven service, stove service, oven repair, stove repair, oven maintenance, stove maintenance",
+    "ar": "خدمة الفرن، خدمة الموقد، إصلاح الفرن، إصلاح الموقد، صيانة الفرن، صيانة الموقد",
+    "de": "Ofen-Service, Herd-Service, Ofen-Reparatur, Herd-Reparatur, Ofen-Wartung, Herd-Wartung",
+    "ru": "сервис духовки, сервис плиты, ремонт духовки, ремонт плиты, обслуживание духовки, обслуживание плиты"
+  },
+  "description": {
+    "tr": "Fırın ve ocak cihazlarınız için profesyonel servis hizmeti. Arıza tespiti, bakım ve onarım. Hızlı ve güvenilir çözümler.",
+    "en": "Professional service for your oven and stove appliances. Troubleshooting, maintenance and repair. Fast and reliable solutions.",
+    "ar": "خدمة احترافية لأفران ومواقدك. استكشاف الأخطاء وإصلاحها، الصيانة والإصلاح. حلول سريعة وموثوقة.",
+    "de": "Professioneller Service für Ihre Ofen- und Herdgeräte. Fehlerbehebung, Wartung und Reparatur. Schnelle und zuverlässige Lösungen.",
+    "ru": "Профессиональное обслуживание ваших духовок и плит. Диагностика, обслуживание и ремонт. Быстрые и надежные решения."
+  },
+  "text": {
+    "tr": "Tüm marka fırın ve ocaklar için uzman servis. Yerinde bakım ve onarım hizmeti ile sorunlarınıza çözüm sunuyoruz.",
+    "en": "Expert service for all brands of ovens and stoves. We provide solutions to your problems with on-site maintenance and repair service.",
+    "ar": "خدمة متخصصة لجميع ماركات الأفران والمواقد. نقدم حلولاً لمشاكلك مع خدمة الصيانة والإصلاح في الموقع.",
+    "de": "Experten-Service für alle Ofen- und Herdmarken. Wir bieten Lösungen für Ihre Probleme mit Vor-Ort-Wartung und Reparaturservice.",
+    "ru": "Экспертный сервис для духовок и плит всех марок. Мы предлагаем решения ваших проблем с выездным обслуживанием и ремонтом."
+  },
+  "spot": {
+    "tr": "✓ Yerinde Servis\n✓ Garantili Onarım\n✓ Uygun Fiyat\n✓ Hızlı Çözüm",
+    "en": "✓ On-site Service\n✓ Guaranteed Repair\n✓ Affordable Price\n✓ Quick Solution",
+    "ar": "✓ خدمة في الموقع\n✓ إصلاح مضمون\n✓ سعر مناسب\n✓ حل سريع",
+    "de": "✓ Vor-Ort-Service\n✓ Garantierte Reparatur\n✓ Günstiger Preis\n✓ Schnelle Lösung",
+    "ru": "✓ Выездной сервис\n✓ Гарантийный ремонт\n✓ Доступная цена\n✓ Быстрое решение"
+  },
+  "index": 4,
+  "icon": "fire",
+  "img": "ikbc7.png",
+  "update": "2025-07-05T23:40:47.955Z",
+  "date": "2025-06-15T21:33:28.079Z"
+}

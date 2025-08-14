@@ -1,0 +1,51 @@
+{
+  "name": {
+    "tr": "Hizmet Bölgelerimiz",
+    "en": "Service Areas",
+    "ar": "مناطق الخدمة",
+    "de": "Servicebereiche",
+    "ru": "Зоны обслуживания"
+  },
+  "status": "play",
+  "category": "",
+  "id": "c63addwqwo",
+  "url": "",
+  "path": "hizmetbolgelerimiz",
+  "keyword": {
+    "tr": "servis bölgeleri, teknik servis alanları, beyaz eşya servis bölgeleri, klima servis bölgeleri",
+    "en": "service areas, technical service areas, white goods service areas, air conditioner service areas",
+    "ar": "مناطق الخدمة، المناطق الفنية، مناطق خدمة الأجهزة المنزلية، مناطق خدمة مكيفات الهواء",
+    "de": "Servicebereiche, technische Servicebereiche, Weißwaren-Servicebereiche, Klima-Servicebereiche",
+    "ru": "зоны обслуживания, технические зоны обслуживания, зоны обслуживания бытовой техники, зоны обслуживания кондиционеров"
+  },
+  "description": {
+    "tr": "Mersin ve çevre illerde geniş servis ağımız ile hızlı ve güvenilir teknik destek hizmeti sunuyoruz.",
+    "en": "We provide fast and reliable technical support service with our extensive service network in Mersin and surrounding provinces.",
+    "ar": "نقدم خدمة دعم فني سريعة وموثوقة مع شبكة خدمة واسعة في مرسين والمحافظات المحيطة.",
+    "de": "Wir bieten schnellen und zuverlässigen technischen Support mit unserem umfangreichen Servicenetzwerk in Mersin und umliegenden Provinzen.",
+    "ru": "Мы предоставляем быструю и надежную техническую поддержку с нашей обширной сервисной сетью в Мерсине и близлежащих провинциях."
+  },
+  "text": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "index": 1,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "update": "2025-07-05T23:40:47.816Z",
+  "date": "2025-06-15T21:33:27.866Z"
+}

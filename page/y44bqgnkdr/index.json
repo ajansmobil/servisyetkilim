@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Endüstriyel Soğutma",
+    "en": "Industrial Cooling",
+    "ar": "التبريد الصناعي",
+    "de": "Industrielle Kühlung",
+    "ru": "Промышленное охлаждение"
+  },
+  "status": "play",
+  "category": "",
+  "id": "y44bqgnkdr",
+  "url": "",
+  "path": "endustriyelsogutma",
+  "keyword": {
+    "tr": "endüstriyel soğutma, soğuk hava deposu, market dolapları, şarküteri dolapları, endüstriyel klima",
+    "en": "industrial cooling, cold storage, market cabinets, deli cabinets, industrial air conditioning",
+    "ar": "التبريد الصناعي، التخزين البارد، خزائن السوبر ماركت، خزائن اللحوم، تكييف صناعي",
+    "de": "industrielle Kühlung, Kaltlagerung, Marktschränke, Delikatessenschränke, industrielle Klimatisierung",
+    "ru": "промышленное охлаждение, холодильное хранение, витрины магазинов, витрины мясных отделов, промышленное кондиционирование"
+  },
+  "description": {
+    "tr": "Endüstriyel soğutma sistemleri için profesyonel servis. Kurulum, bakım, onarım ve yedek parça değişimi.",
+    "en": "Professional service for industrial cooling systems. Installation, maintenance, repair and spare parts replacement.",
+    "ar": "خدمة احترافية لأنظمة التبريد الصناعية. التركيب، الصيانة، الإصلاح واستبدال قطع الغيار.",
+    "de": "Professioneller Service für industrielle Kühlsysteme. Installation, Wartung, Reparatur und Ersatzteilwechsel.",
+    "ru": "Профессиональное обслуживание промышленных систем охлаждения. Установка, обслуживание, ремонт и замена запчастей."
+  },
+  "text": {
+    "tr": "Soğuk hava deposu, market ve şarküteri dolaplarının tamiri ve bakımı. Endüstriyel soğutma sistemlerinin kurulumu ve onarımı ile işletmenize özel çözümler.",
+    "en": "Repair and maintenance of cold storage, market and deli cabinets. Custom solutions for your business with installation and repair of industrial cooling systems.",
+    "ar": "إصلاح وصيانة التخزين البارد وخزائن السوبر ماركت وخزائن اللحوم. حلول مخصصة لعملك مع تركيب وإصلاح أنظمة التبريد الصناعية.",
+    "de": "Reparatur und Wartung von Kaltlagerung, Markt- und Delikatessenschränken. Maßgeschneiderte Lösungen für Ihr Unternehmen mit Installation und Reparatur industrieller Kühlsysteme.",
+    "ru": "Ремонт и обслуживание холодильных складов, витрин магазинов и мясных отделов. Индивидуальные решения для вашего бизнеса с установкой и ремонтом промышленных систем охлаждения."
+  },
+  "spot": {
+    "tr": "✓ Soğuk Hava Deposu\n✓ Market Dolapları\n✓ Endüstriyel Sistemler\n✓ Profesyonel Çözüm",
+    "en": "✓ Cold Storage\n✓ Market Cabinets\n✓ Industrial Systems\n✓ Professional Solution",
+    "ar": "✓ التخزين البارد\n✓ خزائن السوبر ماركت\n✓ الأنظمة الصناعية\n✓ حل احترافي",
+    "de": "✓ Kaltlagerung\n✓ Marktschränke\n✓ Industrielle Systeme\n✓ Professionelle Lösung",
+    "ru": "✓ Холодильное хранение\n✓ Витрины магазинов\n✓ Промышленные системы\n✓ Профессиональное решение"
+  },
+  "index": 6,
+  "icon": "industry",
+  "img": "lmcp7.png",
+  "update": "2025-07-05T23:40:47.970Z",
+  "date": "2025-06-15T21:33:28.101Z"
+}

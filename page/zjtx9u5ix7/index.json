@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Beyaz Eşya Servisi",
+    "en": "White Goods Service",
+    "ar": "خدمة الأجهزة المنزلية",
+    "de": "Weißwaren-Service",
+    "ru": "Сервис бытовой техники"
+  },
+  "status": "play",
+  "category": "",
+  "id": "zjtx9u5ix7",
+  "url": "",
+  "path": "beyazesyaservisi",
+  "keyword": {
+    "tr": "beyaz eşya servisi, beyaz eşya tamiri, beyaz eşya bakımı, buzdolabı servisi, çamaşır makinesi servisi, bulaşık makinesi servisi",
+    "en": "white goods service, white goods repair, white goods maintenance, refrigerator service, washing machine service, dishwasher service",
+    "ar": "خدمة الأجهزة المنزلية، إصلاح الأجهزة المنزلية، صيانة الأجهزة المنزلية، خدمة الثلاجة، خدمة الغسالة، خدمة غسالة الصحون",
+    "de": "Weißwaren-Service, Weißwaren-Reparatur, Weißwaren-Wartung, Kühlschrank-Service, Waschmaschinen-Service, Geschirrspüler-Service",
+    "ru": "сервис бытовой техники, ремонт бытовой техники, обслуживание бытовой техники, сервис холодильников, сервис стиральных машин, сервис посудомоечных машин"
+  },
+  "description": {
+    "tr": "Tüm beyaz eşya cihazlarınız için profesyonel servis hizmeti. Arıza tespiti, bakım, onarım ve yedek parça değişimi. 7/24 teknik destek.",
+    "en": "Professional service for all your white goods. Troubleshooting, maintenance, repair and spare parts replacement. 24/7 technical support.",
+    "ar": "خدمة احترافية لجميع أجهزتك المنزلية. استكشاف الأخطاء وإصلاحها، الصيانة، الإصلاح واستبدال قطع الغيار. دعم فني على مدار الساعة.",
+    "de": "Professioneller Service für alle Ihre Weißwaren. Fehlerbehebung, Wartung, Reparatur und Ersatzteilwechsel. 24/7 technischer Support.",
+    "ru": "Профессиональное обслуживание всей вашей бытовой техники. Диагностика, обслуживание, ремонт и замена запчастей. Круглосуточная техническая поддержка."
+  },
+  "text": {
+    "tr": "Buzdolabı, çamaşır ve bulaşık makinesi, fırın, ocak, kurutma makinesi, televizyon gibi tüm cihazlarınız için uzman servis hizmeti sunuyoruz. Orijinal yedek parça temini ve değişimi ile kaliteli çözümler.",
+    "en": "We provide expert service for all your appliances including refrigerators, washing machines, dishwashers, ovens, stoves, dryers, and televisions. Quality solutions with original spare parts supply and replacement.",
+    "ar": "نقدم خدمة متخصصة لجميع أجهزتك بما في ذلك الثلاجات والغسالات وغسالات الصحون والأفران والمواقف والمجففات والتلفزيونات. حلول عالية الجودة مع توريد واستبدال قطع الغيار الأصلية.",
+    "de": "Wir bieten Experten-Service für alle Ihre Geräte, einschließlich Kühlschränke, Waschmaschinen, Geschirrspüler, Öfen, Herde, Trockner und Fernseher. Qualitätslösungen mit Original-Ersatzteilversorgung und -austausch.",
+    "ru": "Мы предоставляем экспертное обслуживание всех ваших приборов, включая холодильники, стиральные машины, посудомоечные машины, духовки, плиты, сушилки и телевизоры. Качественные решения с поставкой и заменой оригинальных запчастей."
+  },
+  "spot": {
+    "tr": "✓ Orijinal Yedek Parça\n✓ 7/24 Teknik Destek\n✓ Garantili Onarım",
+    "en": "✓ All Brands and Models\n✓ Original Spare Parts\n✓ 24/7 Technical Support\n✓ Guaranteed Repair",
+    "ar": "✓ جميع الماركات والموديلات\n✓ قطع غيار أصلية\n✓ دعم فني على مدار الساعة\n✓ إصلاح مضمون",
+    "de": "✓ Alle Marken und Modelle\n✓ Original-Ersatzteile\n✓ 24/7 Technischer Support\n✓ Garantierte Reparatur",
+    "ru": "✓ Все марки и модели\n✓ Оригинальные запчасти\n✓ Круглосуточная поддержка\n✓ Гарантийный ремонт"
+  },
+  "index": 0,
+  "icon": "home",
+  "img": "xc3r6.png",
+  "update": "2025-07-05T23:40:47.923Z",
+  "date": "2025-06-15T21:33:28.033Z"
+}

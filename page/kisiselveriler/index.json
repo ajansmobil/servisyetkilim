@@ -1,0 +1,52 @@
+{
+  "name": {
+    "tr": "Kişisel Veriler",
+    "en": "Personal Data",
+    "ar": "البيانات الشخصية",
+    "de": "Persönliche Daten",
+    "ru": "Личные данные"
+  },
+  "status": "play",
+  "id": "kisiselveriler",
+  "path": "kisisel-veriler",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Kişisel Veriler</h2>\n    <p style=\"font-size: 16px;\">\n        Kişisel verileriniz, yalnızca yasal gereklilikleri karşılamak, taleplerinizi yerine getirmek ve size daha iyi hizmet sunmak amacıyla toplanmaktadır. Kişisel verilerinizin güvenliği bizim için önceliklidir ve bu verilerin korunması için 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) başta olmak üzere, ilgili tüm mevzuat çerçevesinde gerekli teknik ve idari tedbirleri almaktayız.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Toplanan kişisel veriler, yalnızca yetkili kişiler tarafından erişilebilir olup, izniniz dışında üçüncü taraflarla paylaşılmamaktadır. Kişisel verilerinizin hangi amaçlarla işlendiğini, nasıl saklandığını, kimlerle paylaşıldığını öğrenme hakkına sahipsiniz. Ayrıca, verilerinize erişim talep edebilir, düzeltilmesini, silinmesini veya anonim hale getirilmesini isteyebilirsiniz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizle ilgili herhangi bir sorunuz veya talebiniz olduğunda, Gizlilik Politikamızda belirtilen iletişim kanallarımız üzerinden bizimle iletişime geçebilirsiniz. Verilerinizin güvenliği ve mahremiyeti bizim için büyük önem taşımaktadır.\n    </p>",
+    "en": "<h2 style=\"font-size: 24px;\">Personal Data</h2>\n    <p style=\" font-size: 16px;\">\n        Personal data is collected for legal requirements, fulfilling your requests, and providing you with a better service. Your personal data is important to us and we take necessary technical and administrative measures to protect it. You have the right to access, correct, delete, or anonymize your personal data. If you have any questions or concerns about your personal data, please contact us.</p>",
+    "ar": "<h2 style=\"font-size: 24px;\">البيانات الشخصية</h2>\n    <p style=\" font-size: 16px;\">\n        تم جمع البيانات الشخصية لتلبية شروط القانون وتحقيق طلباتك وتوفير خدمة أفضل لك. إن البيانات الشخصية هامة لنا ونحن نتخذ الإجراءات الفنية والإدارية اللازمة لحمايتها. لديك الحق في الوصول إليها وتصحيحها ومحوها وتجهيلها وإذا كان لديك أي أسئلة أو مخاوف بشأن البيانات الشخصية، يرجى الاتصال بنا.</p>",
+    "de": "<h2 style=\"font-size: 24px;\">Persönliche Daten</h2>\n    <p style=\" font-size: 16px;\">\n        Persönliche Daten werden für rechtliche Anforderungen, die Erfüllung Ihrer Wünsche und die Bereitstellung einer besseren Dienstleistung gesammelt. Ihre persönlichen Daten sind für uns wichtig und wir ergreifen die notwendigen technischen und administrativen Maßnahmen, um sie zu schützen. Sie haben das Recht, auf sie zuzugreifen, sie zu korrigieren, sie zu löschen oder sie anonym zu machen. Wenn Sie Fragen oder Bedenken zu Ihren persönlichen Daten haben, wenden Sie sich bitte an uns.</p>",
+    "ru": "<h2 style=\"font-size: 24px;\">Личные данные</h2>\n    <p style=\" font-size: 16px;\">\n        Личные данные собираются для выполнения юридических требований, исполнения ваших запросов и предоставления вам лучшего обслуживания. Личные данные важны для нас, и мы принимаем необходимые технические и административные меры для их защиты. У вас есть право получить доступ к ним, исправить их, удалить или анонимизировать. Если у вас есть какие-либо вопросы или опасения по поводу ваших личных данных, пожалуйста, свяжитесь с нами.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "kişisel veriler, gizlilik politikamız, kurumsal kimlik, firma profili, şirket bilgileri",
+    "en": "personal data, privacy policy, corporate identity, company profile, company information",
+    "ar": "البيانات الشخصية، سياسة خصوصية، الهوية المؤسسية، الملف التعريفي للشركة، معلومات الشركة",
+    "de": "Persönliche Daten, Datenschutzrichtlinie, Unternehmensidentität, Firmenprofil, Unternehmensinformationen",
+    "ru": "личные данные, политика конфиденциальности, корпоративная идентичность, профиль компании, информация о компании"
+  },
+  "description": {
+    "tr": "Servis Yetkilim olarak 20 yılı aşkın tecrübemizle müşteri memnuniyetini ön planda tutarak, sektördeki en iyi hizmeti sunmayı hedefliyoruz.",
+    "en": "As Servis Yetkilim, with over 20 years of experience, we aim to provide the best service in the industry by prioritizing customer satisfaction.",
+    "ar": "نحن في سيرفيس ييتكليم، مع أكثر من 20 عامًا من الخبرة، نهدف إلى تقديم أفضل خدمة في الصناعة من خلال إعطاء الأولوية لرضا العملاء.",
+    "de": "Als Servis Yetkilim streben wir mit über 20 Jahren Erfahrung an, den besten Service in der Branche zu bieten, indem wir die Kundenzufriedenheit in den Vordergrund stellen.",
+    "ru": "Как Servis Yetkilim, с более чем 20-летним опытом, мы стремимся предоставить лучший сервис в отрасли, ставя удовлетворенность клиентов на первое место."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "index": 6,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2025-07-05T23:40:47.895Z",
+  "date": "2025-06-15T21:33:27.993Z"
+}

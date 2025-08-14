@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Bulaşık Makinesi Servisi",
+    "en": "Dishwasher Service",
+    "ar": "خدمة غسالة الصحون",
+    "de": "Geschirrspüler-Service",
+    "ru": "Сервис посудомоечной машины"
+  },
+  "status": "play",
+  "category": "",
+  "id": "tlytmq6ygg",
+  "url": "",
+  "path": "bulasikmakinesiservisi",
+  "keyword": {
+    "tr": "bulaşık makinesi servisi, bulaşık makinesi tamiri, bulaşık makinesi bakımı, bulaşık makinesi arıza, bulaşık makinesi teknik servis",
+    "en": "dishwasher service, dishwasher repair, dishwasher maintenance, dishwasher troubleshooting, dishwasher technical service",
+    "ar": "خدمة غسالة الصحون، إصلاح غسالة الصحون، صيانة غسالة الصحون، استكشاف أخطاء غسالة الصحون، الخدمة الفنية لغسالة الصحون",
+    "de": "Geschirrspüler-Service, Geschirrspüler-Reparatur, Geschirrspüler-Wartung, Geschirrspüler-Fehlerbehebung, Geschirrspüler-Technischer Service",
+    "ru": "сервис посудомоечной машины, ремонт посудомоечной машины, обслуживание посудомоечной машины, устранение неисправностей посудомоечной машины, техническое обслуживание посудомоечной машины"
+  },
+  "description": {
+    "tr": "Profesyonel bulaşık makinesi servis hizmetleri. Arıza tespiti, bakım, onarım ve yedek parça değişimi. 7/24 teknik destek.",
+    "en": "Professional dishwasher service. Troubleshooting, maintenance, repair and spare parts replacement. 24/7 technical support.",
+    "ar": "خدمة غسالة صحون احترافية. استكشاف الأخطاء وإصلاحها، الصيانة، الإصلاح واستبدال قطع الغيار. دعم فني على مدار الساعة.",
+    "de": "Professioneller Geschirrspüler-Service. Fehlerbehebung, Wartung, Reparatur und Ersatzteilwechsel. 24/7 technischer Support.",
+    "ru": "Профессиональный сервис посудомоечных машин. Диагностика, обслуживание, ремонт и замена запчастей. Круглосуточная техническая поддержка."
+  },
+  "text": {
+    "tr": "Tüm marka ve model bulaşık makineleri için profesyonel servis hizmeti sunuyoruz. Deneyimli teknik ekibimiz ile hızlı ve güvenilir çözümler.",
+    "en": "We provide professional service for all brands and models of dishwashers. Fast and reliable solutions with our experienced technical team.",
+    "ar": "نقدم خدمة احترافية لجميع ماركات وموديلات غسالات الصحون. حلول سريعة وموثوقة مع فريقنا الفني ذوي الخبرة.",
+    "de": "Wir bieten professionellen Service für alle Marken und Modelle von Geschirrspülern. Schnelle und zuverlässige Lösungen mit unserem erfahrenen technischen Team.",
+    "ru": "Мы предоставляем профессиональное обслуживание посудомоечных машин всех марок и моделей. Быстрые и надежные решения с нашей опытной технической командой."
+  },
+  "spot": {
+    "tr": "✓ 7/24 Teknik Destek\n✓ Garantili Onarım\n✓ Yerinde Servis\n✓ Uygun Fiyat",
+    "en": "✓ 24/7 Technical Support\n✓ Guaranteed Repair\n✓ On-site Service\n✓ Affordable Price",
+    "ar": "✓ دعم فني على مدار الساعة\n✓ إصلاح مضمون\n✓ خدمة في الموقع\n✓ سعر مناسب",
+    "de": "✓ 24/7 Technischer Support\n✓ Garantierte Reparatur\n✓ Vor-Ort-Service\n✓ Günstiger Preis",
+    "ru": "✓ Круглосуточная техническая поддержка\n✓ Гарантийный ремонт\n✓ Выездной сервис\n✓ Доступная цена"
+  },
+  "index": 1,
+  "icon": "utensils",
+  "img": "xm730.png",
+  "update": "2025-07-05T23:40:47.932Z",
+  "date": "2025-06-15T21:33:28.045Z"
+}

@@ -1,0 +1,52 @@
+{
+  "name": {
+    "tr": "Gizlilik Politikası",
+    "en": "Privacy Policy",
+    "ar": "سياسة خصوصية",
+    "de": "Datenschutzrichtlinie",
+    "ru": "Политика конфиденциальности"
+  },
+  "status": "play",
+  "id": "gizlilikpolitikasi",
+  "path": "gizlilik-politikasi",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Gizlilik Politikamız</h2>\n    <p style=\"font-size: 16px;\">\n        Web sitemizi ziyaret ettiğinizde, sitemizi kullanımınızı ve sitemizde sunulan hizmetleri geliştirmek amacıyla çerezler (cookies) aracılığıyla bazı bilgiler toplanmaktadır. Bu bilgiler, kimlik bilgileriniz hariç olmak üzere, sitemizde yer alan hizmetlerin daha iyi sunulması ve kullanıcı deneyiminin iyileştirilmesi amacıyla kullanılmaktadır. Çerezler, kullanıcı tercihlerinizi hatırlamak, sitemizin işleyişini optimize etmek ve size daha iyi bir deneyim sunmak için kullanılmaktadır.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Toplanan bilgiler, üçüncü taraflarla paylaşılmamakta olup, yalnızca sitemizin performansını artırmak ve hizmetlerimizi geliştirmek amacıyla kullanılmaktadır. Kullanıcılar, tarayıcı ayarlarını değiştirerek çerezlerin kullanımını engelleyebilirler. Ancak, bu durumda sitemizin bazı bölümlerinin düzgün çalışmayabileceğini unutmamanız gerekir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Gizliliğiniz bizim için son derece önemlidir. Kişisel bilgilerinizin güvenliğini sağlamak için gerekli teknik ve idari önlemleri alıyoruz. Gizlilik Politikamız ile ilgili sorularınız ya da endişeleriniz varsa, bizimle iletişime geçebilirsiniz.\n    </p>",
+    "en": "<h2 style=\"font-size: 24px;\">Privacy Policy</h2>\n    <p style=\" font-size: 16px;\">\n        When you visit our website, we may collect certain information about your device, your interactions with our website, and information necessary to provide our services. This information does not include your personal information, but it helps us to improve our website and your experience. Cookies are used to remember your preferences and optimize your experience. You can disable cookies in your browser settings, but this may affect the functionality of our website.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Your privacy is important to us. We take necessary technical and administrative measures to protect your personal information. If you have any questions or concerns about our privacy policy, please contact us.</p>",
+    "ar": "<h2 style=\"font-size: 24px;\">سياسة خصوصية</h2>\n    <p style=\" font-size: 16px;\">\n        عند زيارة صفحتنا الإلكترونية، قد نجمع بعض المعلومات عن جهازك وتفاعلاتك مع الموقع ومعلومات مطلوبة لتوفير خدماتنا. هذه المعلومات لا تشمل معلوماتك الشخصية، ولكنها تساعدنا على تحسين الموقع وتجربتك. تستخدم ملفات تعريف الإرتباط لتذكيرك بالتفضيلات وتحسين تجربتك. يمكنك إيقاف تشغيل ملفات تعريف الإرتباط في إعدادات متصفحك، ولكن ذلك قد يؤثر على وظيفة الموقع.\n    </p>\n    <p style=\" font-size: 16px;\">\n        إن خصوصيتك مهمة لنا. نحن نتخذ الإجراءات الفنية والإدارية اللازمة لحماية معلوماتك الشخصية. إن كان لديك أي أسئلة أو مخاوف بشأن سياسة خصوصيتنا، يرجى الاتصال بنا.</p>",
+    "de": "<h2 style=\"font-size: 24px;\">Datenschutzrichtlinie</h2>\n    <p style=\" font-size: 16px;\">\n        Wenn Sie unsere Website besuchen, können wir bestimmte Informationen über Ihr Gerät, Ihre Interaktionen mit unserer Website und Informationen sammeln, die erforderlich sind, um unsere Dienste bereitzustellen. Diese Informationen umfassen Ihre persönlichen Informationen nicht, aber sie hilft uns, unsere Website und Ihre Erfahrung zu verbessern. Cookies werden verwendet, um Ihre Präferenzen zu erinnern und Ihre Erfahrung zu optimieren. Sie können Cookies in Ihren Browsereinstellungen deaktivieren, was jedoch das Funktionieren unserer Website beeinträchtigen könnte.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Ihre Privatsphäre ist uns wichtig. Wir ergreifen die notwendigen technischen und administrativen Maßnahmen, um Ihre persönlichen Informationen zu schützen. Wenn Sie Fragen oder Bedenken zu unserer Datenschutzrichtlinie haben, wenden Sie sich bitte an uns.</p>",
+    "ru": "<h2 style=\"font-size: 24px;\">Политика конфиденциальности</h2>\n    <p style=\" font-size: 16px;\">\n        Когда вы посещаете наш веб-сайт, мы можем собирать определенную информацию о вашем устройстве, взаимодействии с нашим веб-сайтом и информацию, необходимую для предоставления наших услуг. Эта информация не включает ваших личных данных, но она помогает нам улучшить наш веб-сайт и ваш опыт. Куки используются для того, чтобы помнить ваши предпочтения и оптимизировать ваш опыт. Вы можете отключить файлы cookie в настройках вашего браузера, что может повлиять на работоспособность нашего веб-сайта.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Ваша конфиденциальность важна для нас. Мы принимаем необходимые технические и административные меры для защиты ваших личных данных. Если у вас есть какие-либо вопросы или опасения по поводу нашей политики конфиденциальности, пожалуйста, свяжитесь с нами.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "gizlilik politikamız, kurumsal kimlik, firma profili, şirket bilgileri",
+    "en": "privacy policy, corporate identity, company profile, company information",
+    "ar": "سياسة خصوصية، الهوية المؤسسية، الملف التعريفي للشركة، معلومات الشركة",
+    "de": "Datenschutzrichtlinie, Unternehmensidentität, Firmenprofil, Unternehmensinformationen",
+    "ru": "политика конфиденциальности, корпоративная идентичность, профиль компании, информация о компании"
+  },
+  "description": {
+    "tr": "Servis Yetkilim olarak 20 yılı aşkın tecrübemizle müşteri memnuniyetini ön planda tutarak, sektördeki en iyi hizmeti sunmayı hedefliyoruz.",
+    "en": "As Servis Yetkilim, with over 20 years of experience, we aim to provide the best service in the industry by prioritizing customer satisfaction.",
+    "ar": "نحن في سيرفيس ييتكليم، مع أكثر من 20 عامًا من الخبرة، نهدف إلى تقديم أفضل خدمة في الصناعة من خلال إعطاء الأولوية لرضا العملاء.",
+    "de": "Als Servis Yetkilim streben wir mit über 20 Jahren Erfahrung an, den besten Service in der Branche zu bieten, indem wir die Kundenzufriedenheit in den Vordergrund stellen.",
+    "ru": "Как Servis Yetkilim, с более чем 20-летним опытом, мы стремимся предоставить лучший сервис в отрасли, ставя удовлетворенность клиентов на первое место."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "index": 5,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2025-07-05T23:40:47.885Z",
+  "date": "2025-06-15T21:33:27.977Z"
+}

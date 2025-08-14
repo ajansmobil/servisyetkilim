@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Çamaşır Makinesi Servisi",
+    "en": "Washing Machine Service",
+    "ar": "خدمة الغسالة",
+    "de": "Waschmaschinen-Service",
+    "ru": "Сервис стиральной машины"
+  },
+  "status": "play",
+  "category": "",
+  "id": "w2x3y4z5a6",
+  "url": "",
+  "path": "camasirmakinesiservisi",
+  "keyword": {
+    "tr": "çamaşır makinesi servisi, çamaşır makinesi tamiri, çamaşır makinesi bakımı, çamaşır makinesi arıza, çamaşır makinesi yedek parça",
+    "en": "washing machine service, washing machine repair, washing machine maintenance, washing machine troubleshooting, washing machine spare parts",
+    "ar": "خدمة الغسالة، إصلاح الغسالة، صيانة الغسالة، استكشاف أخطاء الغسالة، قطع غيار الغسالة",
+    "de": "Waschmaschinen-Service, Waschmaschinen-Reparatur, Waschmaschinen-Wartung, Waschmaschinen-Fehlerbehebung, Waschmaschinen-Ersatzteile",
+    "ru": "сервис стиральной машины, ремонт стиральной машины, обслуживание стиральной машины, устранение неисправностей стиральной машины, запчасти для стиральной машины"
+  },
+  "description": {
+    "tr": "Profesyonel çamaşır makinesi servis hizmeti. Tüm marka ve modeller için arıza tespiti, bakım, onarım ve yedek parça değişimi.",
+    "en": "Professional washing machine service. Troubleshooting, maintenance, repair and spare parts replacement for all brands and models.",
+    "ar": "خدمة غسالة احترافية. استكشاف الأخطاء وإصلاحها، الصيانة، الإصلاح واستبدال قطع الغيار لجميع الماركات والموديلات.",
+    "de": "Professioneller Waschmaschinen-Service. Fehlerbehebung, Wartung, Reparatur und Ersatzteilwechsel für alle Marken und Modelle.",
+    "ru": "Профессиональный сервис стиральных машин. Диагностика, обслуживание, ремонт и замена запчастей для всех марок и моделей."
+  },
+  "text": {
+    "tr": "Çamaşır makineleriniz için profesyonel servis hizmeti. Elektronik kart, motor, pompa ve diğer parçaların tamiri ve değişimi. Yerinde servis imkanı.",
+    "en": "Professional service for your washing machines. Repair and replacement of electronic cards, motors, pumps and other parts. On-site service available.",
+    "ar": "خدمة احترافية لغسالاتك. إصلاح واستبدال البطاقات الإلكترونية والمحركات والمضخات والأجزاء الأخرى. خدمة في الموقع متاحة.",
+    "de": "Professioneller Service für Ihre Waschmaschinen. Reparatur und Austausch von elektronischen Karten, Motoren, Pumpen und anderen Teilen. Vor-Ort-Service verfügbar.",
+    "ru": "Профессиональное обслуживание ваших стиральных машин. Ремонт и замена электронных плат, двигателей, насосов и других деталей. Доступен выездной сервис."
+  },
+  "spot": {
+    "tr": "✓ Yerinde Servis\n✓ Garantili Onarım\n✓ Orijinal Parça\n✓ Hızlı Çözüm",
+    "en": "✓ On-site Service\n✓ Guaranteed Repair\n✓ Original Parts\n✓ Quick Solution",
+    "ar": "✓ خدمة في الموقع\n✓ إصلاح مضمون\n✓ قطع غيار أصلية\n✓ حل سريع",
+    "de": "✓ Vor-Ort-Service\n✓ Garantierte Reparatur\n✓ Originalteile\n✓ Schnelle Lösung",
+    "ru": "✓ Выездной сервис\n✓ Гарантийный ремонт\n✓ Оригинальные запчасти\n✓ Быстрое решение"
+  },
+  "index": 2,
+  "icon": "tshirt",
+  "img": "ekvzl.png",
+  "update": "2025-07-05T23:40:47.940Z",
+  "date": "2025-06-15T21:33:28.058Z"
+}

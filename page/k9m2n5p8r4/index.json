@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Klima Bakımı",
+    "en": "Air Conditioner Maintenance",
+    "ar": "صيانة مكيف الهواء",
+    "de": "Klimaanlagen-Wartung",
+    "ru": "Обслуживание кондиционера"
+  },
+  "status": "play",
+  "category": "",
+  "id": "k9m2n5p8r4",
+  "url": "",
+  "path": "klimabakimi",
+  "keyword": {
+    "tr": "klima bakımı, klima temizliği, klima servisi, klima bakım onarım, klima periyodik bakım",
+    "en": "air conditioner maintenance, AC cleaning, AC service, AC maintenance repair, AC periodic maintenance",
+    "ar": "صيانة مكيف الهواء، تنظيف مكيف الهواء، خدمة مكيف الهواء، صيانة وإصلاح مكيف الهواء، صيانة دورية لمكيف الهواء",
+    "de": "Klimaanlagen-Wartung, Klimaanlagen-Reinigung, Klimaanlagen-Service, Klimaanlagen-Wartung und -Reparatur, periodische Klimaanlagen-Wartung",
+    "ru": "обслуживание кондиционера, чистка кондиционера, сервис кондиционера, обслуживание и ремонт кондиционера, периодическое обслуживание кондиционера"
+  },
+  "description": {
+    "tr": "Profesyonel klima bakım hizmeti. Tüm marka ve model klimalar için periyodik bakım, temizlik ve gaz dolumu. Verimli soğutma için düzenli kontrol.",
+    "en": "Professional air conditioner maintenance service. Periodic maintenance, cleaning and gas filling for all brands and models. Regular check for efficient cooling.",
+    "ar": "خدمة صيانة احترافية لمكيف الهواء. صيانة دورية وتنظيف وتعبئة الغاز لجميع الماركات والموديلات. فحص منتظم للتبريد الفعال.",
+    "de": "Professioneller Klimaanlagen-Wartungsservice. Periodische Wartung, Reinigung und Gasfüllung für alle Marken und Modelle. Regelmäßige Kontrolle für effiziente Kühlung.",
+    "ru": "Профессиональная услуга по обслуживанию кондиционеров. Периодическое обслуживание, чистка и заправка для всех марок и моделей. Регулярная проверка для эффективного охлаждения."
+  },
+  "text": {
+    "tr": "Klimalarınızın verimli çalışması için profesyonel bakım hizmeti. Filtre temizliği, gaz kontrolü ve sistem optimizasyonu ile soğutma performansını artırıyoruz.",
+    "en": "Professional maintenance service for efficient operation of your air conditioners. We increase cooling performance with filter cleaning, gas control and system optimization.",
+    "ar": "خدمة صيانة احترافية للتشغيل الفعال لمكيفات الهواء. نحسن أداء التبريد من خلال تنظيف الفلاتر والتحكم في الغاز وتحسين النظام.",
+    "de": "Professioneller Wartungsservice für effizienten Betrieb Ihrer Klimaanlagen. Wir steigern die Kühlleistung durch Filterreinigung, Gaskontrolle und Systemoptimierung.",
+    "ru": "Профессиональная услуга по обслуживанию для эффективной работы ваших кондиционеров. Мы повышаем эффективность охлаждения с помощью чистки фильтров, контроля газа и оптимизации системы."
+  },
+  "spot": {
+    "tr": "✓ Periyodik Bakım\n✓ Filtre Temizliği\n✓ Gaz Kontrolü\n✓ Sistem Optimizasyonu",
+    "en": "✓ Periodic Maintenance\n✓ Filter Cleaning\n✓ Gas Control\n✓ System Optimization",
+    "ar": "✓ صيانة دورية\n✓ تنظيف الفلاتر\n✓ التحكم في الغاز\n✓ تحسين النظام",
+    "de": "✓ Periodische Wartung\n✓ Filterreinigung\n✓ Gaskontrolle\n✓ Systemoptimierung",
+    "ru": "✓ Периодическое обслуживание\n✓ Чистка фильтров\n✓ Контроль газа\n✓ Оптимизация системы"
+  },
+  "index": 5,
+  "icon": "snowflake",
+  "img": "k1uq3.png",
+  "update": "2025-07-05T23:40:47.963Z",
+  "date": "2025-06-15T21:33:28.090Z"
+}

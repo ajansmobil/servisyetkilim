@@ -1,0 +1,52 @@
+{
+  "name": {
+    "tr": "Yasal Uyarı",
+    "en": "Legal Notice",
+    "ar": "تحذير جنائي",
+    "de": "Rechtliche Hinweise",
+    "ru": "Юридическое уведомление"
+  },
+  "status": "play",
+  "id": "yasaluyari",
+  "path": "yasal-uyari",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Yasal Uyarı</h2>\n    <p style=\" font-size: 16px;\">\n        Sitemizde yer alan tüm içerik, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen Suçlarla Mücadele Edilmesi Hakkında Kanun'un hükümleri uyarınca korunmaktadır. Sitemizde yer alan hiçbir içeriğin kopyalanması, çoğaltılması, yayılması, satılması, dağıtılması, sergilenmesi, yayımlanması, herhangi bir şekilde ticari amaçla kullanılması veya başka platformlarda izinsiz olarak paylaşılması yasaktır. Bu kurallara aykırı hareket edenler, ilgili kanunlar kapsamında hukuki ve cezai yaptırımlarla karşılaşabilirler. </p>\n    <p style=\" font-size: 16px;\">\n        Sitemizde yer alan içeriğin hukuka aykırı bir şekilde kullanılması veya dağıtılması durumunda, sitemiz yetkili mercilere başvurma ve yasal haklarını koruma hakkını saklı tutar. İnternet ortamında yer alan içeriklerin izinsiz paylaşımı, hukuki olarak ağır yaptırımlar doğurabileceği gibi, eser sahiplerinin haklarını ihlal eder. Eser sahibi olarak haklarınızı korumanız gerektiği durumda, hukuki süreç başlatma hakkınız mevcuttur.</p>\n    <p style=\" font-size: 16px;\">\n        Sitemizde yer alan içeriklerin izinsiz kullanımını veya paylaşımını fark ederseniz, lütfen bizimle iletişime geçin. Sitemizi kullanmaya devam ederek, bu yasal uyarıyı kabul etmiş sayılırsınız.</p>",
+    "en": "<h2 style=\"font-size: 24px;\">Legal Notice</h2>\n    <p style=\" font-size: 16px;\">\n        All content on our website is protected by the Copyright Law of 5846 and the Law on the Regulation of Publications and Combating Crimes on the Internet of 5651. Copying, reproducing, distributing, selling, or using any content on our website without permission is prohibited. If you violate these rules, we may take legal action against you. </p>\n    <p style=\" font-size: 16px;\">\n        If you use our website, you agree to these terms. If you do not agree, please do not use our website.</p>",
+    "ar": "<h2 style=\"font-size: 24px;\">تحذير جنائي</h2>\n    <p style=\" font-size: 16px;\">\n        جميع المحتويات على موقعنا محمية بقانون الإختراع رقم 5846 وقانون التنظيم والإبلاغ عن النشرات ومكافحة جرائم الإنترنت رقم 5651. نسمح بنسخ أو إعادة إنتاج أو توزيع أو بيع أو استخدام أي محتويات على موقعنا دون إذن. إذا عرفت أنك قد أضطررت إلى التصرف بطريقة غير قانونية، يمكننا أن نأخذ إجراءات قانونية ضدك. </p>\n    <p style=\" font-size: 16px;\">\n        إذا استخدمت موقعنا، فأنت توافق على هذه الشروط. إذا لم توافق، يرجى عدم استخدام موقعنا.</p>",
+    "de": "<h2 style=\"font-size: 24px;\">Rechtliche Hinweise</h2>\n    <p style=\" font-size: 16px;\">\n        Alle Inhalte auf unserer Website sind durch das Urheberrechtsgesetz von 5846 und das Gesetz über die Regelung von Veröffentlichungen und das Bekämpfen von Straftaten auf dem Gebiet des Internets von 5651 geschützt. Das Kopieren, Wiederveröffentlichen, Verteilen, Verkaufen oder Nutzen von Inhalten auf unserer Website ohne Erlaubnis ist verboten. Wenn Sie diese Regeln verletzen, können wir rechtliche Schritte gegen Sie ergreifen. </p>\n    <p style=\" font-size: 16px;\">\n        Wenn Sie unsere Website nutzen, stimmen Sie diesen Bedingungen zu. Wenn Sie nicht einverstanden sind, verwenden Sie bitte unsere Website nicht.</p>",
+    "ru": "<h2 style=\"font-size: 24px;\">Юридическое уведомление</h2>\n    <p style=\" font-size: 16px;\">\n        Все содержимое нашего сайта защищено законом об авторском праве от 5846 года и законом о регулировании публикаций и противодействии преступлениям в сфере интернета от 5651 года. Копирование, воспроизведение, распространение, продажа или использование любого содержимого на нашем сайте без разрешения запрещено. Если вы нарушаете эти правила, мы можем предпринять юридические действия против вас. </p>\n    <p style=\" font-size: 16px;\">\n        Если вы используете наш сайт, вы соглашаетесь с этими условиями. Если вы не согласны, пожалуйста, не используйте наш сайт.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "yasal uyarı, kurumsal kimlik, firma profili, şirket bilgileri",
+    "en": "legal notice, corporate identity, company profile, company information",
+    "ar": "تحذير جنائي، الهوية المؤسسية، الملف التعريفي للشركة، معلومات الشركة",
+    "de": "Rechtliche Hinweise, Unternehmensidentität, Firmenprofil, Unternehmensinformationen",
+    "ru": "юридическое уведомление, корпоративная идентичность, профиль компании, информация о компании"
+  },
+  "description": {
+    "tr": "Servis Yetkilim olarak 20 yılı aşkın tecrübemizle müşteri memnuniyetini ön planda tutarak, sektördeki en iyi hizmeti sunmayı hedefliyoruz.",
+    "en": "As Servis Yetkilim, with over 20 years of experience, we aim to provide the best service in the industry by prioritizing customer satisfaction.",
+    "ar": "نحن في سيرفيس ييتكليم، مع أكثر من 20 عامًا من الخبرة، نهدف إلى تقديم أفضل خدمة في الصناعة من خلال إعطاء الأولوية لرضا العملاء.",
+    "de": "Als Servis Yetkilim streben wir mit über 20 Jahren Erfahrung an, den besten Service in der Branche zu bieten, indem wir die Kundenzufriedenheit in den Vordergrund stellen.",
+    "ru": "Как Servis Yetkilim, с более чем 20-летним опытом, мы стремимся предоставить лучший сервис в отрасли, ставя удовлетворенность клиентов на первое место."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": "",
+    "de": "",
+    "ru": ""
+  },
+  "index": 8,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "1.jpg",
+  "update": "2025-07-05T23:40:47.914Z",
+  "date": "2025-06-15T21:33:28.019Z"
+}

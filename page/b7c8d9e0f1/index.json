@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Buzdolabı Servisi",
+    "en": "Refrigerator Service",
+    "ar": "خدمة الثلاجة",
+    "de": "Kühlschrank-Service",
+    "ru": "Сервис холодильника"
+  },
+  "status": "play",
+  "category": "",
+  "id": "b7c8d9e0f1",
+  "url": "",
+  "path": "buzdolabiservisi",
+  "keyword": {
+    "tr": "buzdolabı servisi, buzdolabı tamiri, buzdolabı bakımı, buzdolabı gaz dolumu, buzdolabı yedek parça",
+    "en": "refrigerator service, refrigerator repair, refrigerator maintenance, refrigerator gas filling, refrigerator spare parts",
+    "ar": "خدمة الثلاجة، إصلاح الثلاجة، صيانة الثلاجة، تعبئة غاز الثلاجة، قطع غيار الثلاجة",
+    "de": "Kühlschrank-Service, Kühlschrank-Reparatur, Kühlschrank-Wartung, Kühlschrank-Gasfüllung, Kühlschrank-Ersatzteile",
+    "ru": "сервис холодильника, ремонт холодильника, обслуживание холодильника, заправка холодильника, запчасти для холодильника"
+  },
+  "description": {
+    "tr": "Profesyonel buzdolabı servis hizmeti. Tüm marka ve modeller için gaz dolumu, bakım, onarım ve yedek parça değişimi.",
+    "en": "Professional refrigerator service. Gas filling, maintenance, repair and spare parts replacement for all brands and models.",
+    "ar": "خدمة ثلاجة احترافية. تعبئة الغاز، الصيانة، الإصلاح واستبدال قطع الغيار لجميع الماركات والموديلات.",
+    "de": "Professioneller Kühlschrank-Service. Gasfüllung, Wartung, Reparatur und Ersatzteilwechsel für alle Marken und Modelle.",
+    "ru": "Профессиональный сервис холодильников. Заправка, обслуживание, ремонт и замена запчастей для всех марок и моделей."
+  },
+  "text": {
+    "tr": "Buzdolaplarınız için profesyonel servis hizmeti. Kompresör, gaz dolumu, elektronik kart ve diğer parçaların tamiri ve değişimi. Yerinde servis imkanı.",
+    "en": "Professional service for your refrigerators. Repair and replacement of compressors, gas filling, electronic cards and other parts. On-site service available.",
+    "ar": "خدمة احترافية لثلاجاتك. إصلاح واستبدال الضواغط وتعبئة الغاز والبطاقات الإلكترونية والأجزاء الأخرى. خدمة في الموقع متاحة.",
+    "de": "Professioneller Service für Ihre Kühlschränke. Reparatur und Austausch von Kompressoren, Gasfüllung, elektronischen Karten und anderen Teilen. Vor-Ort-Service verfügbar.",
+    "ru": "Профессиональное обслуживание ваших холодильников. Ремонт и замена компрессоров, заправка, электронных плат и других деталей. Доступен выездной сервис."
+  },
+  "spot": {
+    "tr": "✓ Gaz Dolumu\n✓ Kompresör Tamiri\n✓ Orijinal Parça\n✓ Yerinde Servis",
+    "en": "✓ Gas Filling\n✓ Compressor Repair\n✓ Original Parts\n✓ On-site Service",
+    "ar": "✓ تعبئة الغاز\n✓ إصلاح الضاغط\n✓ قطع غيار أصلية\n✓ خدمة في الموقع",
+    "de": "✓ Gasfüllung\n✓ Kompressor-Reparatur\n✓ Originalteile\n✓ Vor-Ort-Service",
+    "ru": "✓ Заправка\n✓ Ремонт компрессора\n✓ Оригинальные запчасти\n✓ Выездной сервис"
+  },
+  "index": 3,
+  "icon": "snowflake",
+  "img": "lp4iq.png",
+  "update": "2025-07-05T23:40:47.948Z",
+  "date": "2025-06-15T21:33:28.068Z"
+}
